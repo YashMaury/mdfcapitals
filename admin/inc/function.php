@@ -1,6 +1,6 @@
 <?php
 /*-----------------Database Connection-----------------------*/
-$conn=mysqli_connect('localhost','mdfcapit_databas','Player@1187','mdfcapit_database');
+$conn=mysqli_connect('localhost','root','root','mdfcapit_database');
 date_default_timezone_set('Asia/Calcutta');
 /*-----------------Database Connection-----------------------*/
 $title='websiteswalla';

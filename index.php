@@ -150,8 +150,8 @@
                                 </p>
                                 <div class=" size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="log" class="btn btn-icon-s3">Login Now<i class="fas fa-angle-double-right"></i></a></li>
-                                    <li><a href="ref" class="btn btn-icon-s3">Register<i class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="log.php" class="btn btn-icon-s3">Login Now<i class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="ref.php" class="btn btn-icon-s3">Register<i class="fas fa-angle-double-right"></i></a></li>
 
                                 </ul>
 
