@@ -1,0 +1,43 @@
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined array key "captcha" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined array key "security" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 38
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 53
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 67
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 86
+[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 100
+[14-Nov-2023 21:49:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
+#1 {main}
+  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
+[14-Nov-2023 21:49:11 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
+#1 {main}
+  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
+[14-Nov-2023 21:49:52 Asia/Calcutta] PHP Warning:  Undefined array key "captcha" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
+[14-Nov-2023 21:49:52 Asia/Calcutta] PHP Warning:  Undefined array key "security" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
+[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 38
+[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 53
+[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 67
+[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 86
+[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 100
+[14-Nov-2023 21:50:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
+#1 {main}
+  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
+[15-Nov-2023 18:19:34 Asia/Calcutta] PHP Warning:  mysqli_query(): Empty query in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
+[20-Nov-2023 16:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+[20-Nov-2023 16:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
+[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
+[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
+[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
+[20-Nov-2023 16:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+[20-Nov-2023 16:06:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
+[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
+[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
+[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
+[20-Nov-2023 16:06:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3

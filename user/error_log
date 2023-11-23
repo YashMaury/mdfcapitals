@@ -1,0 +1,7 @@
+[14-Nov-2023 21:46:51 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:25
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/inc/function.php(25): mysqli_num_rows(false)
+#1 /home/mdfcapitals/public_html/admin/inc/function.php(400): numrows(false)
+#2 /home/mdfcapitals/public_html/user/dashboard.php(1419): getApprovedWithdrawalMember(Object(mysqli), 'CC6971514')
+#3 {main}
+  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 25

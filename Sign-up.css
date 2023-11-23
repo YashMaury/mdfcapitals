@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	PHC World | Signup
+</title><meta charset="utf-8" /><meta name="author" content="cryptoscience.world" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="description" content="PHC World" /><meta property="og:title" content="PHC World" /><meta property="og:description" content="PHC World | Legal and Reliable Crypto Coin" /><meta property="og:image" content="https://phcworld.live/images/favicon.png" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Site Title  -->
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="login/css/vendor.bundle8bfc.css?ver=1420" />
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="login/css/style1.css" /><link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+    <style>
+        .user-ath {
+            background: linear-gradient(135deg, #051b3300 0%, #00244a52 100%), url(images/bgimg.png) no-repeat 50% 50%, #eaf3fc;
+            background-size: cover;
+            background-position: center;
+        }
+
+      .input-bordered {
+	border-radius: 4px;
+	border: 1px solid #ffffff0f;
+	width: 100%;
+	padding: 10px 15px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #fff;
+	transition: all .4s;
+	background: #ffffff12;
+}
+
+    .user-ath-box {
+	position: relative;
+	padding: 45px 40px 40px;
+	background: linear-gradient(90deg,#1f2933 0,#19222d 50.39%,#19222b);
+	border-radius: 13px;
+	box-shadow: none !important;
+	backdrop-filter: blur(4px);
+	border: 2px solid #ffffff14;
+	background-color: #212a33;
+}
+
+            .user-ath-box::after {
+                background: none;
+            }
+
+        .input-item {
+            padding-bottom: 20px;
+        }
+
+        .btn {
+            color: #fff;
+        }
+
+        
+       .btn-primary {
+	background: #88d00f;
+	border: none !important;
+	box-shadow: none !important;
+}
+        select:focus {
+            border: 2px solid;
+        }
+
+        option {
+            color: #333;
+        }
+
+
+
+        .loading {
+            margin: 0px;
+            background-position: center center;
+            border: 1px dotted #000000;
+            z-index: 16000000;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+            background-color: #FFFFFF;
+            font-size: 14px;
+            font-weight: 600;
+            color: #990000;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-color: black;
+            filter: alpha(opacity=10);
+            opacity: 0.5;
+            height: 100%;
+            background-image: url('images/loading.gif');
+        }
+
+
+        #loader {
+            display: none;
+        }
+
+
+        #box {
+            width: 100%;
+            height: 100vh;
+            z-index: 1111111;
+            position: relative;
+            background: red;
+            text-align: center;
+        }
+
+
+        #loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99999;
+            background: #262240;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+
+            #loader .loading-icon {
+                width: 70px;
+                height: auto;
+                animation: loadingAnimation 0.5s ease-in-out infinite;
+            }
+
+        @keyframes loadingAnimation {
+            0% {
+                transform: rotate(0deg)
+            }
+
+            100% {
+                transform: rotate(180deg)
+            }
+        }
+
+        .service-block-one .image {
+            background: black;
+            width: 100%;
+            height: 100%;
+        }
+
+        .service-block-one .image {
+            background: black;
+            width: 100%;
+            height: 100%;
+            min-height: 300px;
+        }
+
+        .fa-spin {
+            -webkit-animation: fa-spin 6s infinite linear;
+            animation: fa-spin 6s infinite linear;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="moralisv1.js"></script>
+    <script src="web3min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".btn-primary").click(function () {
+                $("#loader").fadeIn().delay(20000).fadeOut('slow');
+            });
+        });
+    </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function CheckSponsorAvailability() {
+            $.ajax({
+                type: "POST",
+                url: "Signup.aspx/SponserCheck",
+                data: "{sponsorId: '" + $("#txtsponsorid").val() + "' }",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: onSuccess,
+                failure: function (AjaxResponse) {
+                    document.getElementById("lbl_msg_content").innerHTML = "Error occured....!";
+                }
+            });
+            function onSuccess(AjaxResponse) {
+                if (AjaxResponse.d != "Sorry ! Invalid Sponsor ID !") {
+                    document.getElementById("lblSponsorName").innerHTML = AjaxResponse.d;
+                    document.getElementById("lblSponsorName").style.color = "green";
+                    $("#btnsignup").removeAttr("disabled");
+                }
+                else {
+                    document.getElementById("lblSponsorName").innerHTML = "Sorry ! Invalid Sponsor ID !";
+                    document.getElementById("lblSponsorName").style.color = "yellow";
+                    $("#btnsignup").attr("disabled", "disabled");
+                }
+            }
+        }
+    </script>
+</head>
+<body class="user-ath no-touch">
+    <form name="form1" method="post" action="./Sign-up" id="form1" class="user-ath-form">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc0Mzg0MzE1OWRkBAIVeZwKEizcURAq/PLLPza7t7Q=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="36F90C25" />
+</div>
+        <div>
+
+            <div id="loader">
+                
+                <img src="assets/images/loader1.png" alt="icon" class="loading-icon" style="display: block; position: absolute; top: 50% !important; left: 48% !important;">
+                <h4 style="margin-top: 30px; position: absolute; text-align: center; width: 100%; top: 60%;">Please Wait....</h4>
+            </div>
+
+
+            <div class="user-ath-page">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-8  text-center">
+                            <div class="user-ath-logo">
+                                <a href="index.html">
+                                    <img src="images/logo-full-white.png" alt="icon" style="max-width: 220px;" />
+                                </a>
+                            </div>
+                            <div class="user-ath-box">
+                                <h4>Create New Account</h4>
+                                <div class="input-item">
+                                    <input name="txtsponsorid" type="text" id="txtsponsorid" placeholder="Sponsor ID" class="input-bordered" required="" onblur="CheckSponsorAvailability()" />
+                                    <span id="lblSponsorName"></span>
+                                </div>
+                                <div class="input-item" style="display:none;">
+                                    <select name="ddlposition" id="ddlposition" class="input-bordered">
+	<option value="0">Left</option>
+	<option value="1">Right</option>
+
+</select>
+                                </div>
+                                <div class="input-item">
+                                    <input name="txtname" type="text" id="txtname" placeholder="Your Name" class="input-bordered" required="" />
+                                </div>
+                                <div class="input-item">
+                                    <input name="txtemail" type="text" id="txtemail" placeholder="Enter Email ID" class="input-bordered" required="" />
+                                    
+                                </div>
+                                <div class="input-item">
+                                    <select name="ddlCountry" id="ddlCountry" class="input-bordered" onchange="GetSelectedTextValue(this)">
+	<option value="">--Selet Country--</option>
+	<option value="+93 ">Afghanistan</option>
+	<option value="+355">Albania </option>
+	<option value="+213">Algeria </option>
+	<option value="+1684">American Samoa </option>
+	<option value="+376">Andorra </option>
+	<option value="+244">Angola </option>
+	<option value="+1264">Anguilla </option>
+	<option value="+0">Antarctica </option>
+	<option value="+1268">Antigua And Barbuda </option>
+	<option value="+54">Argentina </option>
+	<option value="+374">Armenia </option>
+	<option value="+297">Aruba </option>
+	<option value="+61">Australia </option>
+	<option value="+43">Austria </option>
+	<option value="+994">Azerbaijan </option>
+	<option value="+1242">Bahamas </option>
+	<option value="+973">Bahrain </option>
+	<option value="+880">Bangladesh </option>
+	<option value="+1246">Barbados </option>
+	<option value="+375">Belarus </option>
+	<option value="+32">Belgium </option>
+	<option value="+501">Belize </option>
+	<option value="+229">Benin </option>
+	<option value="+1441">Bermuda </option>
+	<option value="+975">Bhutan </option>
+	<option value="+591">Bolivia </option>
+	<option value="+387">Bosnia And Herzegovina </option>
+	<option value="+267">Botswana </option>
+	<option value="+0">Bouvet Island </option>
+	<option value="+55">Brazil </option>
+	<option value="+246">British Indian Ocean Territory </option>
+	<option value="+673">Brunei Darussalam </option>
+	<option value="+359">Bulgaria </option>
+	<option value="+226">Burkina Faso </option>
+	<option value="+257">Burundi </option>
+	<option value="+855">Cambodia </option>
+	<option value="+237">Cameroon </option>
+	<option value="+1">Canada </option>
+	<option value="+238">Cape Verde </option>
+	<option value="+1345">Cayman Islands </option>
+	<option value="+236">Central African Republic </option>
+	<option value="+235">Chad </option>
+	<option value="+56">Chile </option>
+	<option value="+86">China </option>
+	<option value="+61">Christmas Island </option>
+	<option value="+672">Cocos (Keeling) Islands </option>
+	<option value="+57">Colombia </option>
+	<option value="+269">Comoros </option>
+	<option value="+242">Congo </option>
+	<option value="+242">Congo, The Democratic Republic Of The </option>
+	<option value="+682">Cook Islands </option>
+	<option value="+506">Costa Rica </option>
+	<option value="+225">Cote D&#39;Ivoire </option>
+	<option value="+385">Croatia </option>
+	<option value="+53">Cuba </option>
+	<option value="+357">Cyprus </option>
+	<option value="+420">Czech Republic </option>
+	<option value="+45">Denmark </option>
+	<option value="+253">Djibouti </option>
+	<option value="+1767">Dominica </option>
+	<option value="+1809">Dominican Republic </option>
+	<option value="+593">Ecuador </option>
+	<option value="+20">Egypt </option>
+	<option value="+503">El Salvador </option>
+	<option value="+240">Equatorial Guinea </option>
+	<option value="+291">Eritrea </option>
+	<option value="+372">Estonia </option>
+	<option value="+251">Ethiopia </option>
+	<option value="+500">Falkland Islands (Malvinas) </option>
+	<option value="+298">Faroe Islands </option>
+	<option value="+679">Fiji </option>
+	<option value="+358">Finland </option>
+	<option value="+33">France </option>
+	<option value="+594">French Guiana </option>
+	<option value="+689">French Polynesia </option>
+	<option value="+0">French Southern Territories </option>
+	<option value="+241">Gabon </option>
+	<option value="+220">Gambia </option>
+	<option value="+995">Georgia </option>
+	<option value="+49">Germany </option>
+	<option value="+233">Ghana </option>
+	<option value="+350">Gibraltar </option>
+	<option value="+30">Greece </option>
+	<option value="+299">Greenland </option>
+	<option value="+1473">Grenada </option>
+	<option value="+590">Guadeloupe </option>
+	<option value="+1671">Guam </option>
+	<option value="+502">Guatemala </option>
+	<option value="+224">Guinea </option>
+	<option value="+245">Guinea-Bissau </option>
+	<option value="+592">Guyana </option>
+	<option value="+509">Haiti </option>
+	<option value="+0">Heard Island And Mcdonald Islands </option>
+	<option value="+39">Holy See (Vatican City State) </option>
+	<option value="+504">Honduras </option>
+	<option value="+852">United States </option>
+	<option value="+36">Hungary </option>
+	<option value="+354">Iceland </option>
+	<option value="+91">India </option>
+	<option value="+62">Indonesia </option>
+	<option value="+98">Iran, Islamic Republic Of </option>
+	<option value="+964">Iraq </option>
+	<option value="+353">Ireland </option>
+	<option value="+972">Israel </option>
+	<option value="+39">Italy </option>
+	<option value="+1876">Jamaica </option>
+	<option value="+81">Japan </option>
+	<option value="+962">Jordan </option>
+	<option value="+7">Kazakhstan </option>
+	<option value="+254">Kenya </option>
+	<option value="+686">Kiribati </option>
+	<option value="+850">Korea, Democratic People&#39;s Republic Of </option>
+	<option value="+82">Korea, Republic Of </option>
+	<option value="+965">Kuwait </option>
+	<option value="+996">Kyrgyzstan </option>
+	<option value="+856">Lao People&#39;s Democratic Republic </option>
+	<option value="+371">Latvia </option>
+	<option value="+961">Lebanon </option>
+	<option value="+266">Lesotho </option>
+	<option value="+231">Liberia </option>
+	<option value="+218">Libyan Arab Jamahiriya </option>
+	<option value="+423">Liechtenstein </option>
+	<option value="+370">Lithuania </option>
+	<option value="+352">Luxembourg </option>
+	<option value="+853">Macao </option>
+	<option value="+389">Macedonia, The Former Yugoslav Republic Of </option>
+	<option value="+261">Madagascar </option>
+	<option value="+265">Malawi </option>
+	<option value="+60">Malaysia </option>
+	<option value="+960">Maldives </option>
+	<option value="+223">Mali </option>
+	<option value="+356">Malta </option>
+	<option value="+692">Marshall Islands </option>
+	<option value="+596">Martinique </option>
+	<option value="+222">Mauritania </option>
+	<option value="+230">Mauritius </option>
+	<option value="+269">Mayotte </option>
+	<option value="+52">Mexico </option>
+	<option value="+691">Micronesia, Federated States Of </option>
+	<option value="+373">Moldova, Republic Of </option>
+	<option value="+377">Monaco </option>
+	<option value="+976">Mongolia </option>
+	<option value="+1664">Montserrat </option>
+	<option value="+212">Morocco </option>
+	<option value="+258">Mozambique </option>
+	<option value="+95">Myanmar </option>
+	<option value="+264">Namibia </option>
+	<option value="+674">Nauru </option>
+	<option value="+977">Nepal </option>
+	<option value="+31">Netherlands </option>
+	<option value="+599">Netherlands Antilles </option>
+	<option value="+687">New Caledonia </option>
+	<option value="+64">New Zealand </option>
+	<option value="+505">Nicaragua </option>
+	<option value="+227">Niger </option>
+	<option value="+234">Nigeria </option>
+	<option value="+683">Niue </option>
+	<option value="+672">Norfolk Island </option>
+	<option value="+1670">Northern Mariana Islands </option>
+	<option value="+47">Norway </option>
+	<option value="+968">Oman </option>
+	<option value="+92">Pakistan </option>
+	<option value="+680">Palau </option>
+	<option value="+970">Palestinian Territory, Occupied </option>
+	<option value="+507">Panama </option>
+	<option value="+675">Papua New Guinea </option>
+	<option value="+595">Paraguay </option>
+	<option value="+51">Peru </option>
+	<option value="+63">Philippines </option>
+	<option value="+0">Pitcairn </option>
+	<option value="+48">Poland </option>
+	<option value="+351">Portugal </option>
+	<option value="+1787">Puerto Rico </option>
+	<option value="+974">Qatar </option>
+	<option value="+262">Reunion </option>
+	<option value="+40">Romania </option>
+	<option value="+70">Russian Federation </option>
+	<option value="+250">Rwanda </option>
+	<option value="+290">Saint Helena </option>
+	<option value="+1869">Saint Kitts And Nevis </option>
+	<option value="+1758">Saint Lucia </option>
+	<option value="+508">Saint Pierre And Miquelon </option>
+	<option value="+1784">Saint Vincent And The Grenadines </option>
+	<option value="+684">Samoa </option>
+	<option value="+378">San Marino </option>
+	<option value="+239">Sao Tome And Principe </option>
+	<option value="+966">Saudi Arabia </option>
+	<option value="+221">Senegal </option>
+	<option value="+381">Serbia And Montenegro </option>
+	<option value="+248">Seychelles </option>
+	<option value="+232">Sierra Leone </option>
+	<option value="+65">Singapore </option>
+	<option value="+421">Slovakia </option>
+	<option value="+386">Slovenia </option>
+	<option value="+677">Solomon Islands </option>
+	<option value="+252">Somalia </option>
+	<option value="+27">South Africa </option>
+	<option value="+0">South Georgia And The South Sandwich Islands </option>
+	<option value="+34">Spain </option>
+	<option value="+94">Sri Lanka </option>
+	<option value="+249">Sudan </option>
+	<option value="+597">Suriname </option>
+	<option value="+47">Svalbard And Jan Mayen </option>
+	<option value="+268">Swaziland </option>
+	<option value="+46">Sweden </option>
+	<option value="+41">Switzerland </option>
+	<option value="+963">Syrian Arab Republic </option>
+	<option value="+886">Taiwan, Province Of China </option>
+	<option value="+992">Tajikistan </option>
+	<option value="+255">Tanzania, United Republic Of </option>
+	<option value="+66">Thailand </option>
+	<option value="+670">Timor-Leste </option>
+	<option value="+228">Togo </option>
+	<option value="+690">Tokelau </option>
+	<option value="+676">Tonga </option>
+	<option value="+1868">Trinidad And Tobago </option>
+	<option value="+216">Tunisia </option>
+	<option value="+90">Turkey </option>
+	<option value="+7370">Turkmenistan </option>
+	<option value="+1649">Turks And Caicos Islands </option>
+	<option value="+688">Tuvalu </option>
+	<option value="+256">Uganda </option>
+	<option value="+380">Ukraine </option>
+	<option value="+971">United Arab Emirates </option>
+	<option value="+44">United Kingdom </option>
+	<option value="+1">United States </option>
+	<option value="+1">United States Minor Outlying Islands </option>
+	<option value="+598">Uruguay </option>
+	<option value="+998">Uzbekistan </option>
+	<option value="+678">Vanuatu </option>
+	<option value="+58">Venezuela </option>
+	<option value="+84">Viet Nam </option>
+	<option value="+1284">Virgin Islands, British </option>
+	<option value="+1340">Virgin Islands, U.s. </option>
+	<option value="+681">Wallis And Futuna </option>
+	<option value="+212">Western Sahara </option>
+	<option value="+967">Yemen </option>
+	<option value="+260">Zambia </option>
+	<option value="+263">Zimbabwe </option>
+
+</select>
+                                </div>
+
+                                <div class="input-item">
+                                    <input name="txtccode" type="text" id="txtccode" placeholder="Country Code" class="input-bordered" required="" readonly="true" />
+                                </div>
+
+
+                                <div class="input-item">
+                                    <input name="txtmobile" type="text" id="txtmobile" placeholder="Your Mobile Number" class="input-bordered" required="" maxlength="10" minlength="10" onkeypress="return isNumber(event)" />
+                                </div>
+
+                                <div class="input-item">
+                                    <input name="txtpwd" type="password" id="txtpwd" placeholder="Password" class="input-bordered" required="" />
+                                </div>
+
+                                <div class="input-item">
+                                    <input name="txtconfpwd" type="password" id="txtconfpwd" placeholder="Confirm Password" class="input-bordered" required="" />
+                                </div>
+
+                                <div class="input-item" style="display: none">
+                                    <input name="txttranpwd" type="password" id="txttranpwd" placeholder="Transaction Password" class="input-bordered" required="" />
+                                </div>
+
+                                <div class="input-item" style="display: none">
+                                    <input name="txtconftranpwd" type="password" id="txtconftranpwd" placeholder="Confirm Transaction Password" class="input-bordered" required="" />
+                                </div>
+
+                                <div class="input-item text-left">
+                                    <input class="input-checkbox" id="term-condition" type="checkbox" />
+                                    <label for="term-condition">I agree to <a href="#">Terms</a> and <a href="#">Policy.</a></label>
+                                </div>
+                                <div class="gaps"></div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a id="btnsignup" class="btn btn-primary" href="javascript:__doPostBack(&#39;btnsignup&#39;,&#39;&#39;)">Sign Up</a>
+                                </div>
+                                <br />
+                                <span id="lbl_msg_content" style="color:Red;"></span>
+                            </div>
+                            <div class="gaps-2x"></div>
+                            <div class="form-note">
+                                Already a member? <a href="Sign-in">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JavaScript (include all script here) -->
+            <script src="login/js/jquery.bundle.js?ver=101"></script>
+            <script src="login/js/script.js?ver=101"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+            <link href="http://tristanedwards.me/u/SweetAlert/lib/sweet-alert.css" rel="stylesheet" />
+
+            <script>
+                function isNumber(evt) {
+                    evt = (evt) ? evt : window.event;
+                    var charCode = (evt.which) ? evt.which : evt.keyCode;
+                    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                        return false;
+                    }
+                    return true;
+                }
+            </script>
+
+            <script type="text/javascript">
+                function GetSelectedTextValue(ddlCountry) {
+                    var selectedText = ddlCountry.options[ddlCountry.selectedIndex].innerHTML;
+                    var selectedValue = ddlCountry.value;
+                    $('#txtccode').val(selectedValue);
+                }
+            </script>
+
+            <script>
+                function showLoader() {
+                    document.getElementById("loading").style.display = 'block';
+
+                    setTimeout(function () {
+                        document.getElementById("loading").style.display = 'none';
+                    }, 2000);
+                }
+            </script>
+
+
+            <script type="text/javascript">
+                function checkpassword() {
+                    alert('hello');
+                    var sponsid = document.getElementById("txtsponsorid");
+                    var name = document.getElementById("txtname");
+
+                    var country_code = document.getElementById("txtccode");
+                    var email = document.getElementById("txtemail");
+                    var mobile = document.getElementById("txtmobile");
+                    var password = document.getElementById("txtpwd");
+                    var confirm_password = document.getElementById("txtconfpwd");
+
+                    if (sponsid.value == "") {
+                        sponsid.focus();
+                        $("#txtsponsorid").notify("Please enter SponsorId.", { position: "bottom" });
+                        return false;
+                    }
+
+                    if (name.value == "") {
+                        name.focus();
+                        $("#txtname").notify("Please enter Name.", { position: "bottom" });
+                        return false;
+                    }
+                    if (country_code.value == "") {
+                        country_code.focus();
+                        $("#txtccode").notify("Please enter country code.", { position: "bottom" });
+                        return false;
+                    }
+                    if (email.value == "") {
+                        email.focus();
+                        $("#txtemail").notify("Please enter email.", { position: "bottom" });
+                        return false;
+                    }
+                    if (mobile.value == "") {
+                        mobile.focus();
+                        $("#txtmobile").notify("Please enter Mobile number.", { position: "bottom" });
+                        return false;
+                    }
+                    if (password.value == "") {
+                        password.focus();
+                        $("#txtpwd").notify("Please enter password.", { position: "bottom" });
+                        return false;
+                    }
+                    if (confirm_password.value == "") {
+                        confirm_password.focus();
+                        $("#txtconfpwd").notify("Please enter confirm password.", { position: "bottom" });
+                        return false;
+                    }
+
+                    if (confirm_password.value == password.value) {
+                        confirm_password.focus();
+                        //$("#txtconfpwd").notify("confrim password not match.", { position: "bottom" });
+                        alert('confrim password not match');
+                        return false;
+                    }
+                }
+
+
+
+            </script>
+
+
+        </div>
+    </form>
+</body>
+</html>

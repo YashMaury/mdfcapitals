@@ -1,0 +1,22 @@
+[14-Nov-2023 16:15:55 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
+[14-Nov-2023 16:15:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'imakin_CoaxCoin'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+[14-Nov-2023 21:45:58 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:20
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/inc/function.php(20): mysqli_query(false, 'SELECT * FROM `...')
+#1 /home/mdfcapitals/public_html/login-process.php(8): query(false, 'SELECT * FROM `...')
+#2 {main}
+  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
+[14-Nov-2023 16:15:58 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
+[14-Nov-2023 21:46:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:25
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/inc/function.php(25): mysqli_num_rows(false)
+#1 /home/mdfcapitals/public_html/login-process.php(9): numrows(false)
+#2 {main}
+  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
+[14-Nov-2023 21:46:49 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:25
+Stack trace:
+#0 /home/mdfcapitals/public_html/admin/inc/function.php(25): mysqli_num_rows(false)
+#1 /home/mdfcapitals/public_html/login-process.php(9): numrows(false)
+#2 {main}
+  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
+[14-Nov-2023 16:17:19 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
