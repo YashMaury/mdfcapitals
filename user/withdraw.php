@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 $left=2;
@@ -1054,7 +1054,7 @@ if($avabal>=$min)
 if(getMember($conn,$_SESSION['mid'],'bitcoin')!='' || getMember($conn,$_SESSION['mid'],'bitcash')!='' || getMember($conn,$_SESSION['mid'],'etherium')!='')
 {
 ?>
-<form class="form" action="withdrawal-process?case=add" method="post">
+<form class="form" action="withdrawal-process.php?case=add" method="post">
 
 <div class="form-group">
 <label for="pillInput"><strong style="color:#000000;">Type<span style="color:#FF0000;">*</span></strong></label>

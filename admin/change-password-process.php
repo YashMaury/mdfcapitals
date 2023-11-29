@@ -19,12 +19,12 @@ if($_POST['newpass']==$_POST['conpass'])
 {
 $sql="UPDATE `imaksoft_admin` SET `password`='".base64_encode(trim(mysqli_real_escape_string($conn,$_POST['conpass'])))."' WHERE `id`='".trim(mysqli_real_escape_string($conn,$_SESSION['sid']))."'";
 $res=query($conn,$sql);
-redirect('password?n=2');
+redirect('password.php?n=2');
 }else{
-redirect('password?p=3');
+redirect('password.php?p=3');
 }
 }else{
-redirect('password?m=1');
+redirect('password.php?m=1');
 }
 }
 }

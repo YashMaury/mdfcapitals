@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['sid'])
@@ -15,7 +15,7 @@ $userid=$prefix.rand(1111111,9999999);
 $sql="INSERT INTO `imaksoft_member` (`userid`,`password`,`name`,`email`,`phone`,`address`,`bname`,`branch`,`accname`,`accno`,`ifscode`,`bitcoin`,`upi`,`status`,`date`) VALUES('".$userid."','".base64_encode(trim($_POST['password']))."','".trim($_POST['name'])."','".trim($_POST['email'])."','".trim($_POST['phone'])."','".trim($_POST['address'])."','".trim($_POST['bname'])."','".trim($_POST['branch'])."','".trim($_POST['accname'])."','".trim($_POST['accno'])."','".trim($_POST['ifscode'])."','".trim($_POST['bitcoin'])."','".trim($_POST['upi'])."','A','".date('Y-m-d')."')";
 $res=query($conn,$sql);
 
-redirect('member?inc=memdet');
+redirect('member.php?inc=memdet');
 }
 
 

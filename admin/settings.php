@@ -98,7 +98,7 @@ while($fetch=fetcharray($result))
 <?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists!!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Added Successfully!!</p><?php }?>
 
-<form class="form" action="settings-package-process?case=add" method="post">
+<form class="form" action="settings-package-process.php?case=add" method="post">
 <div class="form-body">
 
 <div class="form-group">
@@ -169,7 +169,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="settings-package-process?case=edit&id=<?=$_REQUEST['id']?>" method="post">
+<form class="form" action="settings-package-process.php?case=edit&id=<?=$_REQUEST['id']?>" method="post">
 <div class="form-body">
 
 <div class="form-group">
@@ -302,7 +302,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="settings-direct-process?case=edit&id=<?=$_REQUEST['id']?>" method="post">
+<form class="form" action="settings-direct-process.php?case=edit&id=<?=$_REQUEST['id']?>" method="post">
 <div class="form-body">
 
 <div class="form-group">
@@ -413,7 +413,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="settings-level-process?case=edit&id=<?=$_REQUEST['id']?>" method="post">
+<form class="form" action="settings-level-process.php?case=edit&id=<?=$_REQUEST['id']?>" method="post">
 <div class="form-body">
 <div class="form-group">
 <label for="userinput5">Level<span style="color:#CC0000;">*</span></label>
@@ -474,7 +474,7 @@ $fetch=fetcharray($res);
 <?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists!!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Added Successfully!!</p><?php }?>
 
-<form class="form" action="settings-level-process?case=add" method="post">
+<form class="form" action="settings-level-process.php?case=add" method="post">
 <div class="form-body">
 <div class="form-group">
 <label for="userinput5">Level<span style="color:#CC0000;">*</span></label>
@@ -605,7 +605,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="settings-level-roi-process?case=edit&id=<?=$_REQUEST['id']?>" method="post">
+<form class="form" action="settings-level-roi-process.php?case=edit&id=<?=$_REQUEST['id']?>" method="post">
 <div class="form-body">
 <div class="form-group">
 <label for="userinput5">Level<span style="color:#CC0000;">*</span></label>
@@ -665,7 +665,7 @@ $fetch=fetcharray($res);
 <?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists!!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Added Successfully!!</p><?php }?>
 
-<form class="form" action="settings-level-roi-process?case=add" method="post">
+<form class="form" action="settings-level-roi-process.php?case=add" method="post">
 <div class="form-body">
 <div class="form-group">
 <label for="userinput5">Level<span style="color:#CC0000;">*</span></label>
@@ -788,7 +788,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="settings-withdrawal-process?case=edit&id=<?=$_REQUEST['id']?>&page=<?=$_REQUEST['page']?>" method="post">
+<form class="form" action="settings-withdrawal-process.php?case=edit&id=<?=$_REQUEST['id']?>&page=<?=$_REQUEST['page']?>" method="post">
 
 <div class="form-body">
 <div class="form-group">

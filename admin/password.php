@@ -31,7 +31,7 @@
 <?php if($_REQUEST['n']==2){?><div align="center"><div id="norecord" style="color:#009900;">New password successfully updated!</div></div><?php }?>
 <?php if($_REQUEST['p']==3){?><div align="center"><div id="norecord" style="color:#FF0000;">Confirm password does not match!</div></div><?php }?>
 
-<form class="form" action="change-password-process" method="post">
+<form class="form" action="change-password-process.php" method="post">
 <div class="form-body">
 
 <div class="form-group">

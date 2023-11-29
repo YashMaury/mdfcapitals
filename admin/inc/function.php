@@ -1,10 +1,11 @@
 <?php
+error_reporting(0);
 /*-----------------Database Connection-----------------------*/
 $conn=mysqli_connect('localhost','root','root','mdfcapit_database');
 date_default_timezone_set('Asia/Calcutta');
 /*-----------------Database Connection-----------------------*/
 $title='websiteswalla';
-$domain='http://coaxcoin.websiteswalla.com/';
+$domain=$_SERVER['SERVER_NAME'];
 $welcome='welcome@mdfcapitals.com';
 $support='support@mdfcapitals.com';
 $recovery='recovery@mdfcapitals.com';

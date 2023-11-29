@@ -12,9 +12,9 @@ if($num>0)
 $fetch=fetcharray($res);
 $_SESSION['mid']=$fetch['id'];
 
-redirect('dashboard');
+redirect('dashboard.php');
 }else{
-redirect('index?e=1');
+redirect('index.php?e=1');
 }
 }
 ?> 

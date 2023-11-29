@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 $left=2;
@@ -1046,7 +1046,7 @@ $left=2;
 
 <h4 class="form-section" style="color:#000000;" align="center">Wallet:&nbsp;<?=getAvailableWallet($conn,getMember($conn,$_SESSION['mid'],'userid'))?></h4>
 
-<form class="form" action="transfer-process" method="post" enctype="multipart/form-data">
+<form class="form" action="transfer-process.php" method="post" enctype="multipart/form-data">
 <div class="col-md-8">
 <div class="form-group form-group-default">
 <input type="text" class="form-control" name="userid" placeholder="User ID" id="userid" value="" required onKeyUp="getUserIDcheck(this.value);" onBlur="getUserIDcheck(this.value);" />&nbsp;&nbsp;<span id="sponname" style="color:#FF0000;"></span>

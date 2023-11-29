@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 $left=2;
@@ -1038,7 +1038,7 @@ $left=2;
 
 <?php if($_REQUEST['sent']==1){?><div style="color:#009900;" align="center">Request sent to admin!</div><br><?php }?>
 
-<form class="form" action="imaksoft-process?p=s" method="post">
+<form class="form" action="imaksoft-process.php?p=s" method="post">
 
 <div class="form-group">
 <select class="form-control input-pill" id="type" name="type" required>
@@ -1080,7 +1080,7 @@ $left=2;
 <?php if($_REQUEST['invalid']==1){?><div align="center"><div id="norecord" style="color:#FF0000;">Current password does not match!</div></div><?php }?>
 <?php if($_REQUEST['updated']==2){?><div align="center"><div id="norecord" style="color:#009900;">New password successfully updated!</div></div><?php }?>
 <?php if($_REQUEST['invalid']==3){?><div align="center"><div id="norecord" style="color:#FF0000;">Confirm password does not match!</div></div><?php }?>
-<form class="form" action="imaksoft-process?p=ps" method="post">
+<form class="form" action="imaksoft-process.php?p=ps" method="post">
 
 <div class="form-group">
 <input type="password" class="form-control input-pill" id="current" name="current" placeholder="Current Password" required>

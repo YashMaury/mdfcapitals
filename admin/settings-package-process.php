@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['sid'])
@@ -15,7 +15,7 @@ if($_REQUEST['case']=='add')
 $sql1="INSERT INTO `imaksoft_settings_package` (`plan`,`investment`,`dailyper`,`weeklyper`,`profitper`,`nodays`) VALUES('".mysqli_escape_string($conn,$_POST['plan'])."','".mysqli_escape_string($conn,$_POST['investment'])."','".mysqli_escape_string($conn,$_POST['dailyper'])."','".mysqli_escape_string($conn,$_POST['weeklyper'])."','".mysqli_escape_string($conn,$_POST['profitper'])."','".trim($_POST['nodays'])."')";
 $res1=query($conn,$sql1);
  
-redirect('settings?inc=addpack&case=add&m=1');
+redirect('settings.php?inc=addpack&case=add&m=1');
 }
 }
 
@@ -26,7 +26,7 @@ if($_REQUEST['case']=='edit')
 $sql1="UPDATE `imaksoft_settings_package` SET `plan`='".mysqli_real_escape_string($conn,$_POST['plan'])."',`investment`='".mysqli_real_escape_string($conn,$_POST['investment'])."',`dailyper`='".mysqli_real_escape_string($conn,$_POST['dailyper'])."',`weeklyper`='".mysqli_real_escape_string($conn,$_POST['weeklyper'])."',`profitper`='".mysqli_real_escape_string($conn,$_POST['profitper'])."',`nodays`='".mysqli_real_escape_string($conn,$_POST['nodays'])."' WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res2=query($conn,$sql2);
 
-redirect('settings?inc=package');
+redirect('settings.php?inc=package');
 }
 }
 
@@ -35,7 +35,7 @@ if($_REQUEST['case']=='delete')
 $sql="DELETE FROM `imaksoft_settings_package` WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res=query($conn,$sql);
 
-redirect('settings?inc=package');
+redirect('settings.php?inc=package');
 }
 }
 

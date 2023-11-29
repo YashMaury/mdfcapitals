@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SERVER['REQUEST_METHOD']=='POST')
@@ -20,12 +20,12 @@ if(trim($_POST['amount'])>0)
 $sql1="INSERT INTO `imaksoft_deduct` (`userid`,`amount`,`remarks`,`date`) VALUES('".trim($_POST['userid'])."','".trim($_POST['amount'])."','".trim($_POST['remarks'])."','".date('Y-m-d')."')";
 $res1=query($conn,$sql1);    
   
-redirect('deduct?m=1');
+redirect('deduct.php?m=1');
 }else{
-redirect('deduct?e=1');
+redirect('deduct.php?e=1');
 }
 }else{
-redirect('deduct?f=2');
+redirect('deduct.php?f=2');
 }
 
 }
@@ -37,6 +37,6 @@ if($_REQUEST['case']=='delete')
 $sql="DELETE FROM `imaksoft_deduct` WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res=query($conn,$sql);
 
-redirect('deduct');
+redirect('deduct.php');
 }
 ?>

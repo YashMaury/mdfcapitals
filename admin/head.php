@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 ?>
 <!DOCTYPE html>

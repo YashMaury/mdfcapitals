@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 
 $userid=getMember($conn,$_SESSION['mid'],'userid');

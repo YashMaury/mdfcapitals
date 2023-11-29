@@ -114,9 +114,9 @@ $res3=query($conn,$sql3);
 
 
 
-redirect('invest?m=2');
+redirect('invest.php?m=2');
 }else{
-redirect('invest?e=3');
+redirect('invest.php?e=3');
 }
 
 }

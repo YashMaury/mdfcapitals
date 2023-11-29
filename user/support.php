@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 $left=2;
@@ -1037,7 +1037,7 @@ $left=2;
 
 <?php if($_REQUEST['sent']==1){?><div style="color:#009900;" align="center">Request sent to admin!</div><br><?php }?>
 
-<form class="form mt-3" action="support-process?case=add" method="post" enctype="multipart/form-data">
+<form class="form mt-3" action="support-process.php?case=add" method="post" enctype="multipart/form-data">
 <div class="form-group">
 <select class="form-control input-pill" id="type" name="type" required>
 <option value="" style="color:#fff;">Select Type</option>

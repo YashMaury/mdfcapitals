@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['sid'])
@@ -15,7 +15,7 @@ if($_REQUEST['case']=='add')
 $sql1="INSERT INTO `imaksoft_announcement` (`announcement`,`date`) VALUES('".addslashes(trim(mysqli_real_escape_string($conn,$_POST['announcement'])))."','".date('Y-m-d')."')";
 $res1=query($conn,$sql1);  
     
-redirect('news?case=add&m=1');
+redirect('news.php?case=add&m=1');
 }
 }
 
@@ -25,7 +25,7 @@ if($_REQUEST['case']=='delete')
 $sql="DELETE FROM `imaksoft_announcement` WHERE `id`='".trim(mysqli_real_escape_string($conn,$_REQUEST['id']))."'";
 $res=query($conn,$sql);
 
-redirect('news');
+redirect('news.php');
 }
 }
 ?>

@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['mid'])
@@ -35,22 +35,22 @@ if($avafund>=trim($_POST['amount']))
 $sql="INSERT INTO `imaksoft_transfer_fund_others`(`userid`,`toid`,`total`,`charge`,`balance`,`remarks`,`date`) values('".$userid."','".trim($_POST['userid'])."','".trim($_POST['amount'])."','".$charge."','".$balance."','".trim(addslashes($_POST['remarks']))."','".date('Y-m-d')."')";
 $res=query($conn,$sql);
 
-redirect('transfer?case=add&m=1&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&m=1&page='.$_REQUEST['page']);
 }else{
-redirect('transfer?case=add&e=2&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&e=2&page='.$_REQUEST['page']);
 }
 }else{
-redirect('transfer?case=add&e=1&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&e=1&page='.$_REQUEST['page']);
 }
 //------------------------------//
 }else{
-redirect('transfer?case=add&e=6&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&e=6&page='.$_REQUEST['page']);
 }
 }else{
-redirect('transfer?case=add&e=4&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&e=4&page='.$_REQUEST['page']);
 }
 }else{
-redirect('transfer?case=add&e=3&page='.$_REQUEST['page']);
+redirect('transfer.php?case=add&e=3&page='.$_REQUEST['page']);
 }
 
 

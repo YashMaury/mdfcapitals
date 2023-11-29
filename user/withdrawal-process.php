@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['mid'])
@@ -45,16 +45,16 @@ $sql1="INSERT INTO `imaksoft_withdrawal` (`userid`,`request`,`charge`,`payout`,`
 $res1=query($conn,$sql1);
 }
 
-redirect('withdraw?case=new&p=1');
+redirect('withdraw.php?case=new&p=1');
 }else{
-redirect('withdraw?case=new&e=1');
+redirect('withdraw.php?case=new&e=1');
 }
 
 }else{
-redirect('withdraw?case=new&e=2');
+redirect('withdraw.php?case=new&e=2');
 }
 }else{
-redirect('withdraw?case=new&e=3');
+redirect('withdraw.php?case=new&e=3');
 }
 //--------------------------------------//
 

@@ -3,7 +3,7 @@ session_start();
 include('inc/function.php');
 if(!isset($_SESSION['sid']))
 {
-redirect('index');
+redirect('index.php');
 }
 
 if($_SESSION['sid'])
@@ -20,9 +20,9 @@ if($num2<1)
 $sql1="INSERT INTO `imaksoft_settings_level` (`level`,`percentage`) VALUES('".mysqli_real_escape_string($conn,$_POST['level'])."','".mysqli_escape_string($conn,$_POST['percentage'])."')";
 $res1=query($conn,$sql1);      
 
-redirect('settings?inc=level&case=add&m=1');
+redirect('settings.php?inc=level&case=add&m=1');
 }else{
-redirect('settings?inc=level&case=add&e=1');
+redirect('settings.php?inc=level&case=add&e=1');
 }
 }
 }
@@ -33,7 +33,7 @@ if($_REQUEST['case']=='edit')
 $sql2="UPDATE `imaksoft_settings_level` SET `level`='".$_POST['level']."',`percentage`='".mysqli_real_escape_string($conn,$_POST['percentage'])."' WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res2=query($conn,$sql2);
 
-redirect('settings?inc=level');
+redirect('settings.php?inc=level');
 }
 }
 
@@ -42,7 +42,7 @@ if($_REQUEST['case']=='delete')
 $sql="DELETE FROM `imaksoft_settings_level` WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res=query($conn,$sql);
 
-redirect('settings?inc=level');
+redirect('settings.php?inc=level');
 }
 }
 

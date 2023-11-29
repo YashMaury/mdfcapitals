@@ -3,7 +3,7 @@ session_start();
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
-redirect('../index');
+redirect('../index.php');
 }
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 $left=2;
@@ -1042,7 +1042,7 @@ $left=2;
 <?php if($_REQUEST['e']==4){?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Investment amount does not include under any package!</strong></div><?php }?>
 
 <div align="center">&nbsp;</div>
-<form class="form" action="investment-fund-process" method="post">
+<form class="form" action="investment-fund-process.php" method="post">
 <div class="col-md-8">
 <h4 class="form-section" style="color:#00CC00;font-size:18px;" align="center">Wallet Balance:&nbsp;<?=getAvailableWallet($conn,getMember($conn,$_SESSION['mid'],'userid'))?></h4>
 <div class="form-group form-group-default">

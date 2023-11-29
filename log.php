@@ -1,4 +1,4 @@
-
+<?php include('admin/inc/function.php');?>
 
 <!DOCTYPE html>
 
@@ -74,7 +74,7 @@
 
 </div>
 
-<form name="form1" class="text-left clearfix mt-50" action="login-process" method="post" >
+<form name="form1" class="text-left clearfix mt-50" action="login-process.php" method="post" >
         <div>
             <div class="user-ath-page">
                 <div class="container">
