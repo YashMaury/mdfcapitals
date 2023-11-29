@@ -104,10 +104,10 @@
 
                     <li class="nav-item"><a class="nav-link menu-link" href="#why">About<span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#benifits">Benifits</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenSale">Token Sale</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="whitepaper.pdf" target="_blank">White Paper</a></li>
-                    <li class="nav-item"><a class="nav-link menu-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#tokenAlocate">Token Sale</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link menu-link" href="whitepaper.pdf" target="_blank">White Paper</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link menu-link" href="#team">Team</a></li> -->
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">Faqs</a></li>
 
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
@@ -451,8 +451,8 @@ padding-bottom: 60px;">
                                 <li><a href="#">France</a></li>
                             </ul>
                         </li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="privacy.html" class="btn btn-outline">Privacy &amp; Policy</a></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="disclaimer.html" class="btn btn-outline">Terms of Coin Sale</a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#" class="btn btn-outline">Privacy &amp; Policy</a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#" class="btn btn-outline">Terms of Coin Sale</a></li>
                     </ul>
                 </div>
                 <!-- .col -->
@@ -1339,9 +1339,9 @@ padding-bottom: 60px;">
                         <h5 class="widget-title">RESOURCES</h5>
                         <ul class="widget-links">
                             <li><a href="#roadmap">Roadmap</a></li>
-                            <li><a href="images/MDF CAPITALS-whitepaper.pdf" target="_blank">Whitepaper</a></li>
-                            <li><a href="disclaimer.html">Disclaimer</a></li>
-                            <li><a href="privacy.html">Privacy &amp; policy</a></li>
+                            <!-- <li><a href="images/MDF CAPITALS-whitepaper.pdf" target="_blank">Whitepaper</a></li> -->
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">Privacy &amp; policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1350,11 +1350,11 @@ padding-bottom: 60px;">
                     <div class="widget-item">
                         <h5 class="widget-title">Company</h5>
                         <ul class="widget-links">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="#TokenSale">Tokens Details</a></li>
-                            <li><a href="vision&mission.html">Vision & Mission</a></li>
+                            <li><a href="#">Vision & Mission</a></li>
 
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1378,7 +1378,7 @@ padding-bottom: 60px;">
             <!-- .row -->
             <div class="footer-bottom">
                 <div class="row align-items-center">
-                    <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index"><img class="logo logo-light" alt="logo" src="cclogo.png"></a></div>
+                    <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.php"><img class="logo logo-light" alt="logo" src="cclogo.png"></a></div>
                     <div class="col-sm-6 text-sm-right"><span class="copyright-text"> &copy; CoaxCoin.com, 2023</span></div>
                 </div>
             </div>

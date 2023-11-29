@@ -1065,7 +1065,7 @@ include('calculate-roi-release.php');
                                 <?php
                                 $userid=getMember($conn,$_SESSION['mid'],'userid');
                                 ?>
-                                <a href="<?=$domain?>/ref?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
+                                <a href="<?=$domain?>/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
                                 <span class="outer-share input-group-btn">
                                     <button type="button" class="btn btn-primary btn-icon-anim btn-square" href="JavaScript:Void(0);" onclick="CopyToClipboard('ctl00_ContentPlaceHolder1_refferal')"><i class="zmdi zmdi-copy"></i></button>
                                 </span>

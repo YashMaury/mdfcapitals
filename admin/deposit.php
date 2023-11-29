@@ -117,7 +117,7 @@ while($fetch=fetcharray($result))
 <td align="center" ><?=$fetch['remarks']?></td>
 <td align="center" ><?=$fetch['date']?></td>
 <td align="center" >
-<a href="deposit-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
+<a href="deposit-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
 </tr>
 
 <?php $i++;}}else{?>

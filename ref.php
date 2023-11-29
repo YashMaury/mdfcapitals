@@ -90,7 +90,7 @@ include('admin/inc/function.php');
                     <div class="row justify-content-center">
                         <div class="col-lg-6 col-md-8  text-center">
                             <div class="user-ath-logo">
-                                <a href="#">
+                                <a href="index.php">
                                     <img src="cclogo.png" alt="icon" style="max-width: 220px;" />
                                 </a>
                             </div>
@@ -156,7 +156,7 @@ include('admin/inc/function.php');
                             </div>
     </form>
     <div class="gaps-2x"></div>
-    <div class="form-note">Already a member? <a href="log">Login Now</a> </div>
+    <div class="form-note">Already a member? <a href="log.php">Login Now</a> </div>
     </div>
     </div>
     </div>

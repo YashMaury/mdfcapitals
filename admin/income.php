@@ -213,7 +213,7 @@ while($fetch=fetcharray($result))
 <td align="center" ><?=stripslashes($fetch['remarks'])?></td>
 <td align="center" ><?=$fetch['date']?></td>
 <td align="center" >
-<a href="deduct-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
+<a href="deduct-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="7" align="center" style="color:#FF0000;">No Record Found!</td></tr>

@@ -71,7 +71,7 @@ while($fetch=fetcharray($res))
 $arr[$i]=$fetch['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch['userid']?>"><?=$fetch['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch['userid']?>"><?=$fetch['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch['name']))?></th>
 <th align="center"><?php if($fetch['sponsor']){?><?=$fetch['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -113,7 +113,7 @@ while($fetch1=fetcharray($res1))
 $arr1[$i]=$fetch1['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch1['userid']?>"><?=$fetch1['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch1['userid']?>"><?=$fetch1['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch1['name']))?></th>
 <th align="center"><?php if($fetch1['sponsor']){?><?=$fetch1['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch1['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -157,7 +157,7 @@ while($fetch2=fetcharray($res2))
 $arr2[$i]=$fetch2['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch2['userid']?>"><?=$fetch2['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch2['userid']?>"><?=$fetch2['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch2['name']))?></th>
 <th align="center"><?php if($fetch2['sponsor']){?><?=$fetch2['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch2['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -200,7 +200,7 @@ while($fetch3=fetcharray($res3))
 $arr3[$i]=$fetch3['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch3['userid']?>"><?=$fetch3['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch3['userid']?>"><?=$fetch3['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch3['name']))?></th>
 <th align="center"><?php if($fetch3['sponsor']){?><?=$fetch3['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch3['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -243,7 +243,7 @@ while($fetch4=fetcharray($res4))
 $arr4[$i]=$fetch4['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch4['userid']?>"><?=$fetch4['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch4['userid']?>"><?=$fetch4['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch4['name']))?></th>
 <th align="center"><?php if($fetch4['sponsor']){?><?=$fetch4['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch4['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -286,7 +286,7 @@ while($fetch5=fetcharray($res5))
 $arr5[$i]=$fetch5['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch5['userid']?>"><?=$fetch5['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch5['userid']?>"><?=$fetch5['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch5['name']))?></th>
 <th align="center"><?php if($fetch5['sponsor']){?><?=$fetch5['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch5['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -330,7 +330,7 @@ while($fetch6=fetcharray($res6))
 $arr6[$i]=$fetch6['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch6['userid']?>"><?=$fetch6['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch6['userid']?>"><?=$fetch6['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch6['name']))?></th>
 <th align="center"><?php if($fetch6['sponsor']){?><?=$fetch6['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch6['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -374,7 +374,7 @@ while($fetch7=fetcharray($res7))
 $arr7[$i]=$fetch7['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch7['userid']?>"><?=$fetch7['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch7['userid']?>"><?=$fetch7['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch7['name']))?></th>
 <th align="center"><?php if($fetch7['sponsor']){?><?=$fetch7['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch7['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>
@@ -417,7 +417,7 @@ while($fetch8=fetcharray($res8))
 $arr8[$i]=$fetch8['userid'];
 ?>
 <tr>
-<th align="center"><a href="grid-view?placement=<?=$fetch8['userid']?>"><?=$fetch8['userid']?></a></th>
+<th align="center"><a href="grid-view.php?placement=<?=$fetch8['userid']?>"><?=$fetch8['userid']?></a></th>
 <th align="center"><?=ucwords(strtolower($fetch8['name']))?></th>
 <th align="center"><?php if($fetch8['sponsor']){?><?=$fetch8['sponsor']?><?php }else{?>----<?php }?></th>
 <th align="center"><?php if($fetch8['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></th>

@@ -68,11 +68,11 @@ while($fetch=fetcharray($result))
 <td align="center"><?=getMemberUserid($conn,$fetch['userid'],'name')?></td>
 <td align="center"><?=$fetch['tranid']?></td>
 <td align="center"><?=$fetch['amount']?></td>
-<td align="center" style="padding:5px;"><a href="file-download-payment?f=<?=$fetch['slip']?>" style="cursor:pointer;"><img src="../user/assets/img/down-arrow.png" height="20"></a></td>
-<td align="center" style="padding:5px;"><?php if($fetch['status']=='P'){?><a href="payment-request-process?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>&page=<?=$_REQUEST['page']?>" style="text-decoration:none;"><span style="color:#FFFFFF;background:#FF0000;padding:2px 10px;border-radius:5px;" onClick="return confirm('Are you sure want to change status of payment request?');">Pending</span></a><?php }else{?><span style="color:#FFFFFF;background:#009900;padding:2px 10px;border-radius:5px;">Active</span><?php }?></td>
+<td align="center" style="padding:5px;"><a href="file-download-payment.php?f=<?=$fetch['slip']?>" style="cursor:pointer;"><img src="../user/assets/img/down-arrow.png" height="20"></a></td>
+<td align="center" style="padding:5px;"><?php if($fetch['status']=='P'){?><a href="payment-request-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>&page=<?=$_REQUEST['page']?>" style="text-decoration:none;"><span style="color:#FFFFFF;background:#FF0000;padding:2px 10px;border-radius:5px;" onClick="return confirm('Are you sure want to change status of payment request?');">Pending</span></a><?php }else{?><span style="color:#FFFFFF;background:#009900;padding:2px 10px;border-radius:5px;">Active</span><?php }?></td>
 <td align="center" style="padding:5px;"><?=$fetch['date']?></td>
 
-<td align="center" style="padding:5px;"><?php if($fetch['status']=='P'){?><a href="payment-request-process?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" class="btn btn-danger" onClick="return confirm('Are you sure want to delete this record?');"><i class="fa fa-times icon-only"></i></a><?php }else{?>---<?php }?></td>
+<td align="center" style="padding:5px;"><?php if($fetch['status']=='P'){?><a href="payment-request-process.php?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" class="btn btn-danger" onClick="return confirm('Are you sure want to delete this record?');"><i class="fa fa-times icon-only"></i></a><?php }else{?>---<?php }?></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="7" align="center" style="color:#FF0000;">No Record Found!</td></tr>

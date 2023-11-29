@@ -85,21 +85,21 @@ while($fetch=fetcharray($result))
 </style>
 <td  align="center"><?=$i?></td>
 <td  align="center"><?=$fetch['userid']?></a></td>
-<td  align="center"><a href="../user/admin-login-process?userid=<?=$fetch['userid']?>&password=<?=base64_decode($fetch['password'])?>&ch=sc" target="_blank" style="text-decoration:none;"><strong><span  class="blink" style="color:#ffeb07;">Login</span></strong></a></td>
+<td  align="center"><a href="../user/admin-login-process.php?userid=<?=$fetch['userid']?>&password=<?=base64_decode($fetch['password'])?>&ch=sc" target="_blank" style="text-decoration:none;"><strong><span  class="blink" style="color:#ffeb07;">Login</span></strong></a></td>
 
 <td align="center" ><?php if($fetch['sponsor']){?><?=$fetch['sponsor']?><?php }else{?>---<?php }?></td>
 <td align="center" ><?=ucfirst($fetch['name'])?></td>
 <td align="center" ><?=base64_decode($fetch['password'])?></td>
 <td align="center" ><?=$fetch['phone']?></td>
-<td align="center" ><?php if($fetch['status']=='I'){?><a href="member-process?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Unblock</span></a><?php }else{?><a href="member-process?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Block</span></a><?php }?></td>
+<td align="center" ><?php if($fetch['status']=='I'){?><a href="member-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Unblock</span></a><?php }else{?><a href="member-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Block</span></a><?php }?></td>
 <td align="center" style="padding:5px;"><?php if($fetch['paystatus']=='A'){?><span style="color:#fff;">Paid</span><?php }else{?><span style="color:#FF0000;">Pending</span><?php }?></th>
 <td align="center" ><?=$fetch['date']?></td>
 <td align="center" >
 
-<a href="member?inc=view&id=<?=$fetch['id']?>" ><img src="images/eye.png" title="Inquiry Details" height="18" /></a>
+<a href="member.php?inc=view&id=<?=$fetch['id']?>" ><img src="images/eye.png" title="Inquiry Details" height="18" /></a>
 &nbsp;&nbsp;
-<a href="member?inc=edit&id=<?=$fetch['id']?>"><img src="images/edit.png"></a>&nbsp;&nbsp;
-<a href="member-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete this?')"><img src="images/delete.png" /></a></th>
+<a href="member.php?inc=edit&id=<?=$fetch['id']?>"><img src="images/edit.png"></a>&nbsp;&nbsp;
+<a href="member-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete this?')"><img src="images/delete.png" /></a></th>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="10" align="center" style="color:#FF0000;">No Record Found!</td></tr>

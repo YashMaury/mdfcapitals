@@ -5229,7 +5229,7 @@ while($fetch=fetcharray($result))
                                 <span id="ctl00_ContentPlaceHolder1_lblreferral">
 
 
-                                    <a href="<?=$domain?>/ref?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" placeholder="Search" type="text" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
+                                    <a href="<?=$domain?>/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" placeholder="Search" type="text" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
                                     <a>
                                         <span class="pera">********</span>
                                         </a></span>
@@ -7531,7 +7531,7 @@ while($fetch=fetcharray($res))
 $arr[$i]=$fetch['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch['userid']?>"><?=$fetch['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch['userid']?>"><?=$fetch['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch['name']))?></td>
 <td align="center"><?php if($fetch['sponsor']){?><?=$fetch['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7574,7 +7574,7 @@ while($fetch1=fetcharray($res1))
 $arr1[$i]=$fetch1['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch1['userid']?>"><?=$fetch1['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch1['userid']?>"><?=$fetch1['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch1['name']))?></td>
 <td align="center"><?php if($fetch1['sponsor']){?><?=$fetch1['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch1['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7616,7 +7616,7 @@ while($fetch2=fetcharray($res2))
 $arr2[$i]=$fetch2['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch2['userid']?>"><?=$fetch2['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch2['userid']?>"><?=$fetch2['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch2['name']))?></td>
 <td align="center"><?php if($fetch2['sponsor']){?><?=$fetch2['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch2['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7659,7 +7659,7 @@ while($fetch3=fetcharray($res3))
 $arr3[$i]=$fetch3['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch3['userid']?>"><?=$fetch3['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch3['userid']?>"><?=$fetch3['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch3['name']))?></td>
 <td align="center"><?php if($fetch3['sponsor']){?><?=$fetch3['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch3['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7702,7 +7702,7 @@ while($fetch4=fetcharray($res4))
 $arr4[$i]=$fetch4['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch4['userid']?>"><?=$fetch4['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch4['userid']?>"><?=$fetch4['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch4['name']))?></td>
 <td align="center"><?php if($fetch4['sponsor']){?><?=$fetch4['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch4['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7744,7 +7744,7 @@ while($fetch5=fetcharray($res5))
 $arr5[$i]=$fetch5['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch5['userid']?>"><?=$fetch5['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch5['userid']?>"><?=$fetch5['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch5['name']))?></td>
 <td align="center"><?php if($fetch5['sponsor']){?><?=$fetch5['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch5['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7787,7 +7787,7 @@ while($fetch6=fetcharray($res6))
 $arr6[$i]=$fetch6['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch6['userid']?>"><?=$fetch6['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch6['userid']?>"><?=$fetch6['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch6['name']))?></td>
 <td align="center"><?php if($fetch6['sponsor']){?><?=$fetch6['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch6['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7830,7 +7830,7 @@ while($fetch7=fetcharray($res7))
 $arr7[$i]=$fetch7['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch7['userid']?>"><?=$fetch7['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch7['userid']?>"><?=$fetch7['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch7['name']))?></td>
 <td align="center"><?php if($fetch7['sponsor']){?><?=$fetch7['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch7['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
@@ -7872,7 +7872,7 @@ while($fetch8=fetcharray($res8))
 $arr8[$i]=$fetch8['userid'];
 ?>
 <tr>
-<td align="center"><a href="det?p=t&placement=<?=$fetch8['userid']?>"><?=$fetch8['userid']?></a></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch8['userid']?>"><?=$fetch8['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch8['name']))?></td>
 <td align="center"><?php if($fetch8['sponsor']){?><?=$fetch8['sponsor']?><?php }else{?>----<?php }?></td>
 <td align="center"><?php if($fetch8['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>

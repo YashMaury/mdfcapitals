@@ -1076,7 +1076,7 @@ if(getMember($conn,$_SESSION['mid'],'bitcoin')!='' || getMember($conn,$_SESSION[
 </div>
 </form>
 <?php }else{?>
-<div align="center"><a href="det?p=p" style="text-decoration:none; color:#FF3300;" title="Go to Bank Details"><span style="height:30px; border:1px solid #FF6600; padding:10px;font-size:16px;">
+<div align="center"><a href="det.php?p=p" style="text-decoration:none; color:#FF3300;" title="Go to Bank Details"><span style="height:30px; border:1px solid #FF6600; padding:10px;font-size:16px;">
 <strong>Please click here to fill up Bitcoin or Bitcash or Etherium wallet address!</strong>
 </span>
 </a></div>

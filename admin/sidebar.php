@@ -5,9 +5,9 @@
 <div class="sticky is-expanded" style="margin-bottom: -63px;">
 <aside class="app-sidebar ps ps--active-y open">
 <div class="main-sidebar-header active">
-<a class="logo-icon mobile-logo icon-light active" href="dashboard">
+<a class="logo-icon mobile-logo icon-light active" href="dashboard.php">
 <img src="../user/logo.png" alt="logo" /></a>
-<a class="logo-icon mobile-logo icon-dark active" href="dashboard">
+<a class="logo-icon mobile-logo icon-dark active" href="dashboard.php">
 <img src="../user/logo.png" alt="logo" /></a>
 </div>
 <div class="main-sidemenu is-expanded">
@@ -31,7 +31,7 @@
 </div>
 <ul class="side-menu open" style="margin-right: 0px; margin-left: 0px;">
 
-<li class="slide"><a class="side-menu__item  " href="dashboard">
+<li class="slide"><a class="side-menu__item  " href="dashboard.php">
 <i class="side-menu__icon fe fe-airplay"></i><span class="side-menu__label">Dashboard</span></a> </li>
 
 
@@ -42,9 +42,9 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-<li><a class="slide-item" href="settings?inc=package">Package</a>
+<li><a class="slide-item" href="settings.php?inc=package">Package</a>
 </li>
-<li><a class="slide-item" href="settings?inc=direct">Crypto Price</a>
+<li><a class="slide-item" href="settings.php?inc=direct">Crypto Price</a>
 </li>
 
 </ul>
@@ -57,9 +57,9 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-<li><a class="slide-item" href="member?inc=memdet">Member details</a>
+<li><a class="slide-item" href="member.php?inc=memdet">Member details</a>
 </li>
-<li><a class="slide-item" href="member?inc=bank">Bank details</a>
+<li><a class="slide-item" href="member.php?inc=bank">Bank details</a>
 </li>
 </ul>
 </li>
@@ -71,11 +71,11 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-    <li><a class="slide-item" href="request">Request</a>
+    <li><a class="slide-item" href="request.php">Request</a>
 </li>
-<li><a class="slide-item" href="deposit">Deposit</a>
+<li><a class="slide-item" href="deposit.php">Deposit</a>
 </li>
-<li><a class="slide-item" href="deduct">Deduct</a>
+<li><a class="slide-item" href="deduct.php">Deduct</a>
 </li>
 </ul>
 </li>
@@ -90,9 +90,9 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-<li><a class="slide-item" href="withdrawal?case=pen">Pending Withdrawal</a>
+<li><a class="slide-item" href="withdrawal.php?case=pen">Pending Withdrawal</a>
 </li>
-<li><a class="slide-item" href="withdrawal?case=app">Approved Withdrawal</a>
+<li><a class="slide-item" href="withdrawal.php?case=app">Approved Withdrawal</a>
 </li>
 </ul>
 </li>
@@ -104,7 +104,7 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-<li><a class="slide-item" href="support">View Ticket</a>
+<li><a class="slide-item" href="support.php">View Ticket</a>
 </li>
 
 </ul>
@@ -112,7 +112,7 @@
 
 
 
-<li class="slide"><a class="side-menu__item" href="../logout"><i class="side-menu__icon fe fe-log-out"></i><span class="side-menu__label">Logout</span></a> </li>
+<li class="slide"><a class="side-menu__item" href="../logout.php"><i class="side-menu__icon fe fe-log-out"></i><span class="side-menu__label">Logout</span></a> </li>
 </ul>
 <div class="slide-right" id="slide-right">
 <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">

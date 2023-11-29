@@ -97,7 +97,7 @@ while($fetch=fetcharray($result))
 <td align="center"><?=stripslashes($fetch['announcement'])?></td>
 <td align="center"><?=$fetch['date']?></td>
 <td align="center">
-<a href="notice-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
+<a href="notice-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you want to sure to delete this?')"><img src="images/delete.png" /></a></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="4" align="center" style="color:#FF0000;">No Record Found!</td></tr>

@@ -265,7 +265,7 @@ while($fetch=fetcharray($result))
 <td align="center" ><?=$i?></td>
 <td align="center" ><?=$fetch['amount']?></td>
 <td align="center" >
-<a href="settings?inc=editdirect&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a></td>
+<a href="settings.php?inc=editdirect&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="7" align="center" style="color:#FF0000;">No Record Found!</td></tr>
@@ -340,7 +340,7 @@ $fetch=fetcharray($res);
 <div class="card-header">
 <h4 class="card-title">Package Settings</h4></div>
 <div align="center">
-    <!--<a href="settings?inc=leveladdnew"><button type="submit" class="btn btn-primary">+ ADD</button></a>-->
+    <!--<a href="settings.php?inc=leveladdnew"><button type="submit" class="btn btn-primary">+ ADD</button></a>-->
 </div>
 <div>&nbsp;</div><?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists!!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Added Successfully!!</p><?php }?>
@@ -374,8 +374,8 @@ while($fetch=fetcharray($result))
 <td align="center" ><?=$fetch['level']?></td>
 <td align="center" ><?=$fetch['percentage']?> %</td>
 <td align="center" >
-<a href="settings?inc=leveladd&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a>&nbsp;
-<a href="settings-level-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete?')"><img src="images/delete.png" /></a></td>
+<a href="settings.php?inc=leveladd&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a>&nbsp;
+<a href="settings-level-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete?')"><img src="images/delete.png" /></a></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="4" align="center" style="color:#FF0000;">No Record Found!</td></tr>
@@ -530,7 +530,7 @@ $fetch=fetcharray($res);
 <div class="card-header">
 <h4 class="card-title">Level Roi Settings</h4></div>
 <div align="center">
-    <a href="settings?inc=levelroiaddnew"><button type="submit" class="btn btn-primary">+ ADD</button></a>
+    <a href="settings.php?inc=levelroiaddnew"><button type="submit" class="btn btn-primary">+ ADD</button></a>
 </div>
 <div>&nbsp;</div><?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists!!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Added Successfully!!</p><?php }?>
@@ -566,8 +566,8 @@ while($fetch=fetcharray($result))
 <td align="center" style="padding:2px;"><?=$fetch['percentage']?> %</td>
 <td align="center" style="padding:2px;"><?=$fetch['business']?></td>
 <td align="center" style="padding:2px;">
-<a href="settings?inc=levelroiadd&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a>&nbsp;
-<a href="settings-level-roi-process?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete?')"><img src="images/delete.png" /></a></td>
+<a href="settings.php?inc=levelroiadd&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to edit?')"><img src="images/edit.png"></a>&nbsp;
+<a href="settings-level-roi-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete?')"><img src="images/delete.png" /></a></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="5" align="center" style="color:#FF0000;">No Record Found!</td></tr>
@@ -750,7 +750,7 @@ while($fetch=fetcharray($result))
 <td style="text-align:center; "><?=$fetch['minimum']?></td>
 <td style="text-align:center; "><?=$fetch['charge']?> %</td>
 <td align="center" style="padding:2px;">
-<a href="settings?inc=withedit&id=<?=$fetch['id']?>"><img src="images/edit.png"></a>&nbsp;
+<a href="settings.php?inc=withedit&id=<?=$fetch['id']?>"><img src="images/edit.png"></a>&nbsp;
 </td>
 </tr>
 <?php $i++;}}else{?>

@@ -60,11 +60,11 @@ while($fetch=fetcharray($result))
 <td align="center"><?=$fetch['subject']?></td>
 <td align="center"><?=$fetch['message']?></td>
 
-<td align="center"><?php if($fetch['status']=='P'){?><a href="support-process?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Pending</span></a><?php }else{?><a href="support-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Complete</span></a><?php }?></td>
+<td align="center"><?php if($fetch['status']=='P'){?><a href="support-process.phph?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Pending</span></a><?php }else{?><a href="support-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Complete</span></a><?php }?></td>
 <td align="center"><?=$fetch['datetime']?></td>
 <td align="center">
 <?php if($fetch['status']=='P'){?>
-<a href="support-process?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" onClick="return confirm('Are you sure want to delete this record?');"><img src="images/delete.png" height="22"></a>
+<a href="support-process.php?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" onClick="return confirm('Are you sure want to delete this record?');"><img src="images/delete.png" height="22"></a>
 <?php } ?></td>
 </tr>
 <?php $i++;}}else{?>

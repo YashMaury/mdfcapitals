@@ -25,9 +25,9 @@
 </g></svg></a>
 </div>
 <div class="responsive-logo">
-<a href="dashboard" class="header-logo">
+<a href="dashboard.php" class="header-logo">
 <img src="../user/fav.png" class="logo-11" /></a>
-<a href="dashboard" class="header-logo">
+<a href="dashboard.php" class="header-logo">
 <img src="../user/fav.png" class="logo-1" /></a>
 </div>
 </div>
@@ -53,8 +53,8 @@
 <span></span>
 </div>
 
-<a class="dropdown-item" href="password"><i class="fas fa-sliders-h"></i>Change Password</a>
-<a class="dropdown-item" href="logout" onclick="return confirm('Are you sure want to logout now?');"><i class="fas fa-sign-out-alt"></i>Sign Out</a>
+<a class="dropdown-item" href="password.php"><i class="fas fa-sliders-h"></i>Change Password</a>
+<a class="dropdown-item" href="logout.php" onclick="return confirm('Are you sure want to logout now?');"><i class="fas fa-sign-out-alt"></i>Sign Out</a>
 </div>
 </div>
 </div>

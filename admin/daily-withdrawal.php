@@ -86,9 +86,9 @@ while($fetch=fetcharray($result))
 <th align="center" class="tborder"><?=$fetch['ifscode']?></th>
 <th align="center" class="tborder"><?=$fetch['bitcoin']?></th>
 <th align="center" class="tborder"><?=$fetch['upi']?></th>
-<th align="center" class="tborder"><?php if($fetch['status']=='P'){?><a href="daily-withdrawal-process?case=status&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" onClick="return confirm('Are you sure want to active this status?');" style="text-decoration:none;"><span style="color:#FF0000;">Pending</span></a><?php } ?></th>
+<th align="center" class="tborder"><?php if($fetch['status']=='P'){?><a href="daily-withdrawal-process.php?case=status&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" onClick="return confirm('Are you sure want to active this status?');" style="text-decoration:none;"><span style="color:#FF0000;">Pending</span></a><?php } ?></th>
 <th align="center" class="tborder"><?=$fetch['date']?></th>
-<th ><a href="daily-withdrawal-process?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to delete?');"><img src="images/delete.png" title="Delete" /></a></th>
+<th ><a href="daily-withdrawal-process.php?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to delete?');"><img src="images/delete.png" title="Delete" /></a></th>
 </tr>
 <?php $i++;}}else{?>
 <tr height="15"><th align="center" colspan="17" style="color:#FF0000;"><div class="norecord">No Record Found!</div></th></tr>
