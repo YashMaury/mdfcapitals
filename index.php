@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Connecting individuals and communities together in the metaverse, enabling the creation and exploration of virtual worlds from any device.">
     <!-- Fav Icon -->
-    <link rel="shortcut icon" href="sales.png">
+    <link rel="shortcut icon" href="assets/favicon.jpeg">
     <!-- Site Title  -->
     <title> Meta Dream Force | Metaverse & Gaming Platform.</title>
     <!-- Vendor Bundle CSS -->
@@ -93,8 +93,8 @@
         <!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
             <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index">
-                <img class="logo logo-dark" alt="logo" src="cclogo.png">
-                <img class="logo logo-light" alt="logo" src="cclogo.png">
+                <img class="logo logo-dark" alt="logo" src="assets/fav.jpeg">
+                <img class="logo logo-light" alt="logo" src="assets/fav.jpeg">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
                 <span class="navbar-toggler-icon"><span class="ti ti-align-justify"></span></span>
@@ -142,7 +142,7 @@
                         <div class="col-sm-7 col-lg-7">
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated mb-4" data-animate="fadeInUp" data-delay="1.25">
-                                    Web3 <span class="theme-color">Blockchain Infrastructure</span> for Gaming, NFT Marketplace & Entertainment
+                                    <span class="theme-color">Meta Dream Force</span> for Gaming, NFT Marketplace & Entertainment
                                 </h1>
                                 <div class=" size-1x d-none d-md-block"></div>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">

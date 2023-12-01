@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                     $message = "Dear " . trim($_POST['name']) . " ,<br/> Welcome To " . $title . ". <br /><br/>User ID: " . $userid . "<br /> Password: " . trim($_POST['password']) . " <br /><br />Visit us " . $domain . " to login into your account. <br /><br/>Thanks <br/>" . $title;
 
-                    //mail($to,$subject,$message,$headers);
+                    mail($to,$subject,$message,$headers);
                 }
             }
 

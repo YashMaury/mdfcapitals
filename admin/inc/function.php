@@ -11,6 +11,7 @@ $welcome='welcome@mdfcapitals.com';
 $support='support@mdfcapitals.com';
 $recovery='recovery@mdfcapitals.com';
 $prefix='CC';
+$currency = '&#36;';
 
 function redirect($url)
 {
