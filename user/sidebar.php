@@ -183,6 +183,8 @@
             <ul id="app_dr" class="collapse collapse-level-1">
                 <li><a href="det.php?p=rl">Referral Link</a></li>
                 <li><a href="det.php?p=md">My Direct Team</a></li>
+                <!-- Glintel::Need to validate -->
+                <!-- placement is not working hard coded ID is fix -->
                 <li><a href="det.php?p=t">My Team</a></li>
             </ul>
         </li>

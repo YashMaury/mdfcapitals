@@ -180,7 +180,7 @@ include('calculate-roi-release.php');
                 $("body").append($temp);
                 $temp.val($url).select();
                 document.execCommand("copy");
-                //$("#lblCopyLink").text($temp[0].value);
+                $("#lblCopyLink").text($temp[0].value);
                 alert("link copied");
                 $temp.remove();
             });

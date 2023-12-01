@@ -1,11 +1,12 @@
 <?php
 error_reporting(0);
 /*-----------------Database Connection-----------------------*/
-$conn=mysqli_connect('localhost','root','root','mdfcapit_database');
+$conn=mysqli_connect('localhost','root','root','mdfcapitals');
+//echo $conn;
 date_default_timezone_set('Asia/Calcutta');
 /*-----------------Database Connection-----------------------*/
-$title='websiteswalla';
-$domain=$_SERVER['SERVER_NAME'];
+// $title='websiteswalla';
+ $domain=$_SERVER['SERVER_NAME'];
 $welcome='welcome@mdfcapitals.com';
 $support='support@mdfcapitals.com';
 $recovery='recovery@mdfcapitals.com';

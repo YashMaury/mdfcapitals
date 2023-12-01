@@ -1,3 +1,6 @@
+<!-- //use of left veriable// -->
+<?php $left=4111; ?>
+
 <div class="jumps-prevent" style="padding-top: 0px;"></div>
 
 

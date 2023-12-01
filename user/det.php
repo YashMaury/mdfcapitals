@@ -1,5 +1,6 @@
 <?php
 session_start();
+$placement;
 include('../admin/inc/function.php');
 if(!isset($_SESSION['mid']))
 {
@@ -7514,11 +7515,12 @@ while($fetch=fetcharray($result))
 </thead>
 <tbody>
 <?php
+
 if($_REQUEST['placement'])
 {
-$sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$_REQUEST['placement']."' AND `status`='A'";
+echo $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$_REQUEST['placement']."' AND `status`='A'";
 }else{
-$sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='A'";
+echo $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='A'";
 }
 $res=query($conn,$sql);
 $num=numrows($res);
@@ -7562,9 +7564,10 @@ if($count>0)
 <?php
 $i=0;
 $arr1=array();
+
 for($k=0;$k<$count;$k++)
 {
-$sql1="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$arr[$k]."' AND `status`='A'";
+echo $sql1="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$arr[$k]."' AND `status`='A'";
 $res1=query($conn,$sql1);
 $num1=numrows($res1);
 if($num1>0)
