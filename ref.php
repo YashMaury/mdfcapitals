@@ -7,7 +7,7 @@ include('admin/inc/function.php');
 
 <head>
     <title>
-        Zinat Token | SignUp
+        Meta Dream Force | SignUp
     </title>
     <meta charset="utf-8" />
     <meta name="author" content="cryptoscience.world" />
