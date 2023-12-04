@@ -104,8 +104,9 @@
             </a>
             <ul id="LIQUIDITY" class="collapse collapse-level-1 two-col-list">
                 <li><a href="invest.php">New Invest</a></li>
-                <li><a href="upload-receipt.php">Upload Receipt</a></li>
                 <li><a href="my-invest.php">My Invest</a></li>
+                <li><a href="receipt.php">Receipt</a></li>
+                <li><a href="upload-receipt.php">Upload Receipt</a></li>
 
 
             </ul>

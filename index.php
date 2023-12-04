@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="author" content="CoaxCoin.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Connecting individuals and communities together in the metaverse, enabling the creation and exploration of virtual worlds from any device.">
+    <meta name="description"
+        content="Connecting individuals and communities together in the metaverse, enabling the creation and exploration of virtual worlds from any device.">
     <!-- Fav Icon -->
     <link rel="shortcut icon" href="assets/favicon.jpeg">
     <!-- Site Title  -->
@@ -15,9 +16,24 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/style8bfc.css?ver=1420">
     <link rel="stylesheet" href="assets/css/theme-orange8bfc.css?ver=1420" id="layoutstyle">
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <style>
+        .qr-style {
+            z-index: 5;
+            position: absolute;
+            -webkit-transform: translate(-47%, -50%);
+            -moz-transform: translate(-47%, -50%);
+            -o-transform: translate(-47%, -50%);
+            -ms-transform: translate(-47%, -50%);
+            transform: translate(-47%, -50%);
+            left: 49%;
+            scale: 0.85;
+            top: 50% !important;
+            margin-top: -30px;
+        }
 
 
         @media only screen and (max-width: 600px) {
@@ -85,6 +101,7 @@
 
 
 </head>
+
 <body class="theme-dark io-zinnia" data-spy="scroll" data-target="#mainnav" data-offset="80">
     <!-- Header -->
     <header class="site-header is-sticky">
@@ -92,7 +109,7 @@
         <div id="particles-js" class="particles-container particles-js"></div>
         <!-- Navbar -->
         <div class="navbar navbar-full navbar-expand-lg is-transparent" id="mainnav">
-            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index">
+            <a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="index.php">
                 <img class="logo logo-dark" alt="logo" src="assets/fav.jpeg">
                 <img class="logo logo-light" alt="logo" src="assets/fav.jpeg">
             </a>
@@ -102,7 +119,8 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
                 <ul class="navbar-nav animated remove-animation" data-animate="fadeInDown" data-delay=".75">
 
-                    <li class="nav-item"><a class="nav-link menu-link" href="#why">About<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link menu-link" href="#why">About<span
+                                class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#benifits">Benifits</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#tokenAlocate">Token Sale</a></li>
                     <!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li> -->
@@ -142,37 +160,43 @@
                         <div class="col-sm-7 col-lg-7">
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated mb-4" data-animate="fadeInUp" data-delay="1.25">
-                                    <span class="theme-color">Meta Dream Force</span> for Gaming, NFT Marketplace & Entertainment
+                                    <span class="theme-color">Meta Dream Force</span> for Gaming, NFT Marketplace &
+                                    Entertainment
                                 </h1>
                                 <div class=" size-1x d-none d-md-block"></div>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">
-                                    Powered by the MDF CAPITALS Blockchain, The People’s Network represents a paradigm shift for decentralized wireless infrastructure.
+                                    Powered by the MDF CAPITALS Blockchain, The People’s Network represents a paradigm
+                                    shift for decentralized wireless infrastructure.
                                 </p>
                                 <div class=" size-1x d-none d-md-block"></div>
                                 <ul class="btns animated" data-animate="fadeInUp" data-delay="1.45">
-                                    <li><a href="log.php" class="btn btn-icon-s3">Login Now<i class="fas fa-angle-double-right"></i></a></li>
-                                    <li><a href="ref.php" class="btn btn-icon-s3">Register<i class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="log.php" class="btn btn-icon-s3">Login Now<i
+                                                class="fas fa-angle-double-right"></i></a></li>
+                                    <li><a href="ref.php" class="btn btn-icon-s3">Register<i
+                                                class="fas fa-angle-double-right"></i></a></li>
 
                                 </ul>
 
                                 <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">
                                     Smart Contract Address
                                 </p>
-                               <div class=" size-1x d-none d-md-block"></div>
+                                <div class=" size-1x d-none d-md-block"></div>
 
-                                <!--<input type="text" class="btn btn-icon-s3" value="0xa4501550eA11c4236A5F8f8497d6069449C38f9e" id="myInput">
-                                <button onclick="myFunction()" class="copy-btn"></button>-->
-
-
-                                <span id="copyText1" class="btn btn-icon-s3">0xa4501550eA11c4236A5F8f8497d6069449C38f9e</span>
-                                <button type="button" class="copy-btn" onclick="withJquery();"><i class="fa fa-copy"></i></button>
+                                <span id="copyText1" class="btn btn-icon-s3">TJSmo93WLp4HsWGq47iwUVPXzJ3EtWBCfb</span>
+                                <button type="button" class="copy-btn" onclick="withJquery();"><i
+                                        class="fa fa-copy"></i></button>
 
 
                             </div>
                         </div>
 
                         <div class="col-lg-5 coinbox">
-                            <div class="animated" data-animate="fadeInUp" data-delay=".5"><img src="Asset 2.png" class="glass botal floating-glass-1 center-block coin " alt="graph"></div>
+
+                            <!-- <div class="animated" data-animate="fadeInUp" data-delay=".5"><img src="Asset 2.png" class="glass botal floating-glass-1 center-block coin " alt="graph"></div> -->
+                            <div class="animated" data-animate="fadeInUp" data-delay=".5">
+                                <img src="assets/qr_code.jpeg" class="glass botal qr-style center-block coin "
+                                    alt="graph">
+                            </div>
                         </div>
                         <!-- .col  -->
                     </div>
@@ -201,22 +225,28 @@
                             <div class="partner-list">
                                 <div class="row text-center">
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partner-xs-light-d.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".2">
+                                            <img src="images/partner-xs-light-d.png" alt="partner"></div>
                                     </div>
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".3"><img src="images/partner-xs-light-a.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".3">
+                                            <img src="images/partner-xs-light-a.png" alt="partner"></div>
                                     </div>
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".4"><img src="images/partner-xs-light-e.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".4">
+                                            <img src="images/partner-xs-light-e.png" alt="partner"></div>
                                     </div>
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".5"><img src="images/partner-xs-light-b.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".5">
+                                            <img src="images/partner-xs-light-b.png" alt="partner"></div>
                                     </div>
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".6"><img src="images/partner-xs-light-f.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".6">
+                                            <img src="images/partner-xs-light-f.png" alt="partner"></div>
                                     </div>
                                     <div class="col-sm col-6">
-                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".7"><img src="images/partner-xs-light-c.png" alt="partner"></div>
+                                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".7">
+                                            <img src="images/partner-xs-light-c.png" alt="partner"></div>
                                     </div>
                                 </div>
 
@@ -240,13 +270,22 @@
                 <div class="col-md-10">
                     <div class="section-head-s7">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">About ICO</h2>
-                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2">MDF CAPITALS is an open source all in one bitcoin and crypto community platform designed to provide multiple investment opportunities with cryptocurrency education where it is entirely possible to find the independence we all desire, in a community of like-minded, freedom loving individuals who, like you, are seeking the possibility of income stability in a very unstable world and Developing Blockchainlite App With Extra Feature and Online Support and Developing Strong Exchange With World's Best Support. </p>
+                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2">MDF CAPITALS is an open source
+                            all in one bitcoin and crypto community platform designed to provide multiple investment
+                            opportunities with cryptocurrency education where it is entirely possible to find the
+                            independence we all desire, in a community of like-minded, freedom loving individuals who,
+                            like you, are seeking the possibility of income stability in a very unstable world and
+                            Developing Blockchainlite App With Extra Feature and Online Support and Developing Strong
+                            Exchange With World's Best Support. </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-md-8">
-                    <div class="video-box-s3 animated" data-animate="fadeInUp" data-delay=".3"><img src="images/zinnia/video-cover.png" alt="cover"><a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="play-btn-s3 video-play"><img src="images/zinnia/play-icon.png" alt="icon"></a></div>
+                    <div class="video-box-s3 animated" data-animate="fadeInUp" data-delay=".3"><img
+                            src="images/zinnia/video-cover.png" alt="cover"><a
+                            href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="play-btn-s3 video-play"><img
+                                src="images/zinnia/play-icon.png" alt="icon"></a></div>
                 </div>
             </div>
         </div>
@@ -262,9 +301,17 @@
                 <div class="col-lg-6 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
                         <h2 class="animated" data-animate="fadeInUp" data-delay=".1">About MDF CAPITALS</h2>
-                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>MDF CAPITALS  is a platform for the future of funding that powering for the new equity blockchain.</strong></p>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3">The term MDF CAPITALS refers to a special virtual currency token or how cryptocurrencies are denominated. These tokens represent fungible and tradable assets or utilities that reside on their own blockchains. MDF CAPITALS are often used to fundraise for crowd sales, but they can also serve as a substitute for other things.  </p>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".4"> These tokens are usually created, distributed, sold, and circulated through the standard initial coin offering (ICO) process, which involves a crowdfunding exercise to fund project development.</p>
+                        <p class="lead animated" data-animate="fadeInUp" data-delay=".2"><strong>MDF CAPITALS is a
+                                platform for the future of funding that powering for the new equity blockchain.</strong>
+                        </p>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">The term MDF CAPITALS refers to a
+                            special virtual currency token or how cryptocurrencies are denominated. These tokens
+                            represent fungible and tradable assets or utilities that reside on their own blockchains.
+                            MDF CAPITALS are often used to fundraise for crowd sales, but they can also serve as a
+                            substitute for other things. </p>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".4"> These tokens are usually created,
+                            distributed, sold, and circulated through the standard initial coin offering (ICO) process,
+                            which involves a crowdfunding exercise to fund project development.</p>
                     </div>
                 </div>
 
@@ -279,8 +326,11 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-6 col-sm-8">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Metaverse Technology & Gaming</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">The platform's infrastructure should enable interaction, be interoperable, immersive, able to manage identity and support the creator economy.</p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Metaverse
+                            Technology & Gaming</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">The platform's infrastructure should
+                            enable interaction, be interoperable, immersive, able to manage identity and support the
+                            creator economy.</p>
                     </div>
                 </div>
             </div>
@@ -292,7 +342,10 @@
                                 <h2 class="prblm-title">Metaverse</h2>
                                 <h5 class="prblm-subtitle">Metaverse Technology</h5>
                                 <ul class="prblm-points">
-                                    <li>The metaverse is a vision of what many in the computer industry believe is the next iteration of the internet: a single, shared, immersive, persistent, 3D virtual space where humans experience life in ways they could not in the physical world.</li>
+                                    <li>The metaverse is a vision of what many in the computer industry believe is the
+                                        next iteration of the internet: a single, shared, immersive, persistent, 3D
+                                        virtual space where humans experience life in ways they could not in the
+                                        physical world.</li>
                                     <!--<li>Long-awaited transfers, slow transactions processing.</li>
                                     <li>Traditional banks are fenced by country boundaries.</li>-->
                                 </ul>
@@ -303,7 +356,11 @@
                                 <h2 class="sltn-title">Metaverse</h2>
                                 <h5 class="sltn-subtitle">Metaverse Gaming</h5>
                                 <ul class="sltn-points">
-                                    <li>The universe Metaverse makes it a leading technology for the gaming industry to tap into. Although gaming involves immersive gameplay, just by looking at a flat, high, resolution screen, imagine what an entire universe adapted to your Reality could do to your experience in having an immersive and as close to Reality as possible during gameplay.</li>
+                                    <li>The universe Metaverse makes it a leading technology for the gaming industry to
+                                        tap into. Although gaming involves immersive gameplay, just by looking at a
+                                        flat, high, resolution screen, imagine what an entire universe adapted to your
+                                        Reality could do to your experience in having an immersive and as close to
+                                        Reality as possible during gameplay.</li>
                                     <!--<li>The decentralized platform can process more than 100,000 transactions per second.</li>
                                     <li>Сryptocurrencies do not depend on county boundaries.</li>-->
                                 </ul>
@@ -321,18 +378,25 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 order-last coinbox">
-                    <div class="animated" data-animate="fadeInUp" data-delay=".5"> <img src="images/CARD.png" class="" alt="graph"></div>
+                    <div class="animated" data-animate="fadeInUp" data-delay=".5"> <img src="images/CARD.png" class=""
+                            alt="graph"></div>
                 </div>
                 <div class="col-lg-7 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
-                        <h2 class="animated" data-animate="fadeInUp" data-delay=".1">What Is Metaverse & What we do?</h2>
+                        <h2 class="animated" data-animate="fadeInUp" data-delay=".1">What Is Metaverse & What we do?
+                        </h2>
 
                         <p class="animated" data-animate="fadeInUp" data-delay=".3">
-                            We are moving into a surreal age of the digital world. Technologies like artificial intelligence and augmented reality have taken the world by storm.
+                            We are moving into a surreal age of the digital world. Technologies like artificial
+                            intelligence and augmented reality have taken the world by storm.
 
                         </p>
                         <p class="animated" data-animate="fadeInUp" data-delay=".4">
-                            Metaverse is a world, which doesn’t exist, but you see and experience it anyway because it is all virtual. If you are having difficulty understanding this piece of information, recall fiction flicks like Matrix and Ready Player One. Remember How in The Matrix, as soon as they would get plugged in, they plunged into entirely different worlds, which functioned in ways unknown to the realities of the world we live in.
+                            Metaverse is a world, which doesn’t exist, but you see and experience it anyway because it
+                            is all virtual. If you are having difficulty understanding this piece of information, recall
+                            fiction flicks like Matrix and Ready Player One. Remember How in The Matrix, as soon as they
+                            would get plugged in, they plunged into entirely different worlds, which functioned in ways
+                            unknown to the realities of the world we live in.
                         </p>
                     </div>
                 </div>
@@ -346,7 +410,8 @@
             <div class="row justify-content-center text-center">
                 <div class="col-md-6">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Token Allocation Forecast</h2>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Token Allocation
+                            Forecast</h2>
                     </div>
                 </div>
             </div>
@@ -361,9 +426,12 @@
                         <div class="tkn-crt">
                             <div class="tkn-crt-img"><img src="images/zinnia/chart-zinnia-b.png" alt="chart"></div>
                             <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>90%</span></span><span class="tkn-crt-ttl">Reserve for exchange & blockchain on 2025</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>1%</span></span><span class="tkn-crt-ttl">FOUNDER AND MANAGEMENT TEAM OF PUBLIC SALE</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span
+                                        class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>90%</span></span><span
+                                        class="tkn-crt-ttl">Reserve for exchange & blockchain on 2025</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>1%</span></span><span
+                                        class="tkn-crt-ttl">FOUNDER AND MANAGEMENT TEAM OF PUBLIC SALE</span></li>
                                 <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>15%</span></span><span class="tkn-crt-ttl">Founder & Community</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>35%</span></span><span class="tkn-crt-ttl">Reserve & Exchange</span></li>-->
                                 <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>8%</span></span><span class="tkn-crt-ttl">Operational</span></li>
@@ -376,9 +444,12 @@
                         <div class="tkn-crt">
                             <div class="tkn-crt-img"><img src="Asset 2.png" alt="chart"></div>
                             <ul class="tkn-crt-lst">
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>90%</span></span><span class="tkn-crt-ttl">Reserve for exchange & blockchain on 2025</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>1%</span></span><span class="tkn-crt-ttl">FOUNDER AND MANAGEMENT TEAM OF PUBLIC SALE</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span
+                                        class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt two"><span>90%</span></span><span
+                                        class="tkn-crt-ttl">Reserve for exchange & blockchain on 2025</span></li>
+                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>1%</span></span><span
+                                        class="tkn-crt-ttl">FOUNDER AND MANAGEMENT TEAM OF PUBLIC SALE</span></li>
                                 <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>15%</span></span><span class="tkn-crt-ttl">Founder & Community</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>35%</span></span><span class="tkn-crt-ttl">Reserve & Exchange</span></li>-->
                                 <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>8%</span></span><span class="tkn-crt-ttl">Operational</span></li>
@@ -405,21 +476,32 @@ padding-bottom: 60px;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-7 coinbox">
-                    <div class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5" style="visibility: visible; animation-delay: 0.5s;"> <img src="images/portfolio.png" class="" alt="graph"></div>
+                    <div class="animated fadeInUp" data-animate="fadeInUp" data-delay=".5"
+                        style="visibility: visible; animation-delay: 0.5s;"> <img src="images/portfolio.png" class=""
+                            alt="graph"></div>
                 </div>
                 <div class="col-lg-5 text-center text-lg-left res-m-bttm">
                     <div class="text-block">
-                        <h2 class="animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="visibility: visible; animation-delay: 0.1s;">
+                        <h2 class="animated fadeInUp" data-animate="fadeInUp" data-delay=".1"
+                            style="visibility: visible; animation-delay: 0.1s;">
                             What is the NFT Marketplace?
                         </h2>
 
-                        <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".3" style="visibility: visible; animation-delay: 0.3s;">
-                            The non-fungible tokens or NFT function as a public blockchain platform. This platform is currently gaining traction and driving major businesses to construct a marketplace despite being in its early stages. The NFT marketplace is a platform that makes it simple to sell and store NFTs. 
+                        <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".3"
+                            style="visibility: visible; animation-delay: 0.3s;">
+                            The non-fungible tokens or NFT function as a public blockchain platform. This platform is
+                            currently gaining traction and driving major businesses to construct a marketplace despite
+                            being in its early stages. The NFT marketplace is a platform that makes it simple to sell
+                            and store NFTs. 
 
 
                         </p>
-                        <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4" style="visibility: visible; animation-delay: 0.4s;">
-                            The tokens are available for auction and purchase at a set price. For utilizing the NFT marketplace, you will need crypto wallets to store and trade the NFT tokens.  A metaverse app development company like ours can create an NFT marketplace for you that is reliable, secured, and user-friendly. 
+                        <p class="animated fadeInUp" data-animate="fadeInUp" data-delay=".4"
+                            style="visibility: visible; animation-delay: 0.4s;">
+                            The tokens are available for auction and purchase at a set price. For utilizing the NFT
+                            marketplace, you will need crypto wallets to store and trade the NFT tokens. A metaverse app
+                            development company like ours can create an NFT marketplace for you that is reliable,
+                            secured, and user-friendly. 
                         </p>
                     </div>
                 </div>
@@ -430,29 +512,38 @@ padding-bottom: 60px;">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-5 res-m-bttm">
-                    <a href="images/MDF CAPITALS-whitepaper.pdf" download><div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img src="images/zinnia/documents-cover.png" alt="documents"></div></a>
+                    <a href="images/MDF CAPITALS-whitepaper.pdf" download>
+                        <div class="document-img-s3 animated" data-animate="fadeInUp" data-delay=".1"><img
+                                src="images/zinnia/documents-cover.png" alt="documents"></div>
+                    </a>
                 </div>
                 <!-- .col -->
                 <div class="col-lg-7 text-center text-lg-left">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".2">Read Our Documents</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Here is our full documents that help you to understand about us. And  lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".2">Read Our Documents
+                        </h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".3">Here is our full documents that help
+                            you to understand about us. And lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <ul class="document-list">
                         <li class="animated" data-animate="fadeInUp" data-delay=".4">
-                            <a href="images/MDF CAPITALS-whitepaper.pdf" target="_blank" class="btn btn-outline ">White Paper </a>
+                            <a href="images/MDF CAPITALS-whitepaper.pdf" target="_blank" class="btn btn-outline ">White
+                                Paper </a>
 
                         </li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5">
-                            <a href="#" class="btn btn-outline btn-dropdown" data-toggle="dropdown">One Pager <i class="fas fa-caret-down"></i></a>
+                            <a href="#" class="btn btn-outline btn-dropdown" data-toggle="dropdown">One Pager <i
+                                    class="fas fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li><a href="#">English</a></li>
                                 <li><a href="#">Dutch</a></li>
                                 <li><a href="#">France</a></li>
                             </ul>
                         </li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#" class="btn btn-outline">Privacy &amp; Policy</a></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#" class="btn btn-outline">Terms of Coin Sale</a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="#"
+                                class="btn btn-outline">Privacy &amp; Policy</a></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".7"><a href="#"
+                                class="btn btn-outline">Terms of Coin Sale</a></li>
                     </ul>
                 </div>
                 <!-- .col -->
@@ -468,8 +559,12 @@ padding-bottom: 60px;">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-6 col-sm-8">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Metaverse ECOSYSTEM</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">In 2021 we witnessed how the metaverse began appearing on the headlines in Forbes, The Washington Post, The Economist, and other major publishers. At the same time, tech giants worldwide began proclaiming metaverse as part of their new strategy. </p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Metaverse
+                            ECOSYSTEM</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">In 2021 we witnessed how the
+                            metaverse began appearing on the headlines in Forbes, The Washington Post, The Economist,
+                            and other major publishers. At the same time, tech giants worldwide began proclaiming
+                            metaverse as part of their new strategy. </p>
                     </div>
                 </div>
             </div>
@@ -480,7 +575,8 @@ padding-bottom: 60px;">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".4">
                                 <div class="service-icon mx-auto mx-lg-0"><img src="Asset 2.png" alt="icon"></div>
                                 <h5 class="service-title">Payment Options</h5>
-                                <p>Most popular methods- Visa, MasterCard, bank transfer (SWIFT, SEPA), Cryptocurrency</p>
+                                <p>Most popular methods- Visa, MasterCard, bank transfer (SWIFT, SEPA), Cryptocurrency
+                                </p>
                             </div>
                         </div>
                         <!-- .col -->
@@ -488,7 +584,8 @@ padding-bottom: 60px;">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".5">
                                 <div class="service-icon mx-auto mx-lg-0"><img src="Asset 2.png" alt="icon"></div>
                                 <h5 class="service-title">Strong Security</h5>
-                                <p>Protection against DDoS attacks, full data encryption, compliant with PCI DSS standards</p>
+                                <p>Protection against DDoS attacks, full data encryption, compliant with PCI DSS
+                                    standards</p>
                             </div>
                         </div>
                         <!-- .col -->
@@ -504,7 +601,8 @@ padding-bottom: 60px;">
                             <div class="service-item animated" data-animate="fadeInUp" data-delay=".7">
                                 <div class="service-icon mx-auto mx-lg-0"><img src="Asset 2.png" alt="icon"></div>
                                 <h5 class="service-title">High Liquidity</h5>
-                                <p>Fast order execution, low spread, access to high liquidity orderbook for top currency pairs</p>
+                                <p>Fast order execution, low spread, access to high liquidity orderbook for top currency
+                                    pairs</p>
                             </div>
                         </div>
                         <!-- .col -->
@@ -512,12 +610,15 @@ padding-bottom: 60px;">
                     <!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
                         <li><a href="#" class="btn btn-sm">Download Now</a></li>
-                        <li><a href="#"><em class="fab fa-apple"></em></a><a href="#"><em class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a></li>
+                        <li><a href="#"><em class="fab fa-apple"></em></a><a href="#"><em
+                                    class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a>
+                        </li>
                     </ul>
                 </div>
                 <!-- .col -->
                 <div class="col-lg-5 order-first order-lg-last res-m-bttm">
-                    <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img src="images/wallet.png" alt="app-screen"></div>
+                    <div class="service-img animated" data-animate="fadeInUp" data-delay=".3"><img
+                            src="images/wallet.png" alt="app-screen"></div>
                 </div>
                 <!-- .col -->
             </div>
@@ -526,7 +627,7 @@ padding-bottom: 60px;">
         <!-- .container -->
     </div>
     <!-- End Section --><!-- Start Section -->
-   
+
     <!-- End Section --><!-- Start Section -->
     <div class="section section-pad section-bg" id="team" style="display:none;">
         <div class="ui-shape ui-shape-s5"></div>
@@ -534,15 +635,19 @@ padding-bottom: 60px;">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-6 col-lg-8">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Executive team</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">The ICO Crypto Team combines a passion for esports, industry experise &amp; proven record in finance, development, marketing & licensing.</p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Executive team
+                        </h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">The ICO Crypto Team combines a
+                            passion for esports, industry experise &amp; proven record in finance, development,
+                            marketing & licensing.</p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-sm-6 col-lg-3">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".3">
-                        <div class="team-photo"><img src="images/team-a-sq.jpg" alt="" /><a href="#team-profile-1" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-a-sq.jpg" alt="" /><a href="#team-profile-1"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Waylon Dalton</h5>
                             <span class="team-title">CEO &amp; Lead Blockchain </span>
@@ -612,7 +717,8 @@ padding-bottom: 60px;">
                 <!-- .col  -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".4">
-                        <div class="team-photo"><img src="images/team-b-sq.jpg" alt="team"><a href="#team-profile-2" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-b-sq.jpg" alt="team"><a href="#team-profile-2"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Stefan Harary</h5>
                             <span class="team-title">CTO &amp; Senior Developer</span>
@@ -682,7 +788,8 @@ padding-bottom: 60px;">
                 <!-- .col  -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".5">
-                        <div class="team-photo"><img src="images/team-c-sq.jpg" alt="team"><a href="#team-profile-3" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-c-sq.jpg" alt="team"><a href="#team-profile-3"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Moises Teare</h5>
                             <span class="team-title">Blochain App Developer</span>
@@ -752,7 +859,8 @@ padding-bottom: 60px;">
                 <!-- .col  -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".6">
-                        <div class="team-photo"><img src="images/team-d-sq.jpg" alt="team"><a href="#team-profile-4" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-d-sq.jpg" alt="team"><a href="#team-profile-4"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Gabriel Bernal</h5>
                             <span class="team-title">Community Management</span>
@@ -832,7 +940,8 @@ padding-bottom: 60px;">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".8">
-                        <div class="team-photo"><img src="images/team-e-sq.jpg" alt="team"><a href="#team-profile-5" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-e-sq.jpg" alt="team"><a href="#team-profile-5"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Dylan Finch</h5>
                             <span class="team-title">Board Advisor</span>
@@ -902,7 +1011,8 @@ padding-bottom: 60px;">
                 <!-- .col  -->
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay=".9">
-                        <div class="team-photo"><img src="images/team-f-sq.jpg" alt="team"><a href="#team-profile-6" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-f-sq.jpg" alt="team"><a href="#team-profile-6"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Julian Paten</h5>
                             <span class="team-title">Board Advisor</span>
@@ -972,7 +1082,8 @@ padding-bottom: 60px;">
                 <!-- .col  -->
                 <div class="col-lg-3 col-sm-6">
                     <div class="team-circle animated" data-animate="fadeInUp" data-delay="1">
-                        <div class="team-photo"><img src="images/team-g-sq.jpg" alt="team"><a href="#team-profile-7" class="expand-trigger content-popup"></a></div>
+                        <div class="team-photo"><img src="images/team-g-sq.jpg" alt="team"><a href="#team-profile-7"
+                                class="expand-trigger content-popup"></a></div>
                         <div class="team-info">
                             <h5 class="team-name">Jaxon Kilburn</h5>
                             <span class="team-title">Board Advisor</span>
@@ -1050,29 +1161,36 @@ padding-bottom: 60px;">
             <div class="row text-center">
                 <div class="col-md-6 offset-md-3">
                     <div class="section-head">
-                        <h3 class="section-title-md animated" data-animate="fadeInUp" data-delay=".1">Exchange is Listing</h3>
+                        <h3 class="section-title-md animated" data-animate="fadeInUp" data-delay=".1">Exchange is
+                            Listing</h3>
                     </div>
                 </div>
             </div>
             <div class="partner-list">
                 <div class="row text-center">
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partner-xs-light-d.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".2"><img
+                                src="images/partner-xs-light-d.png" alt="partner"></div>
                     </div>
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".3"><img src="images/partner-xs-light-a.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".3"><img
+                                src="images/partner-xs-light-a.png" alt="partner"></div>
                     </div>
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".4"><img src="images/partner-xs-light-e.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".4"><img
+                                src="images/partner-xs-light-e.png" alt="partner"></div>
                     </div>
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".5"><img src="images/partner-xs-light-b.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".5"><img
+                                src="images/partner-xs-light-b.png" alt="partner"></div>
                     </div>
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".6"><img src="images/partner-xs-light-f.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".6"><img
+                                src="images/partner-xs-light-f.png" alt="partner"></div>
                     </div>
                     <div class="col-sm col-6">
-                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".7"><img src="images/partner-xs-light-c.png" alt="partner"></div>
+                        <div class="single-partner animated" data-animate="fadeInUp" data-delay=".7"><img
+                                src="images/partner-xs-light-c.png" alt="partner"></div>
                     </div>
                 </div>
                 <!--<div class="row text-center">
@@ -1103,8 +1221,10 @@ padding-bottom: 60px;">
             <div class="row justify-content-center text-center">
                 <div class="col-md-7">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked questions</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Can't find an answer? Email us at support@CoaxCoin.com</p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked
+                            questions</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Can't find an answer? Email us at
+                            support@CoaxCoin.com</p>
                     </div>
                 </div>
             </div>
@@ -1123,41 +1243,67 @@ padding-bottom: 60px;">
                                 <div class="accordion-s2" id="accordion-1">
                                     <div class="card active">
                                         <div class="card-header">
-                                            <h5><a data-toggle="collapse" data-target="#collapse-1-1">MDF CAPITALS is the safety?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a data-toggle="collapse" data-target="#collapse-1-1">MDF CAPITALS is
+                                                    the safety?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-1" class="collapse show" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>MDF CAPITALS is the safety for digital assets. It is the trust without risks for all contractors, and the security guarantee for participators and traders achieved by a unique platform algorithm and decentralized distributed network technology. </p>
+                                                <p>MDF CAPITALS is the safety for digital assets. It is the trust
+                                                    without risks for all contractors, and the security guarantee for
+                                                    participators and traders achieved by a unique platform algorithm
+                                                    and decentralized distributed network technology. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-1-2">MDF CAPITALS is the freedom<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-1-2">MDF CAPITALS is the freedom<span
+                                                        class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-2" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>MDF CAPITALS is the freedom, the freedom to choose partners among platform users, from all over the world without the limitations of centralized systems.</p>
+                                                <p>MDF CAPITALS is the freedom, the freedom to choose partners among
+                                                    platform users, from all over the world without the limitations of
+                                                    centralized systems.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-1-3">MDF CAPITALS is the new business opportunity<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-1-3">MDF CAPITALS is the new business
+                                                    opportunity<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-3" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>MDF CAPITALS is the new business opportunity, the ability to participate and raise money for management. It is the financial freedom for everybody - regardless of their social status and seed capital.</p>
+                                                <p>MDF CAPITALS is the new business opportunity, the ability to
+                                                    participate and raise money for management. It is the financial
+                                                    freedom for everybody - regardless of their social status and seed
+                                                    capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-1-4">MDF CAPITALS is the spirit of courage<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-1-4">MDF CAPITALS is the spirit of
+                                                    courage<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
                                             <div class="card-body">
-                                                <p>MDF CAPITALS is the spirit of courage. We have combined the experience of all our team members gifted from life in five different countries. Each of us is well-established in our business, and is ready to dive in full force to launch a start-up, created for the sake of this noble idea. We are not another broker – because we have completely changed the system. How long have you been searching for an aspiring project like this that change the world for the better?</p>
+                                                <p>MDF CAPITALS is the spirit of courage. We have combined the
+                                                    experience of all our team members gifted from life in five
+                                                    different countries. Each of us is well-established in our business,
+                                                    and is ready to dive in full force to launch a start-up, created for
+                                                    the sake of this noble idea. We are not another broker – because we
+                                                    have completely changed the system. How long have you been searching
+                                                    for an aspiring project like this that change the world for the
+                                                    better?</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1168,41 +1314,60 @@ padding-bottom: 60px;">
                                 <div class="accordion-s2" id="accordion-2">
                                     <div class="card active">
                                         <div class="card-header">
-                                            <h5><a data-toggle="collapse" data-target="#collapse-2-1">Which of us ever undertakes laborious?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a data-toggle="collapse" data-target="#collapse-2-1">Which of us ever
+                                                    undertakes laborious?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-1" class="collapse show" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-2-2">Who do not know how to pursue rationally?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-2-2">Who do not know how to pursue
+                                                    rationally?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-2" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-2-4">Their separate existence is a myth?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-2-4">Their separate existence is a myth?<span
+                                                        class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-2-3">Pityful a rethoric question ran over her cheek?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-2-3">Pityful a rethoric question ran over her
+                                                    cheek?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-2-3" class="collapse" data-parent="#accordion-2">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1213,41 +1378,60 @@ padding-bottom: 60px;">
                                 <div class="accordion-s2" id="accordion-3">
                                     <div class="card active">
                                         <div class="card-header">
-                                            <h5><a data-toggle="collapse" data-target="#collapse-3-1">When she reached the first hills?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a data-toggle="collapse" data-target="#collapse-3-1">When she reached
+                                                    the first hills?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-3-1" class="collapse show" data-parent="#accordion-3">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-3-2">Big Oxmox advised her not to do?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-3-2">Big Oxmox advised her not to do?<span
+                                                        class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-3-2" class="collapse" data-parent="#accordion-3">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-3-3">Which roasted parts of sentences fly into your mouth?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-3-3">Which roasted parts of sentences fly
+                                                    into your mouth?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-3-3" class="collapse" data-parent="#accordion-3">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5><a class="collapsed" data-toggle="collapse" data-target="#collapse-3-4">Vokalia and Consonantia, there live?<span class="plus-minus"><span class="ti ti-angle-up"></span></span></a></h5>
+                                            <h5><a class="collapsed" data-toggle="collapse"
+                                                    data-target="#collapse-3-4">Vokalia and Consonantia, there
+                                                    live?<span class="plus-minus"><span
+                                                            class="ti ti-angle-up"></span></span></a></h5>
                                         </div>
                                         <div id="collapse-3-4" class="collapse" data-parent="#accordion-3">
                                             <div class="card-body">
-                                                <p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+                                                <p>ICO Crypto - is unique platform; that is secure, smart and
+                                                    easy-to-use platform, and completely disrupting the way businesses
+                                                    raise capital.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1272,8 +1456,10 @@ padding-bottom: 60px;">
             <div class="row text-center">
                 <div class="col">
                     <div class="section-head-s7">
-                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact Info MDF CAPITALS</h2>
-                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and we’ll get back to you shortly.</p>
+                        <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Contact Info MDF
+                            CAPITALS</h2>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2">Any question? Reach out to us and
+                            we’ll get back to you shortly.</p>
                     </div>
                 </div>
                 <!-- .col -->
@@ -1282,9 +1468,12 @@ padding-bottom: 60px;">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <ul class="contact-info">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em class="fab fa-whatsapp"></em><span>+1 (347) 901-3987</span></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><em class="fa fa-envelope"></em><span>Support@CoaxCoin.com</span></li>
-                        <li class="animated" data-animate="fadeInUp" data-delay=".5"><em class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
+                                class="fab fa-whatsapp"></em><span>+1 (347) 901-3987</span></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
+                                class="fa fa-envelope"></em><span>Support@CoaxCoin.com</span></li>
+                        <li class="animated" data-animate="fadeInUp" data-delay=".5"><em
+                                class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
                     </ul>
                 </div>
                 <!-- .col -->
@@ -1363,9 +1552,12 @@ padding-bottom: 60px;">
                     <div class="widget-item">
                         <h5 class="widget-title widget-title-ncap">NewsLetter</h5>
                         <div class="widget-subsctibe">
-                            <p>To learn more about trust management of digital assets, how to use MDF CAPITALS, and to meet the team!</p>
-                            <form id="subscribe-form" action="" method="post" class="subscription-form subscription-form-sm">
-                                <input type="text" name="youremail" class="input-round required email" placeholder="Enter mail">
+                            <p>To learn more about trust management of digital assets, how to use MDF CAPITALS, and to
+                                meet the team!</p>
+                            <form id="subscribe-form" action="" method="post"
+                                class="subscription-form subscription-form-sm">
+                                <input type="text" name="youremail" class="input-round required email"
+                                    placeholder="Enter mail">
                                 <input type="text" class="d-none" name="form-anti-honeypot" value="">
                                 <button type="submit" class="btn btn-plane"><i class="fas fa-paper-plane"></i></button>
                                 <div class="subscribe-results"></div>
@@ -1378,8 +1570,10 @@ padding-bottom: 60px;">
             <!-- .row -->
             <div class="footer-bottom">
                 <div class="row align-items-center">
-                    <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.php"><img class="logo logo-light" alt="logo" src="cclogo.png"></a></div>
-                    <div class="col-sm-6 text-sm-right"><span class="copyright-text"> &copy; CoaxCoin.com, 2023</span></div>
+                    <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.php"><img
+                                class="logo logo-light" alt="logo" src="cclogo.png"></a></div>
+                    <div class="col-sm-6 text-sm-right"><span class="copyright-text"> &copy; CoaxCoin.com, 2023</span>
+                    </div>
                 </div>
             </div>
         </div>

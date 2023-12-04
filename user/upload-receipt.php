@@ -1028,7 +1028,7 @@ $left = 2;
 
 <div class="row">
 <div class="col-md-1"></div>
-<div class="col-md-10">
+<div class="col-md-8">
 
 
 <div class="card">
@@ -1038,26 +1038,29 @@ $left = 2;
 
 <div class="card-body">
 
-<?php if ($_REQUEST['m'] == 1) { ?><div align="center" style="margin:0;padding:0;color:#00CC00; font-size:15px;"><strong>Receipt Uploaded successfully!</strong></div><?php } ?>
 <?php if ($_REQUEST['e'] == 1) { ?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>All fields are required!</strong></div><?php } ?>
 <?php if ($_REQUEST['e'] == 2) { ?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Failed to upload image. please try again!</strong></div><?php } ?>
 
 <div align="center">&nbsp;</div>
 <form class="form" action="upload-receipt-process.php" enctype="multipart/form-data" method="post">
-<div class="col-md-8">
+<div class="col-md-12">
 <!-- <h4 class="form-section" style="color:#00CC00;font-size:18px;" align="center">Wallet Balance:&nbsp;<?= getAvailableWallet($conn, getMember($conn, $_SESSION['mid'], 'userid')) ?></h4> -->
 <div class="form-group form-group-default">
 
 <div class="form-group">
-    <label for="userinput5"><span style="color:#CC0000;">Transaction Date *</span></label>
-    <input type="date" class="form-control input-pill" id="transaction_date" name="transaction_date" placeholder="Investment Receipt" required>
-</div>
-<div class="form-group">
     <label for="userinput5"><span style="color:#CC0000;">Transaction No. *</span></label>
-    <input type="text" class="form-control input-pill" id="transaction_id" name="transaction_id" placeholder="Investment Receipt" required>
+    <input type="text" class="form-control input-pill" id="transaction_id" name="transaction_id" placeholder="Transaction No." required>
 </div>
 <div class="form-group">
-    <label for="userinput5"><span style="color:#CC0000;">Investment Receipt *</span></label>
+    <label for="userinput5"><span style="color:#CC0000;">Transaction Amount. *</span></label>
+    <input type="text" class="form-control input-pill" id="amount" name="amount" placeholder="Transaction Amount" required>
+</div>
+<div class="form-group">
+    <label for="userinput5"><span style="color:#CC0000;">Transaction Date *</span></label>
+    <input type="date" class="form-control input-pill" id="transaction_date" name="transaction_date" placeholder="Transaction Date" required>
+</div>
+<div class="form-group">
+    <label for="userinput5"><span style="color:#CC0000;">Transaction Receipt *</span></label>
     <input type="file" class="form-control input-pill" id="receipt" name="receipt" placeholder="Investment Receipt" required>
 </div>
 </div>

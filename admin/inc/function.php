@@ -282,6 +282,19 @@ return $fetch[$field];
 
 //-------------26-07-2019-----------//
 
+function getReceipt($conn,$id,$field)
+{
+$sql="SELECT * FROM `imaksoft_investment_receipt` WHERE `user_id`='".$id."'";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+return $fetch[$field];
+}
+}
+
 function getMember($conn,$id,$field)
 {
 $sql="SELECT * FROM `imaksoft_member` WHERE `id`='".$id."'";
