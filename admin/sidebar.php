@@ -80,6 +80,8 @@
 </li>
 <li><a class="slide-item" href="deduct.php">Deduct</a>
 </li>
+<li><a class="slide-item" href="receipt.php">Receipt</a>
+</li>
 </ul>
 </li>
 
