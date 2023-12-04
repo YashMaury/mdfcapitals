@@ -1,5 +1,6 @@
 <?php
-    $conn = @mysqli_connect('localhost', 'mdfcapit_databas', 'Player@1187', 'mdfcapit_database');
+date_default_timezone_set('Asia/Kolkata');
+   $conn=mysqli_connect('localhost','root','root','mdfcapitals');
     
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
@@ -50,7 +51,7 @@
                     die("Update query failed: " . mysqli_error($conn));
                 }
                 
-                // Insert into imaksoft_commission_roi
+                // Insert into imaksoft_commission_roi //make it H
                 $sql = "INSERT INTO `imaksoft_commission_roi` 
                         (`userid`, `account`, `amount`, `percentage`, `bonus`, `status`, `date`) 
                         VALUES ('$user_id', '1', '$amount', '$commissionRate', '$commissionAmount', 'R', '$stdate1')";

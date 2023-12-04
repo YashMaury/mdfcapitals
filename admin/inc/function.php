@@ -336,6 +336,27 @@ return $fetch[$field];
 }
 }
 
+
+function getAllSponsorUserid($conn,$userid,$field)
+{
+    //echo $userid;
+  
+    $all_members=array();
+  $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor` IN ('$userid')";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+
+    while($fetch=fetcharray($res)){
+        array_push($all_members,$fetch["userid"]);
+}
+
+return $all_members;
+}
+}
+
+
 function getSettingsPackage($conn,$id,$field)
 {
 $sql="SELECT * FROM `imaksoft_settings_package` WHERE `id`='".$id."'";

@@ -11,7 +11,8 @@ $percentage=getSettingsLevelROI($conn,$level,'percentage');
 $bonus=($amount*$percentage)/100;
 if($bonus>0)
 {
-$sqla="INSERT INTO `imaksoft_commission_level_roi` (`userid`,`fromid`,`level`,`dailybonus`,`percentage`,`bonus`,`date`) VALUES('".$sponsor1."','".$userid."','".$level."','".$amount."','".$percentage."','".$bonus."','".date('Y-m-d')."')";
+$sqla="INSERT INTO `imaksoft_commission_level_roi` (`userid`,`fromid`,`level`,`dailybonus`,`percentage`,`bonus`,`date`) 
+VALUES('".$sponsor1."','".$userid."','".$level."','".$amount."','".$percentage."','".$bonus."','".date('Y-m-d')."')";
 $resa=query($conn,$sqla);
 }
 }
