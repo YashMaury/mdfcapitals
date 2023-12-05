@@ -67,7 +67,7 @@ include('inc/function.php');
     </style>
 </head>
 <body>
-<form method="post" action="login-process.php" >
+<form method="post" autocomplete="off" action="login-process.php" >
 
 <div class="page">
 

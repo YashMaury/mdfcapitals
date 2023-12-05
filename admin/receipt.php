@@ -18,6 +18,7 @@ $left=411;
 <thead>
 <tr align="center">
 <th align="center">Sl_No</th>
+<th align="center">User ID</th>
 <th align="center">Transaction ID</th>
 <th align="center">Amount</th>
 <th align="center">Transcation Date</th>
@@ -42,6 +43,7 @@ while($fetch=fetcharray($result))
 ?>
 <tr align="center">
 <td align="center"><?=$i?></td>
+<td align="center"><?=$fetch['user_id']?></td>
 <td align="center"><?=$fetch['transaction_id']?></td>
 <td align="center"><?=$fetch['amount']?></td>
 <td align="center"><?=$fetch['transaction_date']?></td>

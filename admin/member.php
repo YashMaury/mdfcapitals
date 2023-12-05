@@ -189,7 +189,7 @@ if($num>0)
 {
 $fetch=fetcharray($res);
 ?>
-<form class="form" action="member-process.php?case=edit&id=<?=$_REQUEST['id']?>&page=<?=$_REQUEST['page']?>" method="post">
+<form class="form" action="member-process.php?case=edit&id=<?=$_REQUEST['id']?>&page=<?=$_REQUEST['page']?>" autocomplete="off" method="post">
 <div class="form-body">
 
 <div class="form-group">

@@ -21,7 +21,7 @@ $left=2;
     <!-- Sweet Alert -->
     <link href="assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" href="../assets/favicon.jpeg" />
     <!-- Data table CSS -->
     <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
     <!-- Toast CSS -->
@@ -1044,8 +1044,7 @@ $left=2;
 <th align="center">Account</th>
 <th align="center">Amount</th>
 <th align="center">Percentage</th>
-<th align="center">Bonus</th>
-<th align="center">No_Months</th>
+<th align="center">No_Days</th>
 <th align="center">Status</th>
 <th align="center">Date</th>
 </tr>
@@ -1068,7 +1067,6 @@ while($fetch=fetcharray($result))
 <td align="center">Account <?=$fetch['account']?></td>
 <td align="center"><?=$fetch['amount']?></td>
 <td align="center"><?=$fetch['percentage']?> %</td>
-<td align="center"><?=$fetch['bonus']?></td>
 <td align="center"><?=$fetch['nodays']?></td>
 <td align="center" style="font-weight:bold;"><?php if($fetch['status']=='R'){?><a style="color:#009900;">Running</a><?php }else{?><a style="color:#FF0000;">Closed</a><?php }?></td>
 <td align="center"><?=$fetch['date']?></td>

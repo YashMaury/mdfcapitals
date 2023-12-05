@@ -30,7 +30,7 @@
 <?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Already Exists !!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Announcement Added Successfully!!</p><?php }?>
 
-<form class="form" action="notice-process.php?case=add" method="post">
+<form class="form" action="notice-process.php?case=add" autocomplete="off" method="post">
 
 <div class="form-body">
 <div class="form-group">

@@ -32,12 +32,27 @@
 <?php if(isset($_REQUEST['f'])==2){?><p align="center" style="color:#CC0000; padding-bottom:8px;">Invalid User ID!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==1){?><p align="center" style="color:#00CC33; padding-bottom:8px;">Deposit Added Successfully!!</p><?php }?>
 
-<form class="form" action="deduct-process.php?case=add" method="post">
+<form class="form" action="deduct-process.php?case=add" autocomplete="off" method="post">
 <div class="form-body">
 
 <div class="form-group">
 <label for="userinput5">User ID<span style="color:#CC0000;">*</span></label>
-<input class="form-control border-primary" type="text" placeholder="Enter User ID" required id="userid" name="userid" value="" onChange="getSponcheck(this.value)" onBlur="getSponcheck(this.value)" onKeyUp="getSponcheck(this.value)" /><strong><div id="sponDiv" style="color:#FF0000; font-size:14px;"></div></strong>
+<select name="userid" id="userid" class="form-control select2" required>
+<option selected disabled>Enter User ID</option>
+<?php
+$tname='imaksoft_member';
+$lim=1000000;
+$tpage='member.php';
+$where="ORDER BY `id` DESC";
+include('pagination.php');
+$num=numrows($result);
+$i=1;
+if($num>0){
+while($fetch=fetcharray($result)){
+?>
+<option value="<?=$fetch['userid']?>"><?=$fetch['userid']?></option>
+<?php } } ?>
+</select>
 </div>
 
 <div class="form-group">
@@ -173,6 +188,13 @@ theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
 <script src="assets/js/swither-styles.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/switcher/js/switcher.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+    $('.select2').select2();
+});
+</script>
 <script>
         $(document).ready(function () {
             $("#copy").text($("#ref_link").val());

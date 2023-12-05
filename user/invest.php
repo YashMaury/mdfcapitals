@@ -1,12 +1,11 @@
 <?php
 session_start();
 include('../admin/inc/function.php');
-if(!isset($_SESSION['mid']))
-{
-redirect('../index.php');
+if (!isset($_SESSION['mid'])) {
+    redirect('../index.php');
 }
-$userid=getMember($conn,$_SESSION['mid'],'userid');
-$left=2;
+$userid = getMember($conn, $_SESSION['mid'], 'userid');
+$left = 2;
 ?>
 
 
@@ -14,14 +13,14 @@ $left=2;
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title><?=$title?></title>
+<title><?= $title ?></title>
 <meta name="description" content="." />
 <meta name="keywords" />
 <meta name="author" content="" />
     <!-- Sweet Alert -->
     <link href="assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" href="../assets/favicon.jpeg" />
     <!-- Data table CSS -->
     <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
     <!-- Toast CSS -->
@@ -93,11 +92,11 @@ $left=2;
         }
 
         #ctl00_ContentPlaceHolder1_refferal {
-	background: #eceef1;
-	color: #464c59 !important;
-	line-height: 27px;
-	text-align: left;
-	border: 0;
+    background: #eceef1;
+    color: #464c59 !important;
+    line-height: 27px;
+    text-align: left;
+    border: 0;
 }
 
         .panel-primary > .panel-heading {
@@ -341,17 +340,17 @@ $left=2;
         }
 
        .card {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-clip: border-box;
-	border-radius: 10px;
-	border: none !important;
-	margin-bottom: 1.3rem;
-	background: #fff;
-	box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 10px;
+    border: none !important;
+    margin-bottom: 1.3rem;
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
         .pd-20 {
@@ -414,7 +413,7 @@ $left=2;
         }
 
        h1, h2, h3, .error-comment, h4, h5, h6, .panel-title {
-	color: #192833;
+    color: #192833;
 }
         .mb-3, .my-3 {
             margin-bottom: 6px !important;
@@ -441,17 +440,17 @@ $left=2;
         }*/
 
         .card-chart {
-	width: 50px;
-	height: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 4px;
-	margin-top: -38px !important;
-	font-size: 20px;
-	background: rgb(136, 208, 15);
-	border: none !important;
-	border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    margin-top: -38px !important;
+    font-size: 20px;
+    background: rgb(136, 208, 15);
+    border: none !important;
+    border-radius: 20%;
 }
 
         .brround {
@@ -565,8 +564,8 @@ $left=2;
             top: 10px;
         }
         /*.card-body.chartcard .col-md-3 {
-	padding-left: 10px;
-	padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }*/
 
 
@@ -599,8 +598,8 @@ $left=2;
             }
 
            .table.gridtbl tr td:nth-child(2) {
-	font-size: 12px !important;
-	color: #3d4b66 !important;
+    font-size: 12px !important;
+    color: #3d4b66 !important;
 }
 
         .fa.fa-star-half-empty.circle {
@@ -638,13 +637,13 @@ $left=2;
         }
 
        .ipbox {
-	width: 100%;
-	background: #ffffff0a;
-	padding: 8px;
-	padding-left: 40px;
-	border-radius: 10px;
-	margin-bottom: 8px;
-	border: 2px solid #f2f4f7;
+    width: 100%;
+    background: #ffffff0a;
+    padding: 8px;
+    padding-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 2px solid #f2f4f7;
 }
 
         .fa.fa-star.star {
@@ -659,10 +658,10 @@ $left=2;
         }
 
       .ipbox h4 {
-	color: #132250;
-	font-size: 13px;
-	line-height: 18px;
-	padding-top: 3px;
+    color: #132250;
+    font-size: 13px;
+    line-height: 18px;
+    padding-top: 3px;
 }
 
         p.text-muted {
@@ -683,16 +682,16 @@ $left=2;
         }
 
       .b1::after {
-	background: url(images/wave.png) !important;
-	content: '';
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-size: 164px !important;
-	opacity: 0.4;
-	z-index: -111;
-	background-repeat: no-repeat !important;
-	background-position: 1px -44px !important;
+    background: url(images/wave.png) !important;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: 164px !important;
+    opacity: 0.4;
+    z-index: -111;
+    background-repeat: no-repeat !important;
+    background-position: 1px -44px !important;
 }
 
         .rank marquee img {
@@ -700,16 +699,16 @@ $left=2;
         }
 
      .page-titles {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0.625rem 1.275rem;
-	background: #fff;
-	margin-bottom: 1.2rem;
-	border-radius: 0.625rem;
-	position: relative;
-	z-index: 1;
-	flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 1.275rem;
+    background: #fff;
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+    position: relative;
+    z-index: 1;
+    flex-wrap: wrap;
 }
 
             .page-titles p {
@@ -1001,35 +1000,85 @@ $left=2;
 
         <div class="wrapper  theme-6-active pimary-color-green">
            
-
-
-
         <?php include('sidebar.php') ?>
 
-
-
-
             <div class="page-wrapper">
                 <div class="container-fluid pt-25">
-                    
+                    <div class="right-sidebar-backdrop">
+                </div>
+                <div class="">
+                    <div class="container-fluid pt-25">
+                        <div class="row margin-balance">
+                            <div class="main-panel">
+                                <div class="content">
+                                    <div class="page-inner">
+                                        <div class="row">
 
-                <div class="right-sidebar-backdrop">
-            </div>
-            <div class="page-wrapper">
-                <div class="container-fluid pt-25">
-                    
-    <div class="row margin-balance">
+                                            <div class="col-md-8">
+                                                <div class="main-panel">
+                                                    <div class="content">
+                                                        <div class="page-inner">
+                                                            <div class="row">
+                                                                <div class="col-xs-12">
+                                                                    <div class="card">
+                                                                        <div class="card-header">
+                                                                            <h4 class="card-title">Package Settings</h4>
+                                                                            <div align="center">
+                                                                            </div>
+                                                                        </div>
+                                                                    <div>&nbsp;</div>
+                                                                    <div class="table-responsive">
+                                                                        <table class="table table-bordered table-striped">
+                                                                            <thead class="bg-teal">
+                                                                                <tr>
+                                                                                    <th style="text-align:center;">Sl_No</th>
+                                                                                    <th style="text-align:center;">Plan</th>
+                                                                                    <th style="text-align:center;">Investment</th>
+                                                                                    <th style="text-align:center;">Daily(%)</th>
+                                                                                    <th style="text-align:center;">Weekly(%)</th>
+                                                                                    <th style="text-align:center;">Profit(%)</th>
+                                                                                    <th style="text-align:center;">No_Of_Days</th>
+                                                                                </tr>
+                                                                            </thead>    
+                                                                            <tbody>
+<?php
+$tname = 'imaksoft_settings_package';
+$lim = 100;
+$tpage = 'settings-package.php';
+$where = "ORDER BY `id`";
+include('pagination.php');
+$num = numrows($result);
+$i = 1;
+if ($num > 0) {
+while ($fetch = fetcharray($result)) {
+?>
+<tr height="40">
+<td align="center" ><?= $i ?></td>
+<td align="center" ><?= $fetch['plan'] ?></td>
+<td align="center"><?= $fetch['investment'] ?></td>
+<td align="center" ><?= $fetch['dailyper'] ?> %</td>
+<td align="center" ><?= $fetch['weeklyper'] ?> %</td>
+<td align="center" ><?= $fetch['profitper'] ?> %</td>
+<td align="center" ><?= $fetch['nodays'] ?></td>
+</tr>
+<?php $i++;
+}
+} else { ?>
+            <tr><td colspan="9" align="center" style="color:#FF0000;">No Record Found!</td></tr>
+<?php } ?>
 
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-
-
-      <div class="main-panel">
-<div class="content">
-<div class="page-inner">
-
-<div class="row">
-<div class="col-md-1"></div>
-<div class="col-md-10">
+</div>
+</div>
+<div class="col-md-4">
 
 
 <div class="card">
@@ -1037,22 +1086,40 @@ $left=2;
 
 <div class="card-body">
 
-<?php if($_REQUEST['m']==2){?><div align="center" style="margin:0;padding:0;color:#00CC00; font-size:15px;"><strong>Your investment successfully completed!</strong></div><?php }?>
-<?php if($_REQUEST['e']==3){?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Insufficient wallet balance!</strong></div><?php }?>
-<?php if($_REQUEST['e']==4){?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Investment amount does not include under any package!</strong></div><?php }?>
+<?php if ($_REQUEST['m'] == 2) { ?><div align="center" style="margin:0;padding:0;color:#00CC00; font-size:15px;"><strong>Your investment successfully completed!</strong></div><?php } ?>
+<?php if ($_REQUEST['e'] == 3) { ?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Insufficient wallet balance!</strong></div><?php } ?>
+<?php if ($_REQUEST['e'] == 4) { ?><div align="center" style="margin:0;padding:0;color:#FF0000; font-size:15px;"><strong>Investment amount does not include under any package!</strong></div><?php } ?>
 
 <div align="center">&nbsp;</div>
-<form class="form" action="investment-fund-process.php" method="post">
+<form class="form" action="investment-fund-process.php" autocomplete="off" method="post">
 <div class="col-md-8">
-<h4 class="form-section" style="color:#00CC00;font-size:18px;" align="center">Wallet Balance:&nbsp;<?=getAvailableWallet($conn,getMember($conn,$_SESSION['mid'],'userid'))?></h4>
+<h4 class="form-section" style="color:#00CC00;font-size:18px;" align="center">Wallet Balance:&nbsp;<?= getAvailableWallet($conn, getMember($conn, $_SESSION['mid'], 'userid')) ?></h4>
 <div class="form-group form-group-default">
 
-<div class="form-group">
-<label for="userinput5"><span style="color:#CC0000;">Investment Amount *</span></label>
-<input type="text" class="form-control input-pill" id="amount" name="amount" placeholder="Investment Amount" required>
+    <div class="form-group">
+        <label for="userinput5"><span style="color:#CC0000;">Investment Amount *</span></label>
+        <select name="amount" id="amount" class="form-control">
+            <?php
+            $tname = 'imaksoft_settings_package';
+            $lim = 100;
+            $tpage = 'settings-package.php';
+            $where = "ORDER BY `id`";
+            include('pagination.php');
+            $num = numrows($result);
+            if ($num > 0) {
+            while ($fetch = fetcharray($result)) {
+            ?>
+                <option value="<?= $fetch['id']?>"><?= $fetch['plan'] ?></option>
+            <?php } } ?>
+        </select>
+    <!-- <input type="text" class="form-control input-pill" id="amount" name="amount" placeholder="Investment Amount" required> -->
 </div>
 </div>
-
+<script>
+    changepackage(){
+        
+    }
+</script>
 </div>
 <div class="row mt-3">
 <div class="col-md-12">
@@ -1062,9 +1129,6 @@ $left=2;
 </div>
 </div>
 </form>
-</div>
-
-</div>
 </div>
 
 </div>

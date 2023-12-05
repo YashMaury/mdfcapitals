@@ -8,14 +8,21 @@ redirect('index.php');
 
 if($_SESSION['mid'])
 {
+$tname = 'imaksoft_settings_package';
+$lim = 100;
+$tpage = 'settings-package.php';
+$where = "WHERE `id` = '".$_POST['amount']."' ORDER BY `id`";
+include('pagination.php');
+$package = fetcharray($result);
+// print_r($package);
+
 $userid=getMember($conn,$_SESSION['mid'],'userid');
 
 $avafund=getAvailableWallet($conn,$userid);
-$amount=$_POST['amount'];
 
 if($avafund>=$amount)
 {
-$sql="INSERT INTO `imaksoft_member_investment`(`userid`,`package`,`amount`,`date`)VALUES('".$userid."','".trim($_POST['package'])."','".$amount."','".date('Y-m-d')."')";
+$sql="INSERT INTO `imaksoft_member_investment`(`userid`,`package`,`amount`,`date`)VALUES('".$userid."','".$package['id']."','".$package['investment']."','".date('Y-m-d')."')";
 $res=query($conn,$sql);
 
 $paystatus=getMemberUserID($conn,$userid,'paystatus');
@@ -36,7 +43,7 @@ $bonus=$dailyper;
 $last=getLastROIAccount($conn,$userid);
 $account=($last+1);
 
-$sql6="INSERT INTO `imaksoft_member_roi` (`userid`,`account`,`amount`,`percentage`,`nodays`,`bonus`,`status`,`date`,`remarks`) VALUES('".$userid."','".$account."','".$amount."','".$dailyper."','".$nodays."','".$bonus."','R','".date('Y-m-d')."','')";
+$sql6="INSERT INTO `imaksoft_member_roi` (`userid`,`account`,`amount`,`percentage`,`nodays`,`bonus`,`status`,`date`,`remarks`) VALUES('".$userid."','".$account."','".$package['investment']."','".$package['dailyper']."','".$package['nodays']."','0','R','".date('Y-m-d')."','')";
 $res6=query($conn,$sql6);
 
 $date=strtotime(date("Y-m-d"));
@@ -110,9 +117,6 @@ $sql3="INSERT INTO `imaksoft_commission_level`(`userid`,`fromid`,`level`,`amount
 $res3=query($conn,$sql3);
 }
 }
-
-
-
 
 redirect('invest.php?m=2');
 }else{

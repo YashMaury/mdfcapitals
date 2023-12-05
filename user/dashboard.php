@@ -24,7 +24,7 @@ include('calculate-roi-release.php');
     <!-- Sweet Alert -->
     <link href="assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
-    <link rel="icon" href="images/favicon.png" />
+    <link rel="icon" href="../assets/favicon.jpeg" />
     <!-- Data table CSS -->
     <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
     <!-- Toast CSS -->
