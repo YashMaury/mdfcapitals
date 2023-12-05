@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nump = numrows($resp);
         if ($nump < 20) {
             $fetch = fetcharray($res);
-            $userid = ZT . rand(1111111, 9999999);
+            $userid = 'MDF' . rand(1111111, 9999999);
 
             $sql = "INSERT INTO `imaksoft_member`(`userid`,`sponsor`,`password`,`name`,`email`,`phone`,`address`,`date`,`status`,`placement`,`bname`,`branch`,`accname`,`accno`,`ifscode`,`bitcoin`,`upi`,`paystatus`,`approved`) VALUES('" . trim($userid) . "','" . trim($_POST['sponsor']) . "','" . base64_encode(trim($_POST['password'])) . "','" . trim($_POST['name']) . "','" . trim($_POST['email']) . "','" . trim($_POST['phone']) . "','" . trim($_POST['address']) . "','" . date('Y-m-d') . "','A','','','','','','','','','I','')";
 
