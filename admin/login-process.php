@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 $sql="SELECT * FROM `imaksoft_admin` WHERE `username`='".base64_encode(mysqli_real_escape_string($conn,$_POST['username']))."' AND `password`='".base64_encode(mysqli_real_escape_string($conn,$_POST['password']))."' AND `status`='A'";
 $res=query($conn,$sql);
 // echo $sql;
-print_r($res);
+// print_r($res);
 // console.log($res);
 // console.log($sql);
 $num=numrows($res);
