@@ -1193,11 +1193,11 @@ return $fetch1['position'];
 }
 }
 
-function getTotalSales($conn,$userid)
-{
-$total=getSales($conn,$userid,'left')+getSales($conn,$userid,'right');
-return $total;
-}
+// function getTotalSales($conn,$userid)
+// {
+// $total=getSales($conn,$userid,'left')+getSales($conn,$userid,'right');
+// return $total;
+// }
 
 function getSettingsWithdrawal($conn,$field)
 {

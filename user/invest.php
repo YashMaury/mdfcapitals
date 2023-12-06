@@ -938,7 +938,6 @@ $left = 2;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
-            display:;
         }
 
 
@@ -1115,11 +1114,7 @@ while ($fetch = fetcharray($result)) {
     <!-- <input type="text" class="form-control input-pill" id="amount" name="amount" placeholder="Investment Amount" required> -->
 </div>
 </div>
-<script>
-    changepackage(){
-        
-    }
-</script>
+
 </div>
 <div class="row mt-3">
 <div class="col-md-12">

@@ -13,9 +13,20 @@ date_default_timezone_set('Asia/Kolkata');
         die("Query failed: " . mysqli_error($conn));
     }
    
+
+
     while ($row = mysqli_fetch_assoc($result)) {
         
+        $curr_date=date_create(date('Y-m-d'));
+        $joining_date=date_create($row['date']);
+       $diff=date_diff($joining_date,$curr_date);
+     $days=(string)$diff->format("%a");
+       
+
         if (isset($row['userid'])) {
+           
+            if($row['roi_days']<$days){
+        if(date('N',strtotime(date('Y-m-d')))<6){
             if ($row['nodays'] >= $row['roi_days']) {
                 $amount = $row['amount'];
                 $user_id = $row['userid'];
@@ -63,6 +74,8 @@ date_default_timezone_set('Asia/Kolkata');
                 }
             }
         } 
+    }
+    }
     }
     
     mysqli_close($conn);

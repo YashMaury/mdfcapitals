@@ -10,20 +10,29 @@ if($_SESSION['mid'])
 {
 $tname = 'imaksoft_settings_package';
 $lim = 100;
+$amount=$_POST['amount'];
 $tpage = 'settings-package.php';
-$where = "WHERE `id` = '".$_POST['amount']."' ORDER BY `id`";
+$where = "WHERE `id` = '".$amount."' ORDER BY `id`";
 include('pagination.php');
 $package = fetcharray($result);
-// print_r($package);
+//  print_r($package);
 
 $userid=getMember($conn,$_SESSION['mid'],'userid');
+$sponsorId=getMember($conn,$_SESSION['mid'],'sponsor');
 
 $avafund=getAvailableWallet($conn,$userid);
 
-if($avafund>=$amount)
+if($avafund>=$package['investment'])
 {
 $sql="INSERT INTO `imaksoft_member_investment`(`userid`,`package`,`amount`,`date`)VALUES('".$userid."','".$package['id']."','".$package['investment']."','".date('Y-m-d')."')";
 $res=query($conn,$sql);
+
+$bonus=$package['investment']*0.07;
+
+//Added 05 dec 2023
+$sql_refferal="INSERT INTO imaksoft_commission_direct(`userid`,`fromid`,`bonus`,`date`,`datetime`) VALUES 
+('".$userid."','".$sponsorId."','".$bonus."','".date('Y-m-d')."','".date('Y-m-d h:i:s')."')";
+$res_ref=query($conn,$sql_refferal);
 
 $paystatus=getMemberUserID($conn,$userid,'paystatus');
 if($paystatus=='I')
