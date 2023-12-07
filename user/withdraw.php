@@ -1015,7 +1015,7 @@ $left=2;
 
                 <div class="right-sidebar-backdrop">
             </div>
-            <div class="page-wrapper">
+            <div class="">
                 <div class="container-fluid pt-25">
                     
     <div class="row margin-balance">

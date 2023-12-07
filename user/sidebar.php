@@ -199,9 +199,6 @@
                 <div class="clearfix"></div>
             </a>
             <ul id="Tran1" class="collapse collapse-level-1">
-
-
-
                 <li><a href="daily-income.php">Daily Income </a></li>
                 <li><a href="refferal-income.php">Refferal Income </a></li>
                 <li><a href="level-income.php">Level Income </a></li>
@@ -210,40 +207,42 @@
             </ul>
         </li>
 
-
-
-
-
-
-
         <li>
             <hr class="light-grey-hr mb-10" />
         </li>
         <li class="down-list">
             <a href="javascript:void(0);" data-toggle="collapse" data-target="#setting">
-                <div class="pull-left"><i class="zmdi zmdi-settings  mr-20"></i><span
-                        class="right-nav-text">Settings</span></div>
+                <div class="pull-left">
+                    <i class="zmdi zmdi-settings  mr-20"></i>
+                    <span class="right-nav-text">Settings</span>
+                </div>
                 <div class="pull-right"><i class="zmdi zmdi-caret-down"></i></div>
                 <div class="clearfix"></div>
             </a>
             <ul id="setting" class="collapse collapse-level-1">
                 <li><a href="det.php?p=p">Profile</a></li>
                 <li><a href="det.php?p=ps">Password</a></li>
-
             </ul>
         </li>
-
-
-
-
-
-        <li class="down-list"><a href="support.php">
+        
+        
+        
+        
+        
+        <li class="down-list">
+            <a href="javascript:void(0);" data-toggle="collapse" data-target="#support">
                 <div class="pull-left">
-                    <i class="fa fa-user-secret  mr-20"></i><span class="right-nav-text">SUPPORT</span>
+                    <i class="fa fa-user-secret  mr-20"></i>
+                    <span class="right-nav-text">SUPPORT</span>
                 </div>
-                <div class="clearfix">
-                </div>
-            </a></li>
+                <div class="pull-right"><i class="zmdi zmdi-caret-down"></i></div>
+                <div class="clearfix"></div>
+            </a>
+                <ul id="support" class="collapse collapse-level-1">
+                    <li><a href="support.php">Support</a></li>
+                    <li><a href="support-list.php">Support History</a></li>
+                </ul>
+        </li>
 
         <li class="down-list">
             <a id="ctl00_lbtnLogout" href="logout.php">

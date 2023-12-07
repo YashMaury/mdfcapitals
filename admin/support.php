@@ -37,7 +37,8 @@
 <th style="text-align:center;">Description</th>
 <th style="text-align:center;">Status</th>
 <th style="text-align:center;">Date/Time</th>
-<th style="text-align:center;">Action</th>
+<th style="text-align:center;">Reply</th>
+<th style="text-align:center;">Delete</th>
 </tr>
 </thead>
 <tbody>
@@ -62,6 +63,21 @@ while($fetch=fetcharray($result))
 
 <td align="center"><?php if($fetch['status']=='P'){?><a href="support-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Pending</span></a><?php }else{?><a href="support-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Complete</span></a><?php }?></td>
 <td align="center"><?=$fetch['datetime']?></td>
+<td align="center">
+<?php if($fetch['status']=='P'){?>
+<li class="slide" style="list-style-type:none;">
+<a class="" data-bs-toggle="slide" href="javascript:void(0);"><img src="images/edit.png" height="22"></a>
+<ul class="slide-menu mt-3">
+<li>
+<form action="support-process.php?case=reply&id=<?=$fetch['id']?>" method="POST">
+    <textarea name="reply" id="reply" cols="30" rows="10"><?=$fetch['reply']?></textarea>
+    <button class="btn btn-primary" type="submit">Reply</button>
+</form>
+</li>
+</ul>
+</li>
+<!-- <a href="support-process.php?case=edit&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>"><img src="images/edit.png" height="22"></a> -->
+<?php } ?></td>
 <td align="center">
 <?php if($fetch['status']=='P'){?>
 <a href="support-process.php?case=delete&id=<?=$fetch['id']?>&page=<?=$_REQUEST['page']?>" onClick="return confirm('Are you sure want to delete this record?');"><img src="images/delete.png" height="22"></a>

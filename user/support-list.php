@@ -1009,7 +1009,7 @@ $left=2;
 
 
 
-            <div class="page-wrapper">
+            <div class="">
                 <div class="container-fluid pt-25">
                     
 
@@ -1022,45 +1022,77 @@ $left=2;
 
 
 
-
-        <div class="main-panel">
+<div class="main-panel">
 <div class="content">
 <div class="page-inner">
+
+
 <div class="row">
-<div class="col-md-2"></div>
-<div class="col-md-8">
+
+<div class="col-md-12">
+
 <div class="card">
-<div class="card-header"><br>
-<div class="card-title">New Support</div>
-</div><br>
-<div class="card-body">
+<div class="card-header">
+<div class="card-title">My Invest Statement</div>
+</div>
+<div class="card-body" style="overflow:auto;">
 
-<?php if($_REQUEST['sent']==1){?><div style="color:#009900;" align="center">Request sent to admin!</div><br><?php }?>
+<table class="table table-head-bg-primary mt-1">
+<thead>
+<tr align="center">
+<th style="text-align:center;">Sl_No</th>
+<th style="text-align:center;">User_ID</th>
+<th style="text-align:center;">Message</th>
+<th style="text-align:center;">Description</th>
+<th style="text-align:center;">Reply</th>
+<th style="text-align:center;">Status</th>
+<th style="text-align:center;">Date/Time</th>
+</tr>
+</thead>
+<tbody>
+<?php
+$tname='imaksoft_support';
+$lim=100;
+$tpage='support.php';
+$where=" ORDER BY `id` DESC";
+include('pagination.php');
+$num=numrows($result);
+$i=1;
+if($num>0)
+{
+while($fetch=fetcharray($result))
+{
+?>
+<tr>
+<td><?=$i?></td>
+<td align="center"><?=$fetch['userid']?></td>
+<td align="center"><?=$fetch['subject']?></td>
+<td align="center"><?=$fetch['message']?></td>
+<td align="center"><?=$fetch['reply']?></td>
 
-<form class="form mt-3" action="support-process.php?case=add" method="post" enctype="multipart/form-data">
-<div class="form-group">
-<select class="form-control input-pill" id="type" name="type" required>
-<option value="" style="color:#fff;">Select Type</option>
-<option value="Urgent"  style="color:#fff;">Urgent</option>
-<option value="Normal"  style="color:#fff;">Normal</option>
-</select>
-</div>
-<br>
-<div class="form-group">
-<input type="text" class="form-control input-pill" id="subject" name="subject" placeholder="Enter Subject" required />
-</div>
-<br>
-<div class="form-group">
-<textarea type="text" class="form-control input-pill" id="description" name="description" rows="3" placeholder="Enter Subject" required></textarea>
-</div>
-<br>
-<div class="card-action">
-<button class="btn btn-success">Submit</button>
-</div>
-</form>
-</div>
-</div></div></div></div>
+<td align="center">
+<?php if($fetch['status']=='P'){?>
+<span class="label" style="color:#CC0000;">Pending</span>
+<?php }else{?>
+<span class="label" style="color:#00CC00;">Complete</span>
+<?php }?>
+</td>
+<td align="center"><?=$fetch['datetime']?></td>
+</tr>
+<?php $i++;}}else{?>
+<tr><td colspan="8" align="center" style="color:#FF0000;">No Record Found!</td></tr>
+<?php }?>
+</tbody>
+</table>
+<div align="center"><?=$pagination?></div>
 
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

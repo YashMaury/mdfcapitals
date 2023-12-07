@@ -1065,7 +1065,7 @@ include('calculate-roi-release.php');
                                 <?php
                                 $userid=getMember($conn,$_SESSION['mid'],'userid');
                                 ?>
-                                <a href="/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
+                                <a href="/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref.php?spon=<?=$userid?></a>
                                 <span class="outer-share input-group-btn">
                                     <button type="button" class="btn btn-primary btn-icon-anim btn-square" href="JavaScript:Void(0);" onclick="CopyToClipboard('ctl00_ContentPlaceHolder1_refferal')"><i class="zmdi zmdi-copy"></i></button>
                                 </span>
@@ -1660,7 +1660,7 @@ include('calculate-roi-release.php');
                                 <p class="mg-b-0">COC Rate</p>
                             </div>
                             <div class=" account pd-b-10">
-                                <h2 class="tx-40 text-white">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblTotalBalance">0.00</span></span>
+                                <h2 class="tx-40 text-white">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblTotalBalance"><?= getAvailableWallet($conn, getMember($conn, $_SESSION['mid'], 'userid')) ?></span></span>
                                 </h2>
                                 <p class="mg-b-0">Balance</p>
                                 <p class=" mt-15 d-flex text-capitalize ">
@@ -1764,7 +1764,7 @@ include('calculate-roi-release.php');
                                 <td style="width: 50px;"><i class="fa fa-star-half-empty circle text-white"></i></td>
                                 <td>Total Members </td>
                                 <td>
-                                    <span id="ctl00_ContentPlaceHolder1_lblTotalmember">2</span></td>
+                                    <span id="ctl00_ContentPlaceHolder1_lblTotalmember"><?=getNoOfSponsor($conn,$userid)?></span></td>
                                 <td style="min-width: 80px;">
                                     <div class="progress progress-xs mb-0 ">
                                         <div class="progress-bar progress-bar-primary" style="width: 70%"></div>
@@ -1775,7 +1775,7 @@ include('calculate-roi-release.php');
                                 <td><i class="fa fa-star-half-empty circle text-white"></i></td>
                                 <td>Active ID</td>
                                 <td>
-                                    <span id="ctl00_ContentPlaceHolder1_lblActiveid">0</span></td>
+                                    <span id="ctl00_ContentPlaceHolder1_lblActiveid"><?=getNoOfSponsorActive($conn,$userid)?></span></td>
                                 <td>
                                     <div class="progress progress-xs mb-0 ">
                                         <div class="progress-bar progress-bar-primary" style="width: 50%"></div>
@@ -1786,7 +1786,7 @@ include('calculate-roi-release.php');
                                 <td><i class="fa fa-star-half-empty circle text-white"></i></td>
                                 <td>InActive ID</td>
                                 <td>
-                                    <span id="ctl00_ContentPlaceHolder1_lblTotalInActive">2</span></td>
+                                    <span id="ctl00_ContentPlaceHolder1_lblTotalInActive"><?=getNoOfSponsorInActive($conn,$userid)?></span></td>
                                 <td>
                                     <div class="progress progress-xs mb-0 ">
                                         <div class="progress-bar progress-bar-primary" style="width: 90%"></div>

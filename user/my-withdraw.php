@@ -1009,7 +1009,7 @@ $left=2;
 
 
 
-            <div class="page-wrapper">
+            <div class="">
                 <div class="container-fluid pt-25">
                     
 
@@ -1022,45 +1022,95 @@ $left=2;
 
 
 
-
-        <div class="main-panel">
+<div class="main-panel">
 <div class="content">
 <div class="page-inner">
+
+
 <div class="row">
-<div class="col-md-2"></div>
-<div class="col-md-8">
+
+<div class="col-md-12">
+
 <div class="card">
-<div class="card-header"><br>
-<div class="card-title">New Support</div>
-</div><br>
-<div class="card-body">
+<div class="card-header">
+<div class="card-title">My Invest Statement</div>
+</div>
+<div class="card-body" style="overflow:auto;">
 
-<?php if($_REQUEST['sent']==1){?><div style="color:#009900;" align="center">Request sent to admin!</div><br><?php }?>
+<table class="table table-head-bg-primary mt-1">
+<thead>
+<tr align="center">
+<th width="5%" align="center">Sl_No</th>
+<th width="6%" align="center">User_ID</th>
+<th width="6%" align="center">Name</th>
+<th width="7%" align="center">Request</th>
+<th width="9%" align="center">Charge</th>
+<th width="6%" align="center">Payout</th>
+<th width="6%" align="center">Type</th>
+<th width="6%" align="center">Bank</th>
+<th width="6%" align="center">Branch</th>
+<th width="6%" align="center">Acc_Holder_name</th>
+<th width="6%" align="center">Acc_No.</th>
+<th width="6%" align="center">IFS_Code</th>
+<th width="6%" align="center">Bitcoin</th>
+<th width="6%" align="center">UPI</th>
+<th width="5%" align="center">Date</th>
+<th width="6%" align="center">Status</th>
+<th width="6%" align="center">Approved</th>
+</tr>
+</thead>
+<tbody>
+<?php
+$tname='imaksoft_withdrawal';
+$lim=100;
+$tpage='approved-withdrawal.php';
+if($_REQUEST['act']=='search')
+{
+$where="WHERE `userid` LIKE '".trim($_POST['search'])." ORDER BY `id` DESC";
+}else{
+$where="ORDER BY `id` DESC";
+}
+include('pagination.php');
+$num=numrows($result);
+$i=1;
+if($num>0)
+{
+while($fetch=fetcharray($result))
+{
+?>
+<tr height="30">
+<td align="center" class="tborder"><?=$i?></td>
+<td align="center" class="tborder"><?=$fetch['userid']?></td>
+<td align="center" class="tborder"><?=getMemberUserid($conn,$fetch['userid'],'name')?></td>
+<td align="center" class="tborder"><?=$fetch['request']?></td>
+<td align="center" class="tborder"><?=$fetch['charge']?></td>
+<td align="center" class="tborder"><?=$fetch['payout']?></td>
+<td align="center" class="tborder"><?=$fetch['type']?></td>
+<td align="center" class="tborder"><?=$fetch['bname']?></td>
+<td align="center" class="tborder"><?=$fetch['branch']?></td>
+<td align="center" class="tborder"><?=$fetch['accname']?></td>
+<td align="center" class="tborder"><?=$fetch['accno']?></td>
+<td align="center" class="tborder"><?=$fetch['ifscode']?></td>
+<td align="center" class="tborder"><?=$fetch['bitcoin']?></td>
+<td align="center" class="tborder"><?=$fetch['upi']?></td>
+<td align="center" class="tborder"><?=$fetch['date']?></td>
+<td align="center" class="tborder"><?php if($fetch['status']=='C'){?><span style="color:#009900;">Approved</span><?php } else {?><span style="color:#CC0000;">Pending</span><?php } ?></td>
+<td align="center" class="tborder"><?=$fetch['approved']?></td>
+</tr>
+<?php $i++;}}else{?>
+<tr height="15"><td align="center" colspan="17" style="color:#FF0000;"><div class="norecord">No Record Found!</div></td></tr>
+<?php }?>
+</tbody>
+</table>
+<div align="center"><?=$pagination?></div>
 
-<form class="form mt-3" action="support-process.php?case=add" method="post" enctype="multipart/form-data">
-<div class="form-group">
-<select class="form-control input-pill" id="type" name="type" required>
-<option value="" style="color:#fff;">Select Type</option>
-<option value="Urgent"  style="color:#fff;">Urgent</option>
-<option value="Normal"  style="color:#fff;">Normal</option>
-</select>
 </div>
-<br>
-<div class="form-group">
-<input type="text" class="form-control input-pill" id="subject" name="subject" placeholder="Enter Subject" required />
 </div>
-<br>
-<div class="form-group">
-<textarea type="text" class="form-control input-pill" id="description" name="description" rows="3" placeholder="Enter Subject" required></textarea>
 </div>
-<br>
-<div class="card-action">
-<button class="btn btn-success">Submit</button>
 </div>
-</form>
 </div>
-</div></div></div></div>
-
+</div>
+</div>
 </div>
 </div>
 </div>

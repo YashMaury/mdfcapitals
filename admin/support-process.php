@@ -8,12 +8,12 @@ redirect('index.php');
  
  if($_SESSION['sid'])
 {
-if($_REQUEST['case']=='add')
+if($_REQUEST['case']=='reply')
 {
 $sql1="UPDATE `imaksoft_support` SET `reply`='".trim($_POST['reply'])."' WHERE `id`='".$_REQUEST['id']."'";
 $res1=query($conn,$sql1);  
     
-redirect('reply.php?case=add&m=1');
+redirect('support.php');
 }
 
 

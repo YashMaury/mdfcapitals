@@ -1042,7 +1042,7 @@ $left=2;
 <div align="center" style="color:#009933;font-size:16px;">Your profile successfully updated!</div>
 <?php }?>
 
-<form class="form" action="imaksoft-process.php?p=p" method="post">
+<form class="form" action="imaksoft-process.php?p=p" autocomplete="off" method="post">
 <div class="row mt-3">
 <div class="col-md-6">
 <div class="form-group form-group-default">
@@ -2114,7 +2114,7 @@ $left=2;
 <?php if($_REQUEST['invalid']==1){?><div align="center"><div id="norecord" style="color:#FF0000;">Current password does not match!</div></div><?php }?>
 <?php if($_REQUEST['updated']==2){?><div align="center"><div id="norecord" style="color:#009900;">New password successfully updated!</div></div><?php }?>
 <?php if($_REQUEST['invalid']==3){?><div align="center"><div id="norecord" style="color:#FF0000;">Confirm password does not match!</div></div><?php }?>
-<form class="form" action="imaksoft-process.php?p=ps" method="post">
+<form class="form" action="imaksoft-process.php?p=ps" autocomplete="off" method="post">
 
 <div class="form-group">
 <input type="password" class="form-control input-pill" id="current" name="current" placeholder="Current Password" required>
@@ -5230,10 +5230,11 @@ while($fetch=fetcharray($result))
                                 <span id="ctl00_ContentPlaceHolder1_lblreferral">
 
 
-                                    <a href="<?=$domain?>/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" placeholder="Search" type="text" target="blank"><?=$domain?>/ref?spon=<?=$userid?></a>
+                                    <a href="/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" placeholder="Search" type="text" target="blank"><?=$domain?>/ref.php?spon=<?=$userid?></a>
                                     <a>
                                         <span class="pera">********</span>
-                                        </a></span>
+                                    </a>
+                                </span>
 
                                 <a href="JavaScript:Void(0);" onclick="CopyToClipboard('ctl00_ContentPlaceHolder1_refferal')" class="btn-left">
                                     <img id="ctl00_ContentPlaceHolder1_Image1" class="fa fa-copy" src="" style="border-width:0px;" />
