@@ -19,7 +19,7 @@ $left=2;
     <!-- Sweet Alert -->
     <link href="assets/vendors/bower_components/sweetalert/dist/sweetalert.css" rel="stylesheet" type="text/css" />
     <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
-    <link rel="icon" href="../assets/img/favicon.png" />
+    <link rel="icon" href="../assets/favicon.jpeg" />
     <!-- Data table CSS -->
     <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
     <!-- Toast CSS -->
@@ -360,7 +360,7 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="panel panel-default card-view">
                 <div class="panel-heading">
                     <div class="pull-left">
-                        <h6 class="panel-title txt-dark">Daily Income Details</h6>
+                        <h6 class="panel-title txt-dark">Transfer Details</h6>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -383,17 +383,19 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
                                                     
                                                     
-                                                    <th>Sl_No.</th>
-<th >Bonus</th>
-<th > Date</th>
+<th>Sl_No.</th>
+<th>To_ID</th>
+<th>Total</th>
+<th>Remark</th>
+<th>Date</th>
 </tr>
 </thead>
 <tbody>
 <?php
-$tname='imaksoft_commission_roi';
+$tname='imaksoft_transfer_fund_others';
 $lim=100;
-$tpage='commission-roi.php';
-$where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='R' ORDER BY `id` DESC";
+$tpage='commission-level-roi.php';
+$where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."' ORDER BY `id` DESC";
 
 include('pagination.php');
 $num=numrows($result);
@@ -405,11 +407,13 @@ while($fetch=fetcharray($result))
 ?>
 <tr>
 <td ><?=$i?></td>
-<td  class="text-success">$<?=$fetch['bonus']?></td>
+<td ><?=$fetch['toid']?></td>
+<td  class="text-success">$ <?=$fetch['total']?></td>
+<td ><?=$fetch['remark']?></td>
 <td ><?=$fetch['date']?></td>
 </tr>
 <?php $i++;}}else{?>
-<tr><td colspan="5"  style="color:#FF0000;">No Record Found!</td></tr>
+<tr><td colspan="8"  style="color:#FF0000;">No Record Found!</td></tr>
 <?php }?>
 
 

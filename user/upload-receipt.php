@@ -938,7 +938,7 @@ $left = 2;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
-            display:;
+        
         }
 
 

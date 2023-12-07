@@ -151,7 +151,7 @@
             <ul id="form_dr" class="collapse collapse-level-1 two-col-list">
                 <li><a href="transfer.php">New Transfer</a></li>
 
-                <!--<li><a href="DirectIncome.aspx">Transaction Details </a></li>-->
+                <li><a href="transfer-details.php">Transfer Details </a></li>
 
 
             </ul>

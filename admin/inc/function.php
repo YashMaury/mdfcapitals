@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+error_reporting(1);
 /*-----------------Database Connection-----------------------*/
 $conn=mysqli_connect('localhost','root','root','mdfcapitals');
 //echo $conn;

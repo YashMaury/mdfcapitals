@@ -84,7 +84,7 @@
                                 <a href="index.php">
                                     <img src="cclogo.png" alt="icon" style="max-width: 220px;" />
                                 </a>
-                            </div><?php if($_REQUEST['e']==1){?>
+                            </div><?php if(isset($_REQUEST['e'])==1){?>
 <div align="center" style="margin:0;padding:0;color:#FF0000; font-size:16px;"><strong>Invalid User ID or Password.</strong></div>
 <?php }?>
                             <div class="user-ath-box">
