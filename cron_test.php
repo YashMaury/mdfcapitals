@@ -37,7 +37,7 @@ $resa=query($conn,$sqla);
 
         //     array_push($users,
         //     "ZT5305981");
-        //    getLeveIncome($conn,$users,12,0);
+           getLeveIncome($conn,$users,12,0);
         //    array_splice($users,0);
         //     print_r($allUsers);
         //     echo "**************<br>";
