@@ -384,6 +384,7 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
                                                     <th>Sl_No.</th>
                                                     <th >Direct Member</th>
+                                                    <th >Percentage</th>
 <th >Bonus</th>
 <th > Date</th>
 </tr>
@@ -406,6 +407,7 @@ while($fetch=fetcharray($result))
 <tr>
 <td ><?=$i?></td>
 <td  class="text-success"><?=$fetch['userid']?></td>
+<td  class="text-success">7%</td>
 <td  class="text-success">$<?=$fetch['bonus']?></td>
 <td ><?=$fetch['date']?></td>
 </tr>
