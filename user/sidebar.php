@@ -203,6 +203,7 @@
                 <li><a href="refferal-income.php">Refferal Income </a></li>
                 <li><a href="level-income.php">Level Income </a></li>
                 <li><a href="reward-income.php">Reward Income </a></li>
+                <li><a href="royality-income.php">Royality Income </a></li>
 
             </ul>
         </li>
