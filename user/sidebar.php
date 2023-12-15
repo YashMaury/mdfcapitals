@@ -1,3 +1,8 @@
+<?php
+$userid = getMember($conn, $_SESSION['mid'], 'userid');
+$name = getMember($conn, $_SESSION['mid'], 'name');
+?>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="">
         <div class="mobile-only-brand pull-left">
@@ -6,14 +11,12 @@
                 <div class="logo-wrap">
                     <a href="dashboard.php">
 
-                        <img class="brand-img img-responsive" style="margin: 0px auto; max-width: 160px;"
-                            src="../cclogo.png" />
+                        <img class="brand-img img-responsive" style="margin: 0px auto; max-width: 50px;"
+                            src="../assets/fav.jpeg" />
                     </a>
                 </div>
+
             </div>
-
-
-
 
             <a id="toggle_nav_btn" class="toggle-left-nav-btn inline-block ml-20 pull-left mobile-only-view"
                 href="javascript:void(0);"><i class="zmdi zmdi-menu"></i></a>
@@ -26,17 +29,9 @@
                 </a>
 
             </li>
-
-
-
             <a id="toggle_mobile_nav" class="mobile-only-view" href="javascript:void(0);"><i
                     class="zmdi zmdi-more"></i></a>
-
-
-
         </div>
-
-
 
         <div id="ctl00_mobile_only_nav" class="mobile-only-nav ">
 
@@ -74,6 +69,15 @@
 
             </ul>
 
+        </div>
+
+        <div class="text-center">
+            <h6 class="text-white" style="font-weight: bolder;">
+                UserId - <span class="text-info"><?= $userid ?></span>
+            </h6>
+            <h6 class="text-white" style="font-weight: bolder;">
+                Name - <span class="text-info"><?= $name ?></span>
+            </h6>
         </div>
 
     </div>
@@ -225,11 +229,11 @@
                 <li><a href="det.php?p=ps">Password</a></li>
             </ul>
         </li>
-        
-        
-        
-        
-        
+
+
+
+
+
         <li class="down-list">
             <a href="javascript:void(0);" data-toggle="collapse" data-target="#support">
                 <div class="pull-left">
@@ -239,10 +243,10 @@
                 <div class="pull-right"><i class="zmdi zmdi-caret-down"></i></div>
                 <div class="clearfix"></div>
             </a>
-                <ul id="support" class="collapse collapse-level-1">
-                    <li><a href="support.php">Support</a></li>
-                    <li><a href="support-list.php">Support History</a></li>
-                </ul>
+            <ul id="support" class="collapse collapse-level-1">
+                <li><a href="support.php">Support</a></li>
+                <li><a href="support-list.php">Support History</a></li>
+            </ul>
         </li>
 
         <li class="down-list">

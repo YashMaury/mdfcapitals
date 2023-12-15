@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 15, 2023 at 12:42 PM
+-- Generation Time: Dec 15, 2023 at 12:44 PM
 -- Server version: 5.7.11
 -- PHP Version: 5.6.18
 
@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `imaksoft_commission_royality`
+-- Table structure for table `imaksoft_commission_direct_reward`
 --
 
-CREATE TABLE `imaksoft_commission_royality` (
+CREATE TABLE `imaksoft_commission_direct_reward` (
   `id` int(10) NOT NULL,
   `userid` varchar(20) NOT NULL,
   `plan` varchar(150) NOT NULL,
@@ -40,9 +40,9 @@ CREATE TABLE `imaksoft_commission_royality` (
 --
 
 --
--- Indexes for table `imaksoft_commission_royality`
+-- Indexes for table `imaksoft_commission_direct_reward`
 --
-ALTER TABLE `imaksoft_commission_royality`
+ALTER TABLE `imaksoft_commission_direct_reward`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -50,10 +50,10 @@ ALTER TABLE `imaksoft_commission_royality`
 --
 
 --
--- AUTO_INCREMENT for table `imaksoft_commission_royality`
+-- AUTO_INCREMENT for table `imaksoft_commission_direct_reward`
 --
-ALTER TABLE `imaksoft_commission_royality`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+ALTER TABLE `imaksoft_commission_direct_reward`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
