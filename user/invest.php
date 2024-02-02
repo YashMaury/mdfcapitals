@@ -1021,8 +1021,9 @@ $left = 2;
                                                                 <div class="col-xs-12">
                                                                     <div class="card">
                                                                         <div class="card-header">
-                                                                            <h4 class="card-title">Package Settings</h4>
-                                                                            <div align="center">
+                                                                           <div align="center">
+                                                                           <h4 class="card-title ">Package Settings</h4>
+                                                                           
                                                                             </div>
                                                                         </div>
                                                                     <div>&nbsp;</div>
@@ -1091,7 +1092,7 @@ while ($fetch = fetcharray($result)) {
 
 <div align="center">&nbsp;</div>
 <form class="form" action="investment-fund-process.php" autocomplete="off" method="post">
-<div class="col-md-8">
+<div class="col-md-12">
 <h4 class="form-section" style="color:#00CC00;font-size:18px;" align="center">Wallet Balance:&nbsp;<?= getAvailableWallet($conn, getMember($conn, $_SESSION['mid'], 'userid')) ?></h4>
 <div class="form-group form-group-default">
 
@@ -1116,9 +1117,9 @@ while ($fetch = fetcharray($result)) {
 </div>
 
 </div>
-<div class="row mt-3">
+<div class="row mt-4">
 <div class="col-md-12">
-<div class="text-left mt-3 mb-3">&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="text-left mt-5 mb-5">&nbsp;&nbsp;&nbsp;&nbsp;
 <button class="btn btn-success">Invest Now</button>
 </div>
 </div>

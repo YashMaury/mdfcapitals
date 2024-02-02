@@ -1,22 +1,28 @@
-[14-Nov-2023 16:15:55 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
-[14-Nov-2023 16:15:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'imakin_CoaxCoin'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
-[14-Nov-2023 21:45:58 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:20
+[13-Jan-2024 08:23:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home2/glintqnj/mdfcapitals.com/cron_daily.php:26
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/inc/function.php(20): mysqli_query(false, 'SELECT * FROM `...')
-#1 /home/mdfcapitals/public_html/login-process.php(8): query(false, 'SELECT * FROM `...')
-#2 {main}
-  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
-[14-Nov-2023 16:15:58 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
-[14-Nov-2023 21:46:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:25
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/cron_daily.php on line 26
+[13-Jan-2024 08:23:27 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home2/glintqnj/mdfcapitals.com/cron_daily.php:26
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/inc/function.php(25): mysqli_num_rows(false)
-#1 /home/mdfcapitals/public_html/login-process.php(9): numrows(false)
-#2 {main}
-  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
-[14-Nov-2023 21:46:49 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/mdfcapitals/public_html/admin/inc/function.php:25
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/cron_daily.php on line 26
+[13-Jan-2024 08:23:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class DateInterval could not be converted to string in /home2/glintqnj/mdfcapitals.com/cron_daily.php:26
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/inc/function.php(25): mysqli_num_rows(false)
-#1 /home/mdfcapitals/public_html/login-process.php(9): numrows(false)
-#2 {main}
-  thrown in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
-[14-Nov-2023 16:17:19 UTC] PHP Warning:  Undefined array key "e" in /home/mdfcapitals/public_html/log.php on line 87
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/cron_daily.php on line 26
+[22-Jan-2024 17:03:35 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'MDF1025-Reward2' for key 'UC_Rewards' in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:23
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(23): mysqli_query(Object(mysqli), 'INSERT INTO `im...')
+#1 /home2/glintqnj/mdfcapitals.com/cron_reward.php(77): query(Object(mysqli), 'INSERT INTO `im...')
+#2 /home2/glintqnj/mdfcapitals.com/cron_reward.php(114): getRewardIncome(Object(mysqli), 'MDF1025', Array, 1, '2024-01-21')
+#3 /home2/glintqnj/mdfcapitals.com/cron_reward.php(33): getRewardIncome(Object(mysqli), 'MDF1025', Array, 1, '2024-01-21')
+#4 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 23
+[30-Jan-2024 08:13:23 Asia/Kolkata] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'MDF1025-Reward2' for key 'UC_Rewards' in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:23
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(23): mysqli_query(Object(mysqli), 'INSERT INTO `im...')
+#1 /home2/glintqnj/mdfcapitals.com/cron_reward.php(77): query(Object(mysqli), 'INSERT INTO `im...')
+#2 /home2/glintqnj/mdfcapitals.com/cron_reward.php(114): getRewardIncome(Object(mysqli), 'MDF1025', Array, 1, '2024-01-29')
+#3 /home2/glintqnj/mdfcapitals.com/cron_reward.php(33): getRewardIncome(Object(mysqli), 'MDF1025', Array, 1, '2024-01-29')
+#4 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 23

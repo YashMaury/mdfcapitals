@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD']=='POST')
 {
 if($_REQUEST['case']=='add')
 {
-$sql1="INSERT INTO `imaksoft_announcement` (`announcement`,`date`) VALUES('".addslashes(trim(mysqli_real_escape_string($conn,$_POST['announcement'])))."','".date('Y-m-d')."')";
+$sql1="INSERT INTO `imaksoft_announcement` (`announcement`,`date`) VALUES('".trim(mysqli_real_escape_string($conn,$_POST['announcement']))."','".date('Y-m-d')."')";
 $res1=query($conn,$sql1);  
     
 redirect('news.php?case=add&m=1');

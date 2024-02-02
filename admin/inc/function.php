@@ -1,8 +1,8 @@
 <?php
 error_reporting(1);
 /*-----------------Database Connection-----------------------*/
-$conn=mysqli_connect('localhost','root','root','mdfcapitals');
-//echo $conn;
+$conn = mysqli_connect('localhost', 'glintqnj_mdfcapitals', 'Glintel@2023', 'glintqnj_mdfcapitals');
+//$conn=mysqli_connect('localhost','root','root','mdfcapitals',);  //echo $conn;
 date_default_timezone_set('Asia/Calcutta');
 /*-----------------Database Connection-----------------------*/
 // $title='websiteswalla';
@@ -59,6 +59,72 @@ return $fetch[$field];
 }
 
 
+
+function getTotalFund($conn){
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_investment_receipt` ORDER BY `id`";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+function getTotalUsedFund($conn){
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_deposit` ORDER BY `id`";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+function getTotalAvailableFund($conn){
+    $total = (getTotalFund($conn) - getTotalUsedFund($conn));
+    
+    return $total;
+}
+
+function getRoyalityMember($conn,$plan){
+$sql="SELECT COUNT(`id`) AS total FROM `imaksoft_commission_royality_roi` WHERE `plan`='".$plan."' ORDER BY `id`";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
 
 
 function getTransferFundOthersToid($conn,$userid)
@@ -217,6 +283,27 @@ return $total;
 }
 
 //-------------23-07-2019-----------//
+function getImageGallery($conn){
+    $sql="SELECT * FROM `imaksoft_gallery_image` ";
+    $res=query($conn,$sql);
+    $num=numrows($res);
+    return $res;
+}
+
+function getLegalDocument($conn){
+    $sql="SELECT * FROM `imaksoft_legal_document` ";
+    $res=query($conn,$sql);
+    $num=numrows($res);
+    return $res;
+}
+
+function getVideoGallery($conn){
+    $sql="SELECT * FROM `imaksoft_gallery_video` ";
+    $res=query($conn,$sql);
+    $num=numrows($res);
+    return $res;
+}
+
 function getFirstMember($conn)
 {
 $sql="SELECT * FROM `imaksoft_member` ";
@@ -356,6 +443,25 @@ function getAllSponsorUserid($conn,$userid,$field)
   
     $all_members=array();
   $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor` IN ('$userid')";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+
+    while($fetch=fetcharray($res)){
+        array_push($all_members,$fetch["userid"]);
+}
+
+return $all_members;
+}
+}
+
+function getAllActiveSponsorUserid($conn,$userid,$field)
+{
+    //echo $userid;
+  
+    $all_members=array();
+  $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor` IN ('$userid') and paystatus='A'";
 $res=query($conn,$sql);
 $num=numrows($res);
 if($num>0)
@@ -698,19 +804,19 @@ return $total;
 
 function getMemberFirstMember($conn)
 {
-$sql="SELECT * FROM `imaksoft_member` ORDER BY `id` LIMIT 1";
+$sql="SELECT * FROM `imaksoft_member` ORDER BY `id` DESC LIMIT 1";
 $res=query($conn,$sql);
 $num=numrows($res);
 if($num>0)
 {
 $fetch=fetcharray($res);
-return $fetch['userid'];
+return $fetch['id'];
 }
 }
 
 function getTotalROIBonus($conn)
 {
-$sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_roi` WHERE`status`='R'";
+$sql="SELECT total_income AS total FROM `imaksoft_commission_royality_business` ";
 $res=query($conn,$sql);
 $num=numrows($res);
 if($num>0)
@@ -729,9 +835,86 @@ $total=number_format(0,2);
 return $total;
 }
 
-function getTotalLevelBonus($conn)
+function getTotalROIBonusPercentage($conn)
 {
-$sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_level` ORDER BY `id`";
+$sql="SELECT royality_percentage AS total FROM `imaksoft_commission_royality_business` ";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+
+function getTotalLevelBonus($conn,$userid)
+{
+    if($userid == 'ALL'){
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_level_roi` ORDER BY `id`";
+    } else {
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_level_roi` WHERE `userid`='".$userid."' ORDER BY `id`";
+    }
+        
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+function getTotalRefferalBonus($conn,$userid)
+{
+    if($userid == 'ALL'){
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_direct` ORDER BY `id`";
+    } else {
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_direct` WHERE `fromid`='".$userid."' ORDER BY `id`";
+    }
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+function getTotalRewardBonus($conn,$userid)
+{
+    if($userid == 'ALL'){
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_reward_roi` ORDER BY `id`";
+    } else {
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_reward_roi` WHERE `userid`='".$userid."' ORDER BY `id`";
+    }
 $res=query($conn,$sql);
 $num=numrows($res);
 if($num>0)
@@ -773,7 +956,11 @@ return $total;
 
 function getROIBonus($conn,$userid)
 {
-$sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_roi` WHERE `userid`='".$userid."' AND `status`='R' ORDER BY `id`";
+    if($userid == 'ALL'){
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_roi` WHERE `status`='R' ORDER BY `id`";
+    } else {
+        $sql="SELECT SUM(`bonus`) AS total FROM `imaksoft_commission_roi` WHERE `userid`='".$userid."' AND `status`='R' ORDER BY `id`";
+    }
 $res=query($conn,$sql);
 $num=numrows($res);
 if($num>0)
@@ -834,6 +1021,68 @@ $total=number_format(0,2);
 return $total;
 }
 
+function getDirectTeamInvestment($conn,$userid){
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_member_investment` LEFT JOIN imaksoft_member ON imaksoft_member_investment.userid=imaksoft_member.userid WHERE imaksoft_member.sponsor='".$userid."'";
+
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+
+}
+
+function getUserInvestment($conn,$userid){
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_member_investment` WHERE `userid`='".$userid."'";
+
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
+
+function getTotalInvestment($conn,$userid){
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_member_investment` WHERE MONTH(datetime)=MONTH(now()) ORDER BY `id`";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=number_format(0,2);
+}
+}else{
+$total=number_format(0,2);
+}
+return $total;
+}
 
 function getInvestmentDeposit($conn,$userid)
 {
@@ -938,7 +1187,7 @@ return $total;
 
 function getAvailableWallet($conn,$userid)
 {
-$total=(geTotalCommission($conn,$userid)+getDepositMember($conn,$userid)+getFundReceived($conn,$userid))-(getWithdrawalMember($conn,$userid)+getMemberInvestment($conn,$userid)+getDeductMember($conn,$userid)+getFundTransfer($conn,$userid));
+$total=(getTotalCommission($conn,$userid)+getDepositMember($conn,$userid)+getFundReceived($conn,$userid))-(getWithdrawalMember($conn,$userid)+getMemberInvestment($conn,$userid)+getDeductMember($conn,$userid)+getFundTransfer($conn,$userid));
 
 return $total;
 }
@@ -951,9 +1200,9 @@ $total=(getDepositMember($conn,$userid))-(getDeductMember($conn,$userid)+getMemb
 return $total;
 }
 
-function geTotalCommission($conn,$userid)
+function getTotalCommission($conn,$userid)
  {
-$total=(getROIBonus($conn,$userid)+getLevelBonus($conn,$userid)+getLevelROIBonus($conn,$userid));
+$total=(getROIBonus($conn,$userid)+getTotalLevelBonus($conn,$userid)+getTotalRefferalBonus($conn,$userid)+getTotalRewardBonus($conn,$userid));
  return $total;
  }
 
@@ -1483,4 +1732,218 @@ $fetch=fetcharray($res);
 return $fetch['percentage'];
 }
 }
+
+function getAllBusinessAmount($conn,$userid,$date)
+{
+    $user= "'" . implode ( "', '", $userid ) . "'";
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_member_investment` where userid IN ($user) and date in ('$date')";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
+
+
+function getSettingsReward($conn,$business)
+{
+ $sql="SELECT * FROM `imaksoft_settings_reward` WHERE `level`='".$business."' ORDER BY `id` DESC LIMIT 1";
+
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['business']>0)
+{
+$total=$fetch['level'].":".$fetch['business'].":".$fetch['bonus'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
+
+function getSettingsRewardOthers($conn,$business)
+{
+  $sql="SELECT * FROM `imaksoft_settings_reward` WHERE `level`>'".$business."' ORDER BY `id` LIMIT 1";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['business']>0)
+{
+$total=$fetch['level'].":".$fetch['business'].":".$fetch['bonus'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+
+}
+
+
+// function getSettingsRewardBonus($conn,$business)
+// {
+// $sql="SELECT * FROM `imaksoft_settings_reward` WHERE `business`=$business ORDER BY `id` DESC LIMIT 1";
+// $res=query($conn,$sql);
+// $num=numrows($res);
+// if($num>0)
+// {
+// $fetch=fetcharray($res);
+
+// if($fetch['bonus']>0)
+// {
+// $total=$fetch['bonus'];
+// }else{
+// $total=0;
+// }
+// }else{
+// $total=0;
+// }
+// return $total;
+// }
+
+
+function getPaidRewardAmount($conn,$userid)
+{
+ $sql="SELECT plan,totalAmount,amount FROM `imaksoft_commission_reward_roi` where userid = '".$userid."' order by id limit 1";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+ $fetch=fetcharray($res);
+if($fetch['plan']!="")
+{
+$total= $fetch['plan'].":".$fetch['totalAmount'].":".$fetch['amount'];
+}else{
+$total="GLINTEL";
+}
+}else{
+$total="GLINTEL";
+}
+return $total;
+}
+
+
+
+function getAllBusinessRewardAmount($conn,$userid,$date)
+{
+    $user= "'" . implode ( "', '", $userid ) . "'";
+$sql="SELECT SUM(`amount`) AS total FROM `imaksoft_member_investment` where userid IN ($user) ";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
+
+
+function getPaidRoyalityAmount($conn,$userid)
+{
+$sql="SELECT plan FROM `imaksoft_commission_royality_roi` where userid = '".$userid."' order by id DESC limit 1";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+ $fetch=fetcharray($res);
+if($fetch['plan']>0)
+{
+$total=$fetch['plan'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
+
+
+function getSettingsRoyality($conn,$direct,$team)
+{
+$sql="SELECT * FROM `imaksoft_settings_royality` WHERE `direct`<=$direct and team<=$team ORDER BY `id` DESC LIMIT 1";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+if($fetch['plan']!="")
+{
+$total=$fetch['plan'].":".$fetch['percentage'].":".$fetch['direct'].":".$fetch['team'];
+}else{
+$total="GLINTEL";
+}
+}else{
+$total="GLINTEL";
+}
+return $total;
+}
+
+
+function getLatestRoyalityCondition($conn,$user,$date)
+{
+ $sql="SELECT * FROM `imaksoft_commission_royality_roi_records` WHERE `userid`='".$user."' and date='".$date."' ORDER BY `id` DESC LIMIT 1";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+
+return $fetch['direct_member'].":".$fetch['total_member'];
+}
+}
+
+
+function sumLevelIncomeForRoyality($conn,$userid,$date)
+{
+   
+ $sql="SELECT SUM(`dailybonus`) AS total FROM `imaksoft_commission_level_roi` where userid ='".$userid."' and date<='".$date."'";
+$res=query($conn,$sql);
+$num=numrows($res);
+if($num>0)
+{
+$fetch=fetcharray($res);
+if($fetch['total']>0)
+{
+$total=$fetch['total'];
+}else{
+$total=0;
+}
+}else{
+$total=0;
+}
+return $total;
+}
+
+
+
 ?>

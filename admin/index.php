@@ -77,9 +77,12 @@ include('inc/function.php');
 
 <div class="sign-up-body ">
 <div class="main-signin-header">
+    <div class="d-flex justify-content-center">
+        <img src="../assets/fav.jpeg" width="30%" />
+    </div>
 <div><?php if(isset($_REQUEST['e'])==1){?><p align="center" style="color:#FF0000;background:#FFFFFF;height:30px;line-height:30px;">Invalid Username/Password!</p><?php }?>
 <?php if(isset($_REQUEST['m'])==2){?><p align="center" style="color:#FF0000;background:#FFFFFF;height:30px;line-height:30px;">Security code does not match!</p><?php }?>
-<div class="form-group mt-5">
+<div class="form-group mt-3">
 <label>Username</label>
 <input type="text" maxlength="35" class="form-control" placeholder="UserName" name="username" value="" required="required" />
 </div>

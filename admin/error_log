@@ -1,43 +1,55 @@
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined array key "captcha" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined array key "security" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 38
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 53
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 67
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 86
-[14-Nov-2023 21:49:00 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 100
-[14-Nov-2023 21:49:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+[06-Jan-2024 09:22:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:6
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
-#1 {main}
-  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
-[14-Nov-2023 21:49:11 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(6): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/admin/index.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 6
+[06-Jan-2024 15:34:39 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function geTotalCommission() in /home2/glintqnj/mdfcapitals.com/admin/member.php:478
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
-#1 {main}
-  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
-[14-Nov-2023 21:49:52 Asia/Calcutta] PHP Warning:  Undefined array key "captcha" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
-[14-Nov-2023 21:49:52 Asia/Calcutta] PHP Warning:  Undefined array key "security" in /home/mdfcapitals/public_html/admin/login-process.php on line 7
-[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 38
-[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 53
-[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 67
-[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 86
-[14-Nov-2023 21:49:54 Asia/Calcutta] PHP Warning:  Undefined variable $left in /home/mdfcapitals/public_html/admin/sidebar.php on line 100
-[14-Nov-2023 21:50:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "num" in /home/mdfcapitals/public_html/admin/pagination.php:6
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 478
+[06-Jan-2024 10:13:14 UTC] PHP Parse error:  syntax error, unexpected token "{" in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 563
+[06-Jan-2024 15:45:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function mberUserid() in /home2/glintqnj/mdfcapitals.com/admin/member.php:611
 Stack trace:
-#0 /home/mdfcapitals/public_html/admin/settings.php(54): include()
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 611
+[06-Jan-2024 15:45:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function mberUserid() in /home2/glintqnj/mdfcapitals.com/admin/member.php:611
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 611
+[06-Jan-2024 15:46:24 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function mberUserid() in /home2/glintqnj/mdfcapitals.com/admin/member.php:611
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 611
+[06-Jan-2024 15:48:01 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getMember(), 2 passed in /home2/glintqnj/mdfcapitals.com/admin/member.php on line 612 and exactly 3 expected in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:378
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/member.php(612): getMember(Object(mysqli), 'MDF9585695')
 #1 {main}
-  thrown in /home/mdfcapitals/public_html/admin/pagination.php on line 6
-[15-Nov-2023 18:19:34 Asia/Calcutta] PHP Warning:  mysqli_query(): Empty query in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
-[20-Nov-2023 16:06:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
-[20-Nov-2023 16:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
-[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
-[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
-[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
-[20-Nov-2023 21:36:11 Asia/Calcutta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
-[20-Nov-2023 16:06:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
-[20-Nov-2023 16:06:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
-[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
-[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/login-process.php on line 9
-[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/mdfcapitals/public_html/admin/inc/function.php on line 20
-[20-Nov-2023 21:36:22 Asia/Calcutta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mdfcapitals/public_html/admin/inc/function.php on line 25
-[20-Nov-2023 16:06:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mdfcapit_database'@'localhost' (using password: YES) in /home/mdfcapitals/public_html/admin/inc/function.php on line 3
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 378
+[06-Jan-2024 16:22:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home2/glintqnj/mdfcapitals.com/admin/pagination.php:19
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/withdrawal.php(66): include()
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/pagination.php on line 19
+[06-Jan-2024 16:22:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home2/glintqnj/mdfcapitals.com/admin/pagination.php:19
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/withdrawal.php(66): include()
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/pagination.php on line 19
+[17-Jan-2024 11:29:04 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'd add funds','2024-01-17')' at line 1 in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:23
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(23): mysqli_query(Object(mysqli), 'INSERT INTO `im...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/deposit-process.php(21): query(Object(mysqli), 'INSERT INTO `im...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 23
+[22-Jan-2024 13:44:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string - int in /home2/glintqnj/mdfcapitals.com/admin/pagination.php:19
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/member.php(64): include()
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/pagination.php on line 19
+[02-Feb-2024 17:04:00 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /home2/glintqnj/mdfcapitals.com/admin/upload-document.php:106
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/upload-document.php(106): date('d M Y', '2024-02-02 05:0...')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/upload-document.php on line 106
+[02-Feb-2024 11:40:58 UTC] PHP Parse error:  Unclosed '{' on line 21 in /home2/glintqnj/mdfcapitals.com/admin/gallery-delete-process.php on line 41

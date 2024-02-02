@@ -9,9 +9,9 @@
 <aside class="app-sidebar ps ps--active-y open">
 <div class="main-sidebar-header active">
 <a class="logo-icon mobile-logo icon-light active" href="dashboard.php">
-<img src="../user/logo.png" alt="logo" /></a>
+<img src="../assets/fav.jpeg" alt="logo" /></a>
 <a class="logo-icon mobile-logo icon-dark active" href="dashboard.php">
-<img src="../user/logo.png" alt="logo" /></a>
+<img src="../assets/fav.jpeg" alt="logo" /></a>
 </div>
 <div class="main-sidemenu is-expanded">
 <div class="main-sidebar-loggedin">
@@ -60,10 +60,25 @@
 <i class="angle fe fe-chevron-down"></i>
 </a>
 <ul class="slide-menu">
-<li><a class="slide-item" href="member.php?inc=memdet">Member details</a>
+<li><a class="slide-item" href="member.php?inc=memdet">Member Details</a></li>
+<li><a class="slide-item" href="member.php?inc=bank">Bank Details</a></li>
+<li><a class="slide-item" href="member.php?inc=invd">Member Investment</a></li>
+</ul>
 </li>
-<li><a class="slide-item" href="member.php?inc=bank">Bank details</a>
-</li>
+
+<li class="slide <?php if($left=='411'){?> is-expanded <?php }?>">
+<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+<i class="side-menu__icon fe fe-users"></i>
+<span class="side-menu__label">Members Income</span>
+<i class="angle fe fe-chevron-down"></i>
+</a>
+<ul class="slide-menu">
+<li><a class="slide-item" href="member-income.php?inc=daily">Daily Income</a></li>
+<li><a class="slide-item" href="member-income.php?inc=level">Level Income</a></li>
+<li><a class="slide-item" href="member-income.php?inc=refferal">Refferal Income</a></li>
+<li><a class="slide-item" href="member-income.php?inc=reward">Reward Direct Income</a></li>
+<li><a class="slide-item" href="member-income.php?inc=royality">Royality Income</a></li>
+<li><a class="slide-item" href="member-income.php?inc=total">Total Income</a></li>
 </ul>
 </li>
 
@@ -102,6 +117,27 @@
 </ul>
 </li>
 
+
+<li class="slide <?php if($left=='60'){?> is-expanded <?php }?>">
+<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+<i class="side-menu__icon fe fe-box"></i>
+<span class="side-menu__label">Gallery</span>
+<i class="angle fe fe-chevron-down"></i>
+</a>
+<ul class="slide-menu">
+<li><a class="slide-item" href="qr_code.php">QR Code</a>
+</li>
+<li><a class="slide-item" href="upload-gallery.php">Upload Gallery</a>
+</li>
+<li><a class="slide-item" href="gallery-list.php">Gallery List</a>
+</li>
+<li><a class="slide-item" href="news.php">News</a>
+</li>
+<li><a class="slide-item" href="upload-document.php">Upload Document</a>
+</li>
+</ul>
+</li>
+
 <li class="slide <?php if($left=='60'){?> is-expanded <?php }?>">
 <a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
 <i class="side-menu__icon fe fe-box"></i>
@@ -117,7 +153,7 @@
 
 
 
-<li class="slide"><a class="side-menu__item" href="../logout.php"><i class="side-menu__icon fe fe-log-out"></i><span class="side-menu__label">Logout</span></a> </li>
+<li class="slide"><a class="side-menu__item" href="logout.php"><i class="side-menu__icon fe fe-log-out"></i><span class="side-menu__label">Logout</span></a> </li>
 </ul>
 <div class="slide-right" id="slide-right">
 <svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">

@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('../admin/inc/function.php');
+include('../admin/inc/getTeamInvestment.php');
 if(!isset($_SESSION['mid']))
 {
 redirect('../index.php');
@@ -1064,8 +1065,9 @@ include('calculate-roi-release.php');
                                 </span>
                                 <?php
                                 $userid=getMember($conn,$_SESSION['mid'],'userid');
+                                $username=getMember($conn,$_SESSION['mid'],'name');
                                 ?>
-                                <a href="/ref.php?spon=<?=$userid?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref.php?spon=<?=$userid?></a>
+                                <a href="/ref.php?spon=<?=$userid?>&name=<?=$username?>" id="ctl00_ContentPlaceHolder1_refferal" class="form-control input-sm border-none text-center text-success" target="blank"><?=$domain?>/ref.php?spon=<?=$userid?>&name=<?=$username?></a>
                                 <span class="outer-share input-group-btn">
                                     <button type="button" class="btn btn-primary btn-icon-anim btn-square" href="JavaScript:Void(0);" onclick="CopyToClipboard('ctl00_ContentPlaceHolder1_refferal')"><i class="zmdi zmdi-copy"></i></button>
                                 </span>
@@ -1077,12 +1079,51 @@ include('calculate-roi-release.php');
         </div>
 
         <div class="row">
+            <div class="col-md-4">
+            <div class="card animated fadeInUp box1 pull-up b1">
+                <div class="card-body iconfont text-left  pb-0">
+                    <div class="d-flex justify-content-between">
+                        <h4 class="card-title mb-3">Total Investment</h4>
+                    </div>
+                    <div class="d-flex mb-0">
+                        <div class="">
+                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblliquiwallt"><?=getUserInvestment($conn,$userid)?></span></span>
+                            </h4>
+
+                        </div>
+                        <div class="card-chart bg-primary-transparent round ml-auto mt-0"><i class="fa fa-usd text-primary tx-24" aria-hidden="true"></i></div>
+                    </div>
+
+
+
+                </div>
+                <svg id="SvgjsSvg4868" width="100%" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: #f000 none repeat scroll 0 0; width: 100%; overflow: hidden; margin-top: -16px; border: none!important; border-radius: 9px">
+                    <g id="SvgjsG4870" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)">
+
+
+
+
+                        <g id="SvgjsG4878" class="apexcharts-area-series apexcharts-plot-series" style="width: 100%;">
+                            <g id="SvgjsG4879" class="apexcharts-series" seriesname="Revenue" data:longestseries="true" rel="1" data:realindex="0">
+                                <path id="SvgjsPath4886" d="M 0 100L 0 66.8C 10.645833333333334 66.8 19.770833333333336 46 30.41666666666667 46C 41.06250000000001 46 50.18750000000001 84 60.83333333333334 84C 71.47916666666667 84 80.60416666666669 76 91.25000000000001 76C 101.89583333333334 76 111.02083333333336 84 121.66666666666669 84C 132.3125 84 141.4375 32.900000000000006 152.08333333333334 32.900000000000006C 162.72916666666669 32.900000000000006 171.85416666666669 64.5 182.50000000000003 64.5C 193.14583333333337 64.5 202.27083333333337 32.900000000000006 212.91666666666669 32.900000000000006C 223.56250000000003 32.900000000000006 232.68750000000003 58.6 243.33333333333337 58.6C 253.97916666666669 58.6 263.1041666666667 44.5 273.75 44.5C 284.3958333333333 44.5 293.52083333333337 74.3 304.1666666666667 74.3C 314.8125 74.3 323.93750000000006 9.900000000000006 334.58333333333337 9.900000000000006C 345.2291666666667 9.900000000000006 354.35416666666674 38.7 365.00000000000006 38.7C 365.00000000000006 38.7 365.00000000000006 38.7 365.00000000000006 100M 365.00000000000006 38.7z" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-width="0" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskgy1wv7j9)" pathto="M 0 100L 0 66.8C 10.645833333333334 66.8 19.770833333333336 46 30.41666666666667 46C 41.06250000000001 46 50.18750000000001 84 60.83333333333334 84C 71.47916666666667 84 80.60416666666669 76 91.25000000000001 76C 101.89583333333334 76 111.02083333333336 84 121.66666666666669 84C 132.3125 84 141.4375 32.900000000000006 152.08333333333334 32.900000000000006C 162.72916666666669 32.900000000000006 171.85416666666669 64.5 182.50000000000003 64.5C 193.14583333333337 64.5 202.27083333333337 32.900000000000006 212.91666666666669 32.900000000000006C 223.56250000000003 32.900000000000006 232.68750000000003 58.6 243.33333333333337 58.6C 253.97916666666669 58.6 263.1041666666667 44.5 273.75 44.5C 284.3958333333333 44.5 293.52083333333337 74.3 304.1666666666667 74.3C 314.8125 74.3 323.93750000000006 9.900000000000006 334.58333333333337 9.900000000000006C 345.2291666666667 9.900000000000006 354.35416666666674 38.7 365.00000000000006 38.7C 365.00000000000006 38.7 365.00000000000006 38.7 365.00000000000006 100M 365.00000000000006 38.7z" pathfrom="M -1 100L -1 100L 30.41666666666667 100L 60.83333333333334 100L 91.25000000000001 100L 121.66666666666669 100L 152.08333333333334 100L 182.50000000000003 100L 212.91666666666669 100L 243.33333333333337 100L 273.75 100L 304.1666666666667 100L 334.58333333333337 100L 365.00000000000006 100" style="width: 100%; overflow: hidden;" fill="#e9f5ff"></path>
+                                <path id="SvgjsPath4887" d="M 0 66.8C 10.645833333333334 66.8 19.770833333333336 46 30.41666666666667 46C 41.06250000000001 46 50.18750000000001 84 60.83333333333334 84C 71.47916666666667 84 80.60416666666669 76 91.25000000000001 76C 101.89583333333334 76 111.02083333333336 84 121.66666666666669 84C 132.3125 84 141.4375 32.900000000000006 152.08333333333334 32.900000000000006C 162.72916666666669 32.900000000000006 171.85416666666669 64.5 182.50000000000003 64.5C 193.14583333333337 64.5 202.27083333333337 32.900000000000006 212.91666666666669 32.900000000000006C 223.56250000000003 32.900000000000006 232.68750000000003 58.6 243.33333333333337 58.6C 253.97916666666669 58.6 263.1041666666667 44.5 273.75 44.5C 284.3958333333333 44.5 293.52083333333337 74.3 304.1666666666667 74.3C 314.8125 74.3 323.93750000000006 9.900000000000006 334.58333333333337 9.900000000000006C 345.2291666666667 9.900000000000006 354.35416666666674 38.7 365.00000000000006 38.7" fill="none" fill-opacity="1" stroke-opacity="1" stroke-linecap="butt" stroke-dasharray="0" class="apexcharts-area" index="0" clip-path="url(#gridRectMaskgy1wv7j9)" pathto="M 0 66.8C 10.645833333333334 66.8 19.770833333333336 46 30.41666666666667 46C 41.06250000000001 46 50.18750000000001 84 60.83333333333334 84C 71.47916666666667 84 80.60416666666669 76 91.25000000000001 76C 101.89583333333334 76 111.02083333333336 84 121.66666666666669 84C 132.3125 84 141.4375 32.900000000000006 152.08333333333334 32.900000000000006C 162.72916666666669 32.900000000000006 171.85416666666669 64.5 182.50000000000003 64.5C 193.14583333333337 64.5 202.27083333333337 32.900000000000006 212.91666666666669 32.900000000000006C 223.56250000000003 32.900000000000006 232.68750000000003 58.6 243.33333333333337 58.6C 253.97916666666669 58.6 263.1041666666667 44.5 273.75 44.5C 284.3958333333333 44.5 293.52083333333337 74.3 304.1666666666667 74.3C 314.8125 74.3 323.93750000000006 9.900000000000006 334.58333333333337 9.900000000000006C 345.2291666666667 9.900000000000006 354.35416666666674 38.7 365.00000000000006 38.7" pathfrom="M -1 100L -1 100L 30.41666666666667 100L 60.83333333333334 100L 91.25000000000001 100L 121.66666666666669 100L 152.08333333333334 100L 182.50000000000003 100L 212.91666666666669 100L 243.33333333333337 100L 273.75 100L 304.1666666666667 100L 334.58333333333337 100L 365.00000000000006 100" stroke="#2196f3" stroke-width="2"></path>
+                                <g id="SvgjsG4880" class="apexcharts-series-markers-wrap" data:realindex="0">
+                                    <g class="apexcharts-series-markers">
+                                        <circle id="SvgjsCircle4907" r="0" cx="212.91666666666669" cy="32.900000000000006" class="apexcharts-marker wg61wldx7 no-pointer-events" stroke="#ffffff" fill="#ffffff" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="SvgjsG4881" class="apexcharts-datalabels" data:realindex="0"></g>
+                        </g>
+                    </g></svg>
+            </div>
+            </div>
             
             <div class="col-md-4">
             <div class="card animated fadeInUp box1 pull-up b1">
                 <div class="card-body iconfont text-left  pb-0">
                     <div class="d-flex justify-content-between">
-                        <h4 class="card-title mb-3">Daily Income</h4>
+                        <h4 class="card-title mb-3">Daily Performance Bonus</h4>
                     </div>
                     <div class="d-flex mb-0">
                         <div class="">
@@ -1122,11 +1163,11 @@ include('calculate-roi-release.php');
             <div class="card animated fadeInUp box1 pull-up b1">
                 <div class="card-body iconfont text-left  pb-0">
                     <div class="d-flex justify-content-between">
-                        <h4 class="card-title mb-3">Refferal Income </h4>
+                        <h4 class="card-title mb-3">Level Income</h4>
                     </div>
                     <div class="d-flex mb-0">
                         <div class="">
-                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblroiinc">0.00</span></span>
+                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblroiinc"><?=getTotalLevelBonus($conn,$userid)?></span></span>
                             </h4>
 
                         </div>
@@ -1157,16 +1198,17 @@ include('calculate-roi-release.php');
                     </g></svg>
             </div>
             </div>
-
+        </div>
+        <div class="row">
             <div class="col-md-4">
             <div class="card animated fadeInUp box1 pull-up b1">
                 <div class="card-body iconfont text-left  pb-0">
                     <div class="d-flex justify-content-between">
-                        <h4 class="card-title mb-3">Level Income</h4>
+                        <h4 class="card-title mb-3">Refferal Income</h4>
                     </div>
                     <div class="d-flex mb-0">
                         <div class="">
-                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblliquiwallt"><?=getLevelBonus($conn,$userid)?></span></span>
+                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblliquiwallt"><?=getTotalRefferalBonus($conn,$userid)?></span></span>
                             </h4>
 
                         </div>
@@ -1198,19 +1240,15 @@ include('calculate-roi-release.php');
             </div>
             </div>
 
-        </div>
-
-        <div class="row">
-
             <div class="col-md-4">
             <div class="card animated fadeInUp box1 pull-up b1">
                 <div class="card-body iconfont text-left  pb-0">
                     <div class="d-flex justify-content-between">
-                        <h4 class="card-title mb-3">Direct Income</h4>
+                        <h4 class="card-title mb-3">Reward Direct Income</h4>
                     </div>
                     <div class="d-flex mb-0">
                         <div class="">
-                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblliquiwallt">0.00</span></span>
+                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lblliquiwallt"><?=getTotalRewardBonus($conn,$userid)?></span></span>
                             </h4>
 
                         </div>
@@ -1248,7 +1286,7 @@ include('calculate-roi-release.php');
                     </div>
                     <div class="d-flex mb-0">
                         <div class="">
-                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lbllevelinc">0.00</span></span>
+                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lbllevelinc"><?=getPaidRoyalityAmount($conn,$userid)?></span></span>
                             </h4>
                             
 
@@ -1280,7 +1318,6 @@ include('calculate-roi-release.php');
                     </g></svg>
             </div>
             </div>
-
         </div>
        
                    
@@ -1424,7 +1461,7 @@ include('calculate-roi-release.php');
                                     </div>
                                     <div class="d-flex mb-0">
                                         <div class="">
-                                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lbltotlearning"><?=geTotalCommission($conn,$userid)?></span></span>
+                                            <h4 class="mb-1 font-weight-bold  ">$<span class="counter-anim"><span id="ctl00_ContentPlaceHolder1_lbltotlearning"><?=getTotalCommission($conn,$userid)?></span></span>
                                             </h4>
 
                                         </div>
@@ -1500,7 +1537,9 @@ include('calculate-roi-release.php');
 
                                 <div class="card-header bg-transparent pd-b-0  pt-15 bd-b-0">
                                     <div class="d-flex justify-content-between">
-                                        <h4 class="card-title mg-b-10">Account Details <i class="zmdi zmdi-plus plus-icon"></i></h4>
+                                        <h4 class="card-title mg-b-10">Account Details 
+                                        <!--<i class="zmdi zmdi-plus plus-icon"></i>-->
+                                        </h4>
                                     </div>
                                     <div class="clearfix">
                                     </div>
@@ -1542,7 +1581,7 @@ include('calculate-roi-release.php');
                                         <i class="fa fa-star star text-white"></i>
                                         <i class="fa fa-angle-right icon-left "></i>
                                         <h4 class="mb-1 font-weight-bold">
-                                            <span id="ctl00_ContentPlaceHolder1_lblActivationDate">--------</span>
+                                            <span id="ctl00_ContentPlaceHolder1_lblActivationDate"><?=getMember($conn,$_SESSION['mid'],'approved')?></span>
                                         </h4>
                                         <p class="mb-2 tx-12 text-muted">Activation Date</p>
                                     </div>
@@ -1647,9 +1686,30 @@ include('calculate-roi-release.php');
 
                         <div class="pt-10">
                             <marquee behavior="scroll" scrollamount="2" direction="up" onmouseover="this.stop();" onmouseout="this.start();" style="height: 94px;"><h5 style="font-weight:600;"> 
-                             </h5> <p>  <span id="ctl00_ContentPlaceHolder1_lblnews"><p>
-	<span style="background-color:#000000;">ALL LEDERS AND INVESTORS&nbsp; YOU ALL ARE INFORMED TO DURGA PUJA BONANZA REWARD IS STARTED. PL. WITH YOUR TEAM MEMBERS AND WIN YOUR EXITING REWARDS</span></p>
-</span></p></marquee>
+                             </h5> 
+                             <p>  
+                                <span id="ctl00_ContentPlaceHolder1_lblnews">
+                                    <?php
+                                    $tname='imaksoft_announcement';
+                                    $lim=100;
+                                    $tpage='announcement.php';
+                                    $where=" ORDER BY `id` DESC";
+                                    
+                                    include('pagination.php');
+                                    $num=numrows($result);
+                                    $i=1;
+                                    if($num>0)
+                                    {
+                                    while($fetch=fetcharray($result))
+                                    {
+                                    ?>
+	                                <li style="background-color:#000000;">
+	                                   <?=$fetch['announcement']?>
+	                                </li>
+	                                <?php $i++; }}?>
+                                </span>
+                            </p>
+                           </marquee>
                         </div>
                     </div>
                 </div>
@@ -1725,18 +1785,8 @@ include('calculate-roi-release.php');
 
                         <tr class="pull-up">
                             <td><i class="fa fa-star-half-empty circle text-white"></i></td>
-                            <td>Team Business</td>
-                            <td>$<span id="ctl00_ContentPlaceHolder1_lblTotalteambussiness">0.00</span></td>
-                            <td>
-                                <div class="progress progress-xs mb-0 ">
-                                    <div class="progress-bar progress-bar-primary" style="width: 40%"></div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="pull-up">
-                            <td><i class="fa fa-star-half-empty circle text-white"></i></td>
-                            <td>Active Investment</td>
-                            <td>$<span id="ctl00_ContentPlaceHolder1_lblActiveInvesment">0.00</span></td>
+                            <td>Company Business</td>
+                            <td>$<span id="ctl00_ContentPlaceHolder1_lblActiveInvesment"><?=getTotalInvestment($conn,'ALL')?></span></td>
                             <td>
                                 <div class="progress progress-xs mb-0 ">
                                     <div class="progress-bar progress-bar-primary" style="width: 70%"></div>
@@ -1745,8 +1795,18 @@ include('calculate-roi-release.php');
                         </tr>
                         <tr class="pull-up">
                             <td><i class="fa fa-star-half-empty circle text-white"></i></td>
+                            <td>Team Business</td>
+                            <td>$<span id="ctl00_ContentPlaceHolder1_lblTotalteambussiness"><?=getTeamInvestment($conn,$userid)?></span></td>
+                            <td>
+                                <div class="progress progress-xs mb-0 ">
+                                    <div class="progress-bar progress-bar-primary" style="width: 40%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="pull-up">
+                            <td><i class="fa fa-star-half-empty circle text-white"></i></td>
                             <td>Direct Business</td>
-                            <td>$<span id="ctl00_ContentPlaceHolder1_lbldirectbussiness">0.00</span></td>
+                            <td>$<span id="ctl00_ContentPlaceHolder1_lbldirectbussiness"><?=getDirectTeamInvestment($conn,$userid)?></span></td>
                             <td>
                                 <div class="progress progress-xs mb-0 ">
                                     <div class="progress-bar progress-bar-primary" style="width: 70%"></div>

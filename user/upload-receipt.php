@@ -1032,8 +1032,8 @@ $left = 2;
 
 
 <div class="card">
-<div class="card-header">
-<div class="card-title">Investment Receipt</div>
+<div class="card-header text-center">
+<div class="card-title ">Investment Receipt</div>
 </div>
 
 <div class="card-body">
@@ -1061,7 +1061,7 @@ $left = 2;
 </div>
 <div class="form-group">
     <label for="userinput5"><span style="color:#CC0000;">Transaction Receipt *</span></label>
-    <input type="file" class="form-control input-pill" id="receipt" name="receipt" placeholder="Investment Receipt" required>
+    <input type="file" class="form-control input-pill " id="receipt" name="receipt" placeholder="Investment Receipt" required>
 </div>
 </div>
 

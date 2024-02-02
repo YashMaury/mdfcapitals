@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="author" content="CoaxCoin.com">
+    <meta name="author" content="mdfcapitals.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Connecting individuals and communities together in the metaverse, enabling the creation and exploration of virtual worlds from any device.">
@@ -125,11 +125,19 @@
                     <li class="nav-item"><a class="nav-link menu-link" href="#tokenAlocate">Token Sale</a></li>
                     <!-- <li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Roadmap</a></li> -->
                     <!-- <li class="nav-item"><a class="nav-link menu-link" href="whitepaper.pdf" target="_blank">White Paper</a></li> -->
-                    <!-- <li class="nav-item"><a class="nav-link menu-link" href="#team">Team</a></li> -->
+                     <li class="nav-item"><a class="nav-link menu-link" target="_blank" href="assets/plan.pdf">Plan</a></li> 
                     <li class="nav-item"><a class="nav-link menu-link" href="#faq">Faqs</a></li>
-
+                    <li class="nav-item"><a class="nav-link menu-link" href="document.php">Legal Document</a></li>
+                    <li class="nav-item dropdown d-none d-lg-block">
+                        <a class="nav-link dropdown-button" href="#">Gallery <i class="ti ti-angle-down small"></i></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="image-gallery.php">Image</a>
+                            <a class="dropdown-item" href="video-gallery.php">Video</a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-lg-none"><a class="nav-link menu-link" href="image-gallery.php">Image Gallery</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link menu-link" href="video-gallery.php">Video Gallery</a></li>
                     <li class="nav-item"><a class="nav-link menu-link" href="#contact">Contact</a></li>
-
                 </ul>
                 <!--<ul class="navbar-btns animated remove-animation" data-animate="fadeInDown" data-delay=".85">
                     <li class="nav-item lang-switch">
@@ -157,7 +165,7 @@
             <div class="container">
                 <div class="banner-content">
                     <div class="row align-items-center">
-                        <div class="col-sm-7 col-lg-7">
+                        <div class="col-sm-12 col-lg-7 col-md-7 d-flex justify-content-center">
                             <div class="header-txt tab-center mobile-center">
                                 <h1 class="animated mb-4" data-animate="fadeInUp" data-delay="1.25">
                                     <span class="theme-color">Meta Dream Force</span> for Gaming, NFT Marketplace &
@@ -182,7 +190,7 @@
                                 </p>
                                 <div class=" size-1x d-none d-md-block"></div>
 
-                                <span id="copyText1" class="btn btn-icon-s3">TJSmo93WLp4HsWGq47iwUVPXzJ3EtWBCfb</span>
+                                <span id="copyText1" class="btn btn-icon-s3"><?php readfile('admin/qr_code_address.txt') ;?></span>
                                 <button type="button" class="copy-btn" onclick="withJquery();"><i
                                         class="fa fa-copy"></i></button>
 
@@ -190,11 +198,11 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-5 coinbox">
+                        <div class="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center coinbox">
 
                             <!-- <div class="animated" data-animate="fadeInUp" data-delay=".5"><img src="Asset 2.png" class="glass botal floating-glass-1 center-block coin " alt="graph"></div> -->
                             <div class="animated" data-animate="fadeInUp" data-delay=".5">
-                                <img src="assets/qr_code.jpeg" class="glass botal qr-style center-block coin "
+                                <img src="assets/qr_code.png" class="center-block coin "
                                     alt="graph">
                             </div>
                         </div>
@@ -424,7 +432,10 @@
                 <div class="tab-content animated" data-animate="fadeInUp" data-delay=".3">
                     <div class="tab-pane animate" id="tab-dist">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="images/zinnia/chart-zinnia-b.png" alt="chart"></div>
+                            <div class="tkn-crt-img">
+                                <img src="Asset 2.png" alt="chart">
+                                <span><strong>COMING SOON</strong></span>
+                            </div>
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span
                                         class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
@@ -432,17 +443,21 @@
                                         class="tkn-crt-ttl">Reserve for exchange & blockchain on 2025</span></li>
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt three"><span>1%</span></span><span
                                         class="tkn-crt-ttl">FOUNDER AND MANAGEMENT TEAM OF PUBLIC SALE</span></li>
-                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>15%</span></span><span class="tkn-crt-ttl">Founder & Community</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>35%</span></span><span class="tkn-crt-ttl">Reserve & Exchange</span></li>-->
-                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>8%</span></span><span class="tkn-crt-ttl">Operational</span></li>
-                                <li class="tkn-crt-itm"><span class="tkn-crt-prcnt seven"><span>4%</span></span><span class="tkn-crt-ttl">Contingency</span></li>-->
+                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt four"><span>15%</span></span><span -->
+                                <!--        class="tkn-crt-ttl">COMING SOON NEW PROJECT</span></li>-->
+                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt five"><span>35%</span></span><span class="tkn-crt-ttl">Reserve & Exchange</span></li>-->
+                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt six"><span>8%</span></span><span class="tkn-crt-ttl">Operational</span></li>-->
+                                <!--<li class="tkn-crt-itm"><span class="tkn-crt-prcnt seven"><span>4%</span></span><span class="tkn-crt-ttl">Contingency</span></li>-->
                             </ul>
                         </div>
                     </div>
                     <!-- End tab-pane -->
                     <div class="tab-pane animate active show" id="tab-fund">
                         <div class="tkn-crt">
-                            <div class="tkn-crt-img"><img src="Asset 2.png" alt="chart"></div>
+                            <div class="tkn-crt-img">
+                                <img src="Asset 2.png" alt="chart">
+                                <span><strong>COMING SOON</strong></span>
+                            </div>
                             <ul class="tkn-crt-lst">
                                 <li class="tkn-crt-itm"><span class="tkn-crt-prcnt one"><span>9.0909%</span></span><span
                                         class="tkn-crt-ttl">PUBLIC SALE FOR</span></li>
@@ -609,7 +624,7 @@ padding-bottom: 60px;">
                     </div>
                     <!-- .row -->
                     <ul class="btns text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".8">
-                        <li><a href="#" class="btn btn-sm">Download Now</a></li>
+                        <li><a href="#" class="btn btn-sm">Coming Soon</a></li>
                         <li><a href="#"><em class="fab fa-apple"></em></a><a href="#"><em
                                     class="fab fa-android"></em></a><a href="#"><em class="fab fa-windows"></em></a>
                         </li>
@@ -1224,7 +1239,7 @@ padding-bottom: 60px;">
                         <h2 class="section-title-s7 animated" data-animate="fadeInUp" data-delay=".1">Frequently asked
                             questions</h2>
                         <p class="animated" data-animate="fadeInUp" data-delay=".2">Can't find an answer? Email us at
-                            support@CoaxCoin.com</p>
+                            support@mdfcapitals.com</p>
                     </div>
                 </div>
             </div>
@@ -1466,16 +1481,16 @@ padding-bottom: 60px;">
             </div>
             <!-- .row -->
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <!--<div class="col-lg-8">-->
                     <ul class="contact-info">
-                        <li class="animated" data-animate="fadeInUp" data-delay=".3"><em
-                                class="fab fa-whatsapp"></em><span>+1 (347) 901-3987</span></li>
+                        <!--<li class="animated" data-animate="fadeInUp" data-delay=".3"><em-->
+                        <!--        class="fab fa-whatsapp"></em><span>+1 (123) 000-1234</span></li>-->
                         <li class="animated" data-animate="fadeInUp" data-delay=".4"><em
-                                class="fa fa-envelope"></em><span>Support@CoaxCoin.com</span></li>
+                                class="fa fa-envelope"></em><span>support@mdfcapitals.com</span></li>
                         <li class="animated" data-animate="fadeInUp" data-delay=".5"><em
                                 class="fa fa-paper-plane"></em><span>Join us on Telegram</span></li>
                     </ul>
-                </div>
+                <!--</div>-->
                 <!-- .col -->
             </div>
             <!-- .row -->
@@ -1572,7 +1587,7 @@ padding-bottom: 60px;">
                 <div class="row align-items-center">
                     <div class="col-sm-6 res-m-bttm"><a class="footer-brand" href="index.php"><img
                                 class="logo logo-light" alt="logo" src="cclogo.png"></a></div>
-                    <div class="col-sm-6 text-sm-right"><span class="copyright-text"> &copy; CoaxCoin.com, 2023</span>
+                    <div class="col-sm-6 text-sm-right"><span class="copyright-text"> &copy; mdfcapitals.com, 2023</span>
                     </div>
                 </div>
             </div>

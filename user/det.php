@@ -1117,7 +1117,7 @@ $left=2;
 <div class="col-md-6">
 <div class="form-group form-group-default">
 <label>Bitcoin Wallet</label>
-<input type="text" class="form-control" name="bitcoin" id="bitcoin" placeholder="Bitcoin Wallet" value="<?=getMember($conn,$_SESSION['mid'],'bitcoin')?>" <?php if(getMember($conn,$_SESSION['mid'],'bitcoin')!=''){?>readonly="readonly"<?php }?> />
+<input type="text" class="form-control" name="bitcoin" id="bitcoin" placeholder="Wallet Address" value="USDT-TRC-20" <?php if(getMember($conn,$_SESSION['mid'],'bitcoin')!=''){?>readonly="readonly"<?php }?> />
 </div>
 </div>
 </div>
@@ -7506,6 +7506,7 @@ while($fetch=fetcharray($result))
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7519,9 +7520,9 @@ while($fetch=fetcharray($result))
 
 if($_REQUEST['placement'])
 {
-echo $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$_REQUEST['placement']."' AND `status`='A'";
+$sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$_REQUEST['placement']."' AND `status`='A'";
 }else{
-echo $sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='A'";
+$sql="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='A'";
 }
 $res=query($conn,$sql);
 $num=numrows($res);
@@ -7534,6 +7535,7 @@ while($fetch=fetcharray($res))
 $arr[$i]=$fetch['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch['userid']?>"><?=$fetch['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch['name']))?></td>
 <td align="center"><?php if($fetch['sponsor']){?><?=$fetch['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7553,6 +7555,7 @@ if($count>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7568,7 +7571,7 @@ $arr1=array();
 
 for($k=0;$k<$count;$k++)
 {
-echo $sql1="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$arr[$k]."' AND `status`='A'";
+$sql1="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$arr[$k]."' AND `status`='A'";
 $res1=query($conn,$sql1);
 $num1=numrows($res1);
 if($num1>0)
@@ -7578,6 +7581,7 @@ while($fetch1=fetcharray($res1))
 $arr1[$i]=$fetch1['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch1['userid']?>"><?=$fetch1['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch1['name']))?></td>
 <td align="center"><?php if($fetch1['sponsor']){?><?=$fetch1['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7588,7 +7592,6 @@ $arr1[$i]=$fetch1['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table> 
-<?php }?>
 <?php
 $count1=count($arr1);
 if($count1>0)
@@ -7597,6 +7600,7 @@ if($count1>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7620,6 +7624,7 @@ while($fetch2=fetcharray($res2))
 $arr2[$i]=$fetch2['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch2['userid']?>"><?=$fetch2['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch2['name']))?></td>
 <td align="center"><?php if($fetch2['sponsor']){?><?=$fetch2['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7630,7 +7635,6 @@ $arr2[$i]=$fetch2['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-<?php }?>
 <?php
 $count2=count($arr2);
 if($count2>0)
@@ -7639,6 +7643,7 @@ if($count2>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7663,6 +7668,7 @@ while($fetch3=fetcharray($res3))
 $arr3[$i]=$fetch3['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch3['userid']?>"><?=$fetch3['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch3['name']))?></td>
 <td align="center"><?php if($fetch3['sponsor']){?><?=$fetch3['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7673,7 +7679,6 @@ $arr3[$i]=$fetch3['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-<?php }?>
 <?php
 $count3=count($arr3);
 if($count3>0)
@@ -7682,6 +7687,7 @@ if($count3>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7706,6 +7712,7 @@ while($fetch4=fetcharray($res4))
 $arr4[$i]=$fetch4['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch4['userid']?>"><?=$fetch4['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch4['name']))?></td>
 <td align="center"><?php if($fetch4['sponsor']){?><?=$fetch4['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7716,7 +7723,6 @@ $arr4[$i]=$fetch4['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-<?php }?>
 <?php
 $count4=count($arr4);
 if($count4>0)
@@ -7725,6 +7731,7 @@ if($count4>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7748,6 +7755,7 @@ while($fetch5=fetcharray($res5))
 $arr5[$i]=$fetch5['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch5['userid']?>"><?=$fetch5['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch5['name']))?></td>
 <td align="center"><?php if($fetch5['sponsor']){?><?=$fetch5['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7758,8 +7766,6 @@ $arr5[$i]=$fetch5['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-
-<?php }?>
 <?php
 $count5=count($arr5);
 if($count5>0)
@@ -7768,6 +7774,7 @@ if($count5>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7791,6 +7798,7 @@ while($fetch6=fetcharray($res6))
 $arr6[$i]=$fetch6['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch6['userid']?>"><?=$fetch6['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch6['name']))?></td>
 <td align="center"><?php if($fetch6['sponsor']){?><?=$fetch6['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7801,8 +7809,6 @@ $arr6[$i]=$fetch6['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-
-<?php }?>
 <?php
 $count6=count($arr6);
 if($count6>0)
@@ -7811,6 +7817,7 @@ if($count6>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7834,6 +7841,7 @@ while($fetch7=fetcharray($res7))
 $arr7[$i]=$fetch7['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch7['userid']?>"><?=$fetch7['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch7['name']))?></td>
 <td align="center"><?php if($fetch7['sponsor']){?><?=$fetch7['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7844,7 +7852,6 @@ $arr7[$i]=$fetch7['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-<?php }?>
 <?php
 $count7=count($arr7);
 if($count7>0)
@@ -7853,6 +7860,7 @@ if($count7>0)
 <table class="table table-head-bg-primary mt-1">
 <tdead>
 <tr align="center">
+<td align="center">S_no.</td>
 <td align="center">User_ID</td>
 <td align="center">Name</td>
 <td align="center">Sponsor</td>
@@ -7876,6 +7884,7 @@ while($fetch8=fetcharray($res8))
 $arr8[$i]=$fetch8['userid'];
 ?>
 <tr>
+<td align="center"><?=$i+1?></td>
 <td align="center"><a href="det.php?p=t&placement=<?=$fetch8['userid']?>"><?=$fetch8['userid']?></a></td>
 <td align="center"><?=ucwords(strtolower($fetch8['name']))?></td>
 <td align="center"><?php if($fetch8['sponsor']){?><?=$fetch8['sponsor']?><?php }else{?>----<?php }?></td>
@@ -7886,12 +7895,55 @@ $arr8[$i]=$fetch8['userid'];
 <?php $i++;}}}?>
 </tbody>
 </table>
-<?php }?>
 <?php
 $count8=count($arr8);
 if($count8>0)
 {?>
-<?php }?>
+<h2 style="color:#000;font-size:20px;">&nbsp;Genealogy - Level 10</h2>
+<table class="table table-head-bg-primary mt-1">
+<tdead>
+<tr align="center">
+<td align="center">S_no.</td>
+<td align="center">User_ID</td>
+<td align="center">Name</td>
+<td align="center">Sponsor</td>
+<td align="center">Status</td>
+<td align="center">Paystatus</td>
+<td align="center">Join</td>
+</tr></thead>
+<tbody>
+<?php
+$i=0;
+$arr9=array();
+echo "****";
+for($k=0;$k<$count8;$k++)
+{
+$sql9="SELECT * FROM `imaksoft_member` WHERE `sponsor`='".$arr8[$k]."' AND `status`='A'";
+$res9=query($conn,$sql9);
+$num9=numrows($res9);
+if($num9>0)
+{
+while($fetch9=fetcharray($res9))
+{
+$arr9[$i]=$fetch9['userid'];
+?>
+<tr>
+<td align="center"><?=$i+1?></td>
+<td align="center"><a href="det.php?p=t&placement=<?=$fetch9['userid']?>"><?=$fetch9['userid']?></a></td>
+<td align="center"><?=ucwords(strtolower($fetch9['name']))?></td>
+<td align="center"><?php if($fetch9['sponsor']){?><?=$fetch9['sponsor']?><?php }else{?>----<?php }?></td>
+<td align="center"><?php if($fetch9['status']=='A'){?><span style="color:#00CC00;">Active</span><?php }else{?><span style="color:#FF0000;">Inactive</span><?php }?></td>
+<td align="center"><?php if($fetch9['paystatus']=='A'){?><span style="color:#00CC00;">Paid</span><?php }else{?><span style="color:#FF0000;">Pending</span><?php }?></td>
+<td align="center"><?=$fetch9['date']?></td>
+</tr>
+<?php $i++;}}}?>
+</tbody>
+</table>
+<?php 
+$count9=count($arr9);
+}}}}}}}}}
+?>
+<h2 style="color:#000;text-align:center;">Total Team Member - <?php echo $count+$count1+$count2+$count3+$count4+$count5+$count6+$count7+$count8+$count9;?></h2>
 
 </div>
 </div>

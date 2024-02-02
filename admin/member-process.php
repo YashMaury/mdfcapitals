@@ -24,7 +24,7 @@ if($_REQUEST['case']=='edit')
 $sql3="UPDATE `imaksoft_member` SET `name`='".trim($_POST['name'])."',`email`='".trim($_POST['email'])."',`phone`='".trim($_POST['phone'])."',`password`='".base64_encode(trim($_POST['password']))."',`address`='".trim($_POST['address'])."',`bname`='".trim($_POST['bname'])."',`branch`='".trim($_POST['branch'])."',`accname`='".trim($_POST['accname'])."',`accno`='".trim($_POST['accno'])."',`ifscode`='".trim($_POST['ifscode'])."',`bitcoin`='".trim($_POST['bitcoin'])."',`upi`='".trim($_POST['upi'])."' WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res3=query($conn,$sql3);
 
-redirect('member?inc=memdet&m=1&page='.$_REQUEST['page']);
+redirect('member.php?inc=memdet&m=1');
 }
 
 
@@ -35,7 +35,7 @@ if($_REQUEST['st']=='A'){$st='I';}else{$st='A';}
 $sql2="UPDATE `imaksoft_member` SET `status`='".$st."' WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res2=query($conn,$sql2); 
 
-redirect('member?inc=memdet&page='.$_REQUEST['page']);
+redirect('member.php?inc=memdet&page='.$_REQUEST['page']);
 }
 
 
@@ -45,7 +45,7 @@ if($_REQUEST['case']=='delete')
 $sql="DELETE FROM `imaksoft_member` WHERE `id`='".mysqli_real_escape_string($conn,$_REQUEST['id'])."'";
 $res=query($conn,$sql); 
 
-redirect('member?inc=memdet&'.mysqli_real_escape_string($conn,$_REQUEST['page']));
+redirect('member.php?inc=memdet&'.mysqli_real_escape_string($conn,$_REQUEST['page']));
 }
 }
 ?>

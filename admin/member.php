@@ -29,16 +29,18 @@ $left=411;
 
 <div>&nbsp;</div>
 <div class="table-responsive">
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped" id="myTable">
 <thead class="bg-teal bg-lighten-4">
 <tr>
 <th style="text-align:center;">Sl_No</th>
 <th style="text-align:center;">User_ID</th>
+<th style="text-align:center;">Name</th>
 <th style="text-align:center;">Direct_login</th>
 <th style="text-align:center;">Sponsor</th>
-<th style="text-align:center;">Name</th>
+<th style="text-align:center;">Sponsor Name</th>
 <th style="text-align:center;">Password</th>
 <th style="text-align:center;">Phone</th>
+<th style="text-align:center;">Investment</th>
 <th style="text-align:center;">Account_Status</th>
 <th style="text-align:center;">Pay_status</th>
 <th style="text-align:center;">Date</th>
@@ -85,21 +87,23 @@ while($fetch=fetcharray($result))
 </style>
 <td  align="center"><?=$i?></td>
 <td  align="center"><?=$fetch['userid']?></a></td>
-<td  align="center"><a href="../user/admin-login-process.php?userid=<?=$fetch['userid']?>&password=<?=base64_decode($fetch['password'])?>&ch=sc" target="_blank" style="text-decoration:none;"><strong><span  class="blink" style="color:#ffeb07;">Login</span></strong></a></td>
+<td align="center" ><?=ucfirst($fetch['name'])?></td>
+<td  align="center"><a href="../user/admin-login-process.php?userid=<?=$fetch['userid']?>&password=<?=base64_decode($fetch['password'])?>&ch=sc" target="_blank" style="text-decoration:none;"><strong><span  class="blink" style="color:#000;">Login</span></strong></a></td>
 
 <td align="center" ><?php if($fetch['sponsor']){?><?=$fetch['sponsor']?><?php }else{?>---<?php }?></td>
-<td align="center" ><?=ucfirst($fetch['name'])?></td>
+<td align="center" ><?=getUserID($conn,$fetch['sponsor'],'name')?></td>
 <td align="center" ><?=base64_decode($fetch['password'])?></td>
 <td align="center" ><?=$fetch['phone']?></td>
+<td align="center" ><?=getMemberInvestment($conn,$fetch['userid'])?></td>
 <td align="center" ><?php if($fetch['status']=='I'){?><a href="member-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-info" style="color:#CC0000;">Unblock</span></a><?php }else{?><a href="member-process.php?case=status&id=<?=$fetch['id']?>&st=<?=$fetch['status']?>" style="text-decoration:none;" onClick="return confirm('Are you sure want to change the status?');"><span class="label label-success" style="color:#00CC00;">Block</span></a><?php }?></td>
-<td align="center" style="padding:5px;"><?php if($fetch['paystatus']=='A'){?><span style="color:#fff;">Paid</span><?php }else{?><span style="color:#FF0000;">Pending</span><?php }?></th>
+<td align="center" style="padding:5px;"><?php if($fetch['paystatus']=='A'){?><span style="color:#00CC00;">Paid</span><?php }else{?><span style="color:#FF0000;">Pending</span><?php }?></th>
 <td align="center" ><?=$fetch['date']?></td>
-<td align="center" >
+<td align="center" style="display:flex;" >
 
-<a href="member.php?inc=view&id=<?=$fetch['id']?>" ><img src="images/eye.png" title="Inquiry Details" height="18" /></a>
+<a href="member.php?inc=view&id=<?=$fetch['id']?>" class="btn btn-primary">View</a>
 &nbsp;&nbsp;
-<a href="member.php?inc=edit&id=<?=$fetch['id']?>"><img src="images/edit.png"></a>&nbsp;&nbsp;
-<a href="member-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete this?')"><img src="images/delete.png" /></a></th>
+<a href="member.php?inc=edit&id=<?=$fetch['id']?>" class="btn btn-info">Edit</a>&nbsp;&nbsp;
+<a href="member-process.php?case=delete&id=<?=$fetch['id']?>" onclick="return confirm('Are you sure want to delete this?')" class="btn btn-danger">Delete</a></th>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="10" align="center" style="color:#FF0000;">No Record Found!</td></tr>
@@ -123,7 +127,7 @@ while($fetch=fetcharray($result))
 <div class="col-xs-12">
 <div class="card">
 <div class="card-header">
-<h4 class="card-title">Level Income Statement</h4>
+<h4 class="card-title">User Detail</h4>
 </div>
 
 <div>&nbsp;</div>
@@ -154,7 +158,7 @@ $fetch=fetcharray($res)
 <tr><th>Account No</th><th><?=$fetch['accno']?></th></tr>
 <tr><th>IFS Code</th><th><?=$fetch['ifscode']?></th></tr>
 
-<tr><th>Bitcoin</th><th><?=$fetch['bitcoin']?></th></tr>
+<tr><th>USDT-TRC-20</th><th><?=$fetch['bitcoin']?></th></tr>
 <tr><th>UPI</th><th><?=$fetch['upi']?></th></tr>
 
 </table>
@@ -241,8 +245,8 @@ $fetch=fetcharray($res);
 </div>
 
 <div class="form-group">
-<label for="userinput5">Bitcoin Wallet<span style="color:#CC0000;">*</span></label>
-<input class="form-control border-primary" type="text" placeholder="Enter Bitcoin" required id="bitcoin" name="bitcoin" value="<?=$fetch['bitcoin']?>" />
+<label for="userinput5">USDT-TRC-20<span style="color:#CC0000;">*</span></label>
+<input class="form-control border-primary" type="text" placeholder="Enter USDT-TRC-20" required id="bitcoin" name="bitcoin" value="<?=$fetch['bitcoin']?>" />
 </div>
 
 <div class="form-group">
@@ -282,7 +286,7 @@ $fetch=fetcharray($res);
 
 <div>&nbsp;</div>
 <div class="table-responsive">
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped" id="myTable">
 <thead class="bg-teal bg-lighten-4">
 <tr align="center">
 <th align="center">Sl_No.</th>                           
@@ -293,7 +297,7 @@ $fetch=fetcharray($res);
 <th  align="center">Account_Holder_Name</th> 
 <th  align="center">Account_No</th>  
 <th  align="center">IFS_Code</th>
-<th  align="center">Bitcoin</th> 
+<th  align="center">USDT-TRC-20</th> 
 <th  align="center">UPI</th> 
 </tr>
 </thead>
@@ -502,7 +506,7 @@ while($fetch=fetcharray($result))
 
 <div>&nbsp;</div>
 <div class="table-responsive">
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped" id="myTable">
 <thead class="bg-teal bg-lighten-4">
 <tr>
 <th style="text-align:center;">Sl_No</th>
@@ -553,8 +557,8 @@ while($fetch=fetcharray($result))
 </div>
 </div>
 </div>
-<?php }?>
 
+<?php } ?>
 </div>
 </div>
 <script type="text/javascript">
@@ -592,6 +596,14 @@ theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
 <script src="assets/js/swither-styles.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/switcher/js/switcher.js"></script>
+<script src="../assets/js/datatable.js"></script>
+<script>
+    $(document).ready( function () {
+    $('#myTable').DataTable({
+        responsive: true
+    });
+} );
+</script>
 <script>
         $(document).ready(function () {
             $("#copy").text($("#ref_link").val());

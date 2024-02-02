@@ -11473,9 +11473,9 @@ body {
     /* width: 20px !important; */
     padding: 0 16px;
     text-align: center !important;
-    margin-left: 8px !important;
+    margin-left: 16px !important;
     line-height: 48px;
-    margin-top: 8px;
+    margin-top: 16px;
     /* border: 1px solid #272a39; */
     border-radius: 6px;
 }

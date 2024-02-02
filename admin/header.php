@@ -37,7 +37,7 @@
 <div class="main-header-right">
 <div class="nav nav-item  navbar-nav-right mg-lg-s-auto">
 <div class="nav-item full-screen fullscreen-button1">
-<a href="https://t.ly/cbyc" target="_blank" class="new nav-link full-screen-link" style="padding: 0px;">
+<a href="#https://t.ly/cbyc" target="_blank" class="new nav-link full-screen-link" style="padding: 0px;">
 <img src="assets/img/whatsapp.png" />
 </a></div>
 <div class="nav-item full-screen fullscreen-button1"><a class="new nav-link full-screen-link" href="javascript:void(0);"><i class="fe fe-maximize"></i></a></div>

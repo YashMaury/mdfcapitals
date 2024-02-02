@@ -1009,7 +1009,7 @@ $left=2;
 
 
 
-            <div class="page-wrapper">
+            <div class="wrapper">
                 <div class="container-fluid pt-25">
                     
 
@@ -1032,7 +1032,7 @@ $left=2;
 <div class="col-md-12">
 
 <div class="card">
-<div class="card-header">
+<div class="card-header text-center">
 <div class="card-title">My Invest Statement</div>
 </div>
 <div class="card-body" style="overflow:auto;">

@@ -7,7 +7,7 @@
 	Meta Dream Force | SignIn
 </title><meta charset="utf-8" /><meta name="author" content="cryptoscience.world" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="description" content="PHC World" />
     <!-- Fav Icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="assets/fav.jpeg" />
     <!-- Site Title  -->
     <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="login/css/vendor.bundle8bfc.css?ver=1420" />
@@ -82,7 +82,7 @@
                         <div class="col-lg-6 col-md-8  text-center">
                             <div class="user-ath-logo">
                                 <a href="index.php">
-                                    <img src="cclogo.png" alt="icon" style="max-width: 220px;" />
+                                    <img src="assets/fav.jpeg" alt="icon" style="max-width: 120px;" />
                                 </a>
                             </div><?php if(isset($_REQUEST['e'])==1){?>
 <div align="center" style="margin:0;padding:0;color:#FF0000; font-size:16px;"><strong>Invalid User ID or Password.</strong></div>
@@ -101,7 +101,7 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     
                                     <input type="submit" name="btn_Login" value="Sign In" id="btn_Login" class="btn btn-primary" />
-                                    <!--<a href="For-Pwd" class="simple-link">Forgot Password?</a>-->
+                                    <a href="forget-password.php" class="simple-link">Forgot Password?</a>
                                 </div>
                                 <br />
                                 <span id="lblMessage"></span>

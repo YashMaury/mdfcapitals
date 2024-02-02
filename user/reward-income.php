@@ -25,7 +25,9 @@ $left=2;
     <!-- Toast CSS -->
     <link href="assets/vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css" />
     <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet" />
 
     <script src="assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -360,7 +362,7 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="panel panel-default card-view">
                 <div class="panel-heading">
                     <div class="pull-left">
-                        <h6 class="panel-title txt-dark">Daily Income Details</h6>
+                        <h6 class="panel-title txt-dark">Reward Income Details</h6>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -383,17 +385,19 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
                                                     
                                                     
-                                                    <th>Sl_No.</th>
+<th>Sl_No.</th>
+<th >Business</th>
 <th >Bonus</th>
+<th >Status</th>
 <th > Date</th>
 </tr>
 </thead>
 <tbody>
 <?php
-$tname='imaksoft_commission_roi';
+$tname='imaksoft_commission_reward_roi';
 $lim=100;
 $tpage='commission-roi.php';
-$where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."' AND `status`='R' ORDER BY `id` DESC";
+$where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."'  ORDER BY `id` DESC";
 
 include('pagination.php');
 $num=numrows($result);
@@ -405,7 +409,16 @@ while($fetch=fetcharray($result))
 ?>
 <tr>
 <td ><?=$i?></td>
+<td ><?=$fetch['plan']?></td>
 <td  class="text-success">$<?=$fetch['bonus']?></td>
+<td ><?php if($fetch['status']=='R') {?> 
+<div class="text-danger"> UNPAID </div>
+
+<?php } else { ?>
+<div class="text-success"> PAID </div>
+<?php } ?>
+
+</td>
 <td ><?=$fetch['date']?></td>
 </tr>
 <?php $i++;}}else{?>

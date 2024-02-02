@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nump = numrows($resp);
         if ($nump < 20) {
             $fetch = fetcharray($res);
-            $userid = 'MDF' . rand(1111111, 9999999);
+            $userid = 'MDF' . getMemberFirstMember($conn)+1;
 
             $sql = "INSERT INTO `imaksoft_member`(`userid`,`sponsor`,`password`,`name`,`email`,`phone`,`address`,`date`,`status`,`placement`,`bname`,`branch`,`accname`,`accno`,`ifscode`,`bitcoin`,`upi`,`paystatus`,`approved`) VALUES('" . trim($userid) . "','" . trim($_POST['sponsor']) . "','" . base64_encode(trim($_POST['password'])) . "','" . trim($_POST['name']) . "','" . trim($_POST['email']) . "','" . trim($_POST['phone']) . "','" . trim($_POST['address']) . "','" . date('Y-m-d') . "','A','','','','','','','','','I','')";
 
@@ -25,9 +25,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
 
                     $to = trim($_POST['email']);
-                    $subject = "Welcome To " . $title . ". Your ref is successfully completed!";
+                    $subject = "Your registration is successfully completed!";
 
-                    $message = "Dear " . trim($_POST['name']) . " ,<br/> Welcome To " . $title . ". <br /><br/>User ID: " . $userid . "<br /> Password: " . trim($_POST['password']) . " <br /><br />Visit us " . $domain . " to login into your account. <br /><br/>Thanks <br/>" . $title;
+                    $message = "Dear <b>" . trim($_POST['name']) . "</b> ,<br/> Welcome, <br />Your registration is successfully completed!<br/><br/>User ID: " . $userid . "<br /> Password: " . trim($_POST['password']) . " <br /><br />Visit us " . $domain . " to login into your account. <br /><br/>Thanks <br/>" . $title;
 
                     mail($to,$subject,$message,$headers);
                 }

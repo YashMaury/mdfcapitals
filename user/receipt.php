@@ -939,7 +939,7 @@ $left=2;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
-            display:
+         
         }
 
 
@@ -999,7 +999,7 @@ $left=2;
 </head>
 <body>
 
-        <div class="wrapper  theme-6-active pimary-color-green">
+        <div class="wrapper  theme-5-active pimary-color-green">
            
 
 
@@ -1009,7 +1009,7 @@ $left=2;
 
 
 
-            <div class="page-wrapper">
+            <div class="wrapper">
                 <div class="container-fluid pt-25">
                     
 

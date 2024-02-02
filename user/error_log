@@ -1,0 +1,1925 @@
+[11-Dec-2023 11:23:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:4
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(4): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/user/upload-receipt-process.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 4
+[11-Dec-2023 11:23:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:4
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(4): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/user/upload-receipt-process.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 4
+[11-Dec-2023 11:23:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:4
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(4): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/user/upload-receipt.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 4
+[11-Dec-2023 11:23:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:4
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(4): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 4
+[11-Dec-2023 11:23:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:4
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(4): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'mdfcapitals')
+#1 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(3): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 4
+[11-Dec-2023 16:55:35 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[11-Dec-2023 16:55:56 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[11-Dec-2023 16:56:23 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[13-Dec-2023 13:56:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 13:57:49 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:03:47 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[13-Dec-2023 14:04:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:08:25 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:08:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:09:08 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:10:48 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:46:42 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:47:13 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[13-Dec-2023 14:49:51 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:50:05 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:50:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:51:00 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[13-Dec-2023 14:51:13 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[14-Dec-2023 18:38:51 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7849
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7849
+[15-Dec-2023 15:48:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[15-Dec-2023 15:48:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[15-Dec-2023 18:22:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[15-Dec-2023 18:29:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[15-Dec-2023 18:30:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[15-Dec-2023 18:31:02 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[16-Dec-2023 09:55:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[16-Dec-2023 10:17:31 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[16-Dec-2023 12:59:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[16-Dec-2023 13:04:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[16-Dec-2023 13:04:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[16-Dec-2023 13:06:17 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[16-Dec-2023 13:42:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[16-Dec-2023 13:42:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[17-Dec-2023 23:45:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[17-Dec-2023 23:58:13 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[17-Dec-2023 23:59:15 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[17-Dec-2023 23:59:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[18-Dec-2023 00:00:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[18-Dec-2023 00:01:00 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[18-Dec-2023 00:01:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[18-Dec-2023 00:01:57 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7849
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7849
+[18-Dec-2023 00:04:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7849
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7849
+[18-Dec-2023 00:05:52 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[18-Dec-2023 00:06:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[18-Dec-2023 00:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7849
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7849
+[18-Dec-2023 00:10:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7849
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7849
+[18-Dec-2023 11:15:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[18-Dec-2023 15:08:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(399): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:09:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(399): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:10:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(401): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:11:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(401): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:12:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(401): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:13:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(401): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 15:14:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home2/glintqnj/mdfcapitals.com/user/pagination.php:16
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/pagination.php(16): mysqli_query(Object(mysqli), 'SELECT * FROM i...')
+#1 /home2/glintqnj/mdfcapitals.com/user/royality-income.php(401): include('/home2/glintqnj...')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/pagination.php on line 16
+[18-Dec-2023 18:00:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[18-Dec-2023 18:02:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[18-Dec-2023 18:06:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[18-Dec-2023 19:52:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[19-Dec-2023 11:43:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[19-Dec-2023 12:19:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[19-Dec-2023 12:30:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[19-Dec-2023 12:32:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[19-Dec-2023 12:48:51 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[19-Dec-2023 13:00:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[19-Dec-2023 13:29:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[19-Dec-2023 11:45:29 UTC] PHP Parse error:  syntax error, unexpected token "<" in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1169
+[19-Dec-2023 17:28:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getLevelRefferalBonus() in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:1017
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1427): getTotalCommission(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 1017
+[20-Dec-2023 17:39:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'glintqnj_mdfcapitals.imaksoft_settings_level_roi' doesn't exist in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:23
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(23): mysqli_query(Object(mysqli), 'SELECT * FROM `...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(1538): query(Object(mysqli), 'SELECT * FROM `...')
+#2 /home2/glintqnj/mdfcapitals.com/user/calculate-roi-release.php(10): getSettingsLevelROI(Object(mysqli), 'Level 1', 'percentage')
+#3 /home2/glintqnj/mdfcapitals.com/user/calculate-roi-release.php(41): getLevelCalcuation(Object(mysqli), 'MDF9585695', '10.00', 1)
+#4 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(12): include('/home2/glintqnj...')
+#5 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 23
+[24-Dec-2023 16:55:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[25-Dec-2023 12:48:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[25-Dec-2023 12:49:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[25-Dec-2023 12:52:49 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[25-Dec-2023 18:03:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "userid" in /home2/glintqnj/mdfcapitals.com/user/transfer.php:1095
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/transfer.php on line 1095
+[25-Dec-2023 18:03:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "userid" in /home2/glintqnj/mdfcapitals.com/user/transfer.php:1095
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/transfer.php on line 1095
+[25-Dec-2023 18:13:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "MDF1862687" in /home2/glintqnj/mdfcapitals.com/user/get_value.php:4
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/get_value.php on line 4
+[25-Dec-2023 21:51:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[25-Dec-2023 21:57:47 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[26-Dec-2023 22:38:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[27-Dec-2023 09:06:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[28-Dec-2023 09:57:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[28-Dec-2023 11:25:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[28-Dec-2023 11:25:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[29-Dec-2023 20:48:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[29-Dec-2023 20:53:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[30-Dec-2023 17:46:09 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[30-Dec-2023 17:48:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[31-Dec-2023 12:35:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[31-Dec-2023 13:37:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[02-Jan-2024 18:14:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[02-Jan-2024 20:38:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[02-Jan-2024 20:40:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[03-Jan-2024 10:01:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[03-Jan-2024 18:08:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:892
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1771): getTotalRefferalInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 892
+[03-Jan-2024 18:13:08 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1771
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1771
+[03-Jan-2024 18:13:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1771
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1771
+[03-Jan-2024 19:10:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:20:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:22:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:23:31 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:23:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:32:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 19:35:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:19:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:20:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:23:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:31:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:31:52 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:32:02 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:36:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 21:37:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 22:33:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 22:35:03 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[03-Jan-2024 22:38:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:22:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:27:48 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:28:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:38:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:50:05 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 09:52:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 10:29:45 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 11:12:04 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 11:12:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 11:12:45 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 11:12:50 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 12:19:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 06:56:10 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 06:56:15 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 06:56:16 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 06:56:31 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 06:56:34 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 06:57:17 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 07:04:34 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 07:06:58 UTC] PHP Fatal error:  Cannot redeclare getInvestmentDeposit() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 970
+[04-Jan-2024 12:40:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 12:41:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 13:00:11 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTotalLevelInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 07:50:57 UTC] PHP Parse error:  syntax error, unexpected identifier "tabGUID", expecting ")" in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1918
+[04-Jan-2024 07:51:03 UTC] PHP Parse error:  syntax error, unexpected identifier "tabGUID", expecting ")" in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1918
+[04-Jan-2024 13:21:17 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(940): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:21:40 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(940): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:27:23 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:947
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 947
+[04-Jan-2024 13:27:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:947
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 947
+[04-Jan-2024 13:36:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id`' at line 1 in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM('amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(949): query(Object(mysqli), 'SELECT SUM('amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:37:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:29
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(29): mysqli_num_rows(NULL)
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(951): numrows(NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 29
+[04-Jan-2024 13:37:41 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:29
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(29): mysqli_num_rows(NULL)
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(951): numrows(NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 29
+[04-Jan-2024 13:38:46 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:29
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(29): mysqli_num_rows(NULL)
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(954): numrows(NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 29
+[04-Jan-2024 13:39:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:29
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(29): mysqli_num_rows(NULL)
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(954): numrows(NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 29
+[04-Jan-2024 13:42:01 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id`' at line 1 in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM('amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(954): query(Object(mysqli), 'SELECT SUM('amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:42:06 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id`' at line 1 in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM('amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(954): query(Object(mysqli), 'SELECT SUM('amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:46:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id`' at line 1 in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM('amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(954): query(Object(mysqli), 'SELECT SUM('amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:52:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT imaksoft...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT imaksoft...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:52:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT imaksoft...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT imaksoft...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'Direct')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:53:11 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT imaksoft...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT imaksoft...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:53:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT imaksoft...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT imaksoft...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:53:36 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(imak...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(imak...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:53:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(imak...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(imak...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:53:58 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(`amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(`amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:54:07 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'id' in order clause is ambiguous in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(`amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(`amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:55:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'imaksoft_member_investment.id' in 'order clause' in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(`amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(`amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:55:28 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'imaksoft_member_investment.id' in 'order clause' in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), 'SELECT SUM(`amo...')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(938): query(Object(mysqli), 'SELECT SUM(`amo...')
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF9585695')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:58:45 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 13:59:22 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:01:20 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:01:41 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:01:44 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:01:52 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 08:31:59 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1761
+[04-Jan-2024 08:32:01 UTC] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1761
+[04-Jan-2024 14:02:11 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:02:57 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:02:58 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:02:58 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:17 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:28 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:31 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:34 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:36 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:36 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836', 'TEAM')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:03:56 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getTotalInvestment(), 2 passed in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751 and exactly 3 expected in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:930
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 930
+[04-Jan-2024 14:04:10 Asia/Calcutta] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getTotalInvestment(), 2 passed in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751 and exactly 3 expected in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:930
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 930
+[04-Jan-2024 14:04:21 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:24 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:26 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:26 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:54 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:56 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:58 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:04:59 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:05:20 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:05:40 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(943): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:06:13 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: mysqli_query(): Argument #2 ($query) cannot be empty in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:24
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(24): mysqli_query(Object(mysqli), '')
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(940): query(Object(mysqli), NULL)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getTotalInvestment(Object(mysqli), 'MDF5166836')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 24
+[04-Jan-2024 14:07:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:14:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[04-Jan-2024 14:14:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[04-Jan-2024 14:14:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[04-Jan-2024 14:14:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:29:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:32:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:33:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, array given in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:29
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(29): mysqli_num_rows(Array)
+#1 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(966): numrows(Array)
+#2 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getFullTeamInvestment(Object(mysqli), 'MDF6521797')
+#3 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 29
+[04-Jan-2024 14:35:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:38:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 14:40:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[04-Jan-2024 14:40:31 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 15:28:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 15:29:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 15:31:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(966): getDirectTeamInvestment(Object(mysqli), Object(mysqli_result))
+#1 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getFullTeamInvestment(Object(mysqli), 'MDF5166836')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 931
+[04-Jan-2024 15:31:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Object of class mysqli_result could not be converted to string in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:931
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/function.php(966): getDirectTeamInvestment(Object(mysqli), Object(mysqli_result))
+#1 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getFullTeamInvestment(Object(mysqli), 'MDF5166836')
+#2 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 931
+[04-Jan-2024 15:31:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:966
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1751): getFullTeamInvestment(Object(mysqli), 'MDF5166836')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 966
+[04-Jan-2024 15:35:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 12
+[04-Jan-2024 15:36:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 13
+[04-Jan-2024 15:36:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:53
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 53
+[04-Jan-2024 15:37:47 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:440
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 440
+[04-Jan-2024 15:38:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:434
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 434
+[04-Jan-2024 15:39:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:434
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 434
+[04-Jan-2024 15:39:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:434
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 434
+[04-Jan-2024 15:39:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:434
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 434
+[04-Jan-2024 15:41:14 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:434
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 434
+[04-Jan-2024 15:42:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:414
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 414
+[04-Jan-2024 15:43:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:414
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 414
+[04-Jan-2024 15:43:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:414
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 414
+[04-Jan-2024 15:43:32 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:389
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 389
+[04-Jan-2024 15:43:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:389
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 389
+[04-Jan-2024 15:43:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:392
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 392
+[04-Jan-2024 15:44:22 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getFullTeamInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 15:44:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getFullTeamInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1751
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1751
+[04-Jan-2024 15:48:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:394
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 394
+[04-Jan-2024 15:48:27 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:394
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 394
+[04-Jan-2024 10:19:47 UTC] PHP Parse error:  Unclosed '{' on line 54 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 373
+[04-Jan-2024 10:19:54 UTC] PHP Parse error:  Unclosed '{' on line 54 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 373
+[04-Jan-2024 10:20:14 UTC] PHP Parse error:  Unclosed '{' on line 54 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 373
+[04-Jan-2024 10:21:01 UTC] PHP Parse error:  Unclosed '{' on line 51 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 370
+[04-Jan-2024 10:21:40 UTC] PHP Parse error:  Unclosed '{' on line 49 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 368
+[04-Jan-2024 10:22:01 UTC] PHP Parse error:  Unclosed '{' on line 49 in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 368
+[04-Jan-2024 15:53:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:364
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 364
+[04-Jan-2024 15:53:10 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:364
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 364
+[04-Jan-2024 15:54:44 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 15:54:56 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 15:56:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 15:57:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:03:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:339
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 339
+[04-Jan-2024 16:05:39 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:342
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 342
+[04-Jan-2024 16:06:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:06:26 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:06:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:09:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:09:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:338
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 338
+[04-Jan-2024 16:11:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:312
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 312
+[04-Jan-2024 16:12:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:312
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 312
+[04-Jan-2024 16:12:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:312
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 312
+[04-Jan-2024 16:17:12 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:210
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 210
+[04-Jan-2024 16:17:59 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:182
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 182
+[04-Jan-2024 16:19:18 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:184
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 184
+[04-Jan-2024 16:20:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:184
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 184
+[04-Jan-2024 16:27:43 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 191
+[04-Jan-2024 16:28:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 191
+[04-Jan-2024 16:29:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 191
+[04-Jan-2024 16:29:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 191
+[04-Jan-2024 16:29:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:191
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 191
+[04-Jan-2024 16:30:54 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:192
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 192
+[04-Jan-2024 16:31:58 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function int() in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 26
+[04-Jan-2024 16:32:16 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:192
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 192
+[04-Jan-2024 16:33:03 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:193
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 193
+[04-Jan-2024 16:34:01 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:193
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 193
+[04-Jan-2024 16:46:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:193
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 193
+[04-Jan-2024 16:49:19 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:193
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 193
+[04-Jan-2024 16:50:42 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:193
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 193
+[04-Jan-2024 16:51:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 16:55:21 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:189
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 189
+[04-Jan-2024 16:55:55 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:190
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 190
+[04-Jan-2024 16:58:07 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:190
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 190
+[04-Jan-2024 16:58:28 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 16:58:41 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 16:59:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 17:00:00 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 17:00:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 17:00:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "php" in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:194
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 194
+[04-Jan-2024 17:05:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:207
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 207
+[04-Jan-2024 17:05:30 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:207
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 207
+[04-Jan-2024 17:05:42 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7891
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7891
+[04-Jan-2024 17:06:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:207
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 207
+[04-Jan-2024 17:08:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[04-Jan-2024 17:08:40 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:164
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 164
+[04-Jan-2024 17:10:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:170
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 170
+[04-Jan-2024 17:10:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:170
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 170
+[04-Jan-2024 17:10:25 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:171
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 171
+[04-Jan-2024 17:11:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:171
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 171
+[04-Jan-2024 17:11:24 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:171
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 171
+[04-Jan-2024 17:14:17 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:185
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 185
+[04-Jan-2024 17:16:41 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:185
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 185
+[04-Jan-2024 17:16:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:185
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 185
+[04-Jan-2024 17:16:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:112
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 112
+[04-Jan-2024 17:17:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[04-Jan-2024 17:18:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:104
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 104
+[04-Jan-2024 17:18:41 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php:104
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/getTeamInvestment.php on line 104
+[04-Jan-2024 11:58:46 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home2/glintqnj/mdfcapitals.com/user/getinvest.php on line 198
+[04-Jan-2024 11:58:49 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /home2/glintqnj/mdfcapitals.com/user/getinvest.php on line 198
+[04-Jan-2024 17:35:11 Asia/Calcutta] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:17) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 17
+[04-Jan-2024 17:35:13 Asia/Calcutta] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php:17) in /home2/glintqnj/mdfcapitals.com/admin/inc/function.php on line 17
+[04-Jan-2024 17:35:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getTeamInvestment() in /home2/glintqnj/mdfcapitals.com/user/dashboard.php:1752
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/dashboard.php on line 1752
+[04-Jan-2024 17:38:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:121
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF3265402')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 121
+[04-Jan-2024 17:38:23 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF4167361')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 17:38:32 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF4079553')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[04-Jan-2024 17:38:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:49
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF7106181')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 49
+[04-Jan-2024 17:44:09 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:49
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 49
+[04-Jan-2024 20:35:56 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 20:41:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 20:43:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 20:44:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 20:44:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:24:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:24:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:24:37 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:30:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:42:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 21:50:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 22:03:35 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 22:06:19 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 22:06:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 22:07:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[04-Jan-2024 22:07:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 07:56:56 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 08:50:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 10:13:20 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1752): getTeamInvestment(Object(mysqli), 'MDF9585695')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 12:13:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF3577946')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[05-Jan-2024 12:13:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF3577946')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[05-Jan-2024 12:13:58 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF3577946')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[05-Jan-2024 12:14:13 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 12:15:23 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF3577946')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[05-Jan-2024 13:27:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:28:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:31:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:32:00 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:32:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:32:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:85
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7981320')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 85
+[05-Jan-2024 13:33:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:33:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:43:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:43:53 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:02 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:17 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:32 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:33 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:44:57 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:45:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:45:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:45:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:45:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:45:09 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:49:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:49:58 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:140
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF6812592')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 140
+[05-Jan-2024 13:50:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:140
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF6812592')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 140
+[05-Jan-2024 13:53:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:53:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:54:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:54:39 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:54:53 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:85
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7981320')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 85
+[05-Jan-2024 13:54:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 13:55:08 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:103
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF4093777')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 103
+[05-Jan-2024 13:55:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:103
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF4093777')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 103
+[05-Jan-2024 13:55:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:85
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7981320')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 85
+[05-Jan-2024 13:55:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 13:55:53 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 13:55:56 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 14:39:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:39:21 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:39:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 14:39:32 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:159
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF7842646')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 159
+[05-Jan-2024 14:39:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:40:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:40:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:103
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF4093777')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 103
+[05-Jan-2024 14:40:52 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:41:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:121
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF5011506')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 121
+[05-Jan-2024 14:41:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:177
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF3577946')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 177
+[05-Jan-2024 14:41:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:42:34 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:44:18 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:44:28 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/user/dashboard.php(1762): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:50:05 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[05-Jan-2024 17:40:40 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7721
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7721
+[05-Jan-2024 17:48:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7891
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7891
+[06-Jan-2024 18:16:25 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[07-Jan-2024 17:25:40 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 16:34:13 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 16:35:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 18:27:52 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 18:38:25 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 20:54:03 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[09-Jan-2024 20:54:58 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[09-Jan-2024 20:55:15 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 09:48:34 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 18:21:08 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 18:21:52 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 21:40:43 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 21:48:26 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 21:49:59 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[10-Jan-2024 22:42:05 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[11-Jan-2024 13:28:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[11-Jan-2024 13:30:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7678
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7678
+[12-Jan-2024 08:02:38 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[13-Jan-2024 10:53:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7593
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7593
+[15-Jan-2024 08:31:56 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7635
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7635
+[15-Jan-2024 15:44:44 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7764
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7764
+[15-Jan-2024 15:49:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7807
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7807
+[16-Jan-2024 11:42:45 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7891
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7891
+[16-Jan-2024 11:43:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7891
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7891
+[16-Jan-2024 16:34:07 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[16-Jan-2024 16:34:14 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7686
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7686
+[16-Jan-2024 16:37:29 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[17-Jan-2024 09:37:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[17-Jan-2024 21:57:34 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:33:50 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[18-Jan-2024 16:34:05 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[18-Jan-2024 16:34:16 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7597
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7597
+[18-Jan-2024 16:34:30 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:35:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:35:11 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:36:05 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:36:22 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:38:15 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:40:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:40:40 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:41:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641
+[18-Jan-2024 16:41:02 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/user/det.php:7641
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/user/det.php on line 7641

@@ -21,11 +21,16 @@ $left=2;
     <script src="assets/vendors/bower_components/sweetalert/dist/sweetalert.min.js" type="text/javascript"></script>
     <link rel="icon" href="../assets/img/favicon.png" />
     <!-- Data table CSS -->
-    <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
+    <link href="assets/vendors/bower_components/datatables/media/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/vendors/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendors/bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet" />
     <!-- Toast CSS -->
     <link href="assets/vendors/bower_components/jquery-toast-plugin/dist/jquery.toast.min.css" rel="stylesheet" type="text/css" />
     <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&amp;display=swap" rel="stylesheet" />
 
     <script src="assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
 
@@ -359,7 +364,7 @@ function __doPostBack(eventTarget, eventArgument) {
             <div class="panel panel-default card-view">
                 <div class="panel-heading">
                     <div class="pull-left">
-                        <h6 class="panel-title txt-dark">Daily Income Details</h6>
+                        <h6 class="panel-title txt-dark">Refferal Income Details</h6>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -386,6 +391,7 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     <th >Direct Member</th>
                                                     <th >Percentage</th>
 <th >Bonus</th>
+<th>Status</th>
 <th > Date</th>
 </tr>
 </thead>
@@ -409,6 +415,14 @@ while($fetch=fetcharray($result))
 <td  class="text-success"><?=$fetch['userid']?></td>
 <td  class="text-success">7%</td>
 <td  class="text-success">$<?=$fetch['bonus']?></td>
+<td ><?php if($fetch['status']=='R') {?> 
+<div class="text-danger"> UNPAID </div>
+
+<?php } else { ?>
+<div class="text-success"> PAID </div>
+<?php } ?>
+
+</td>
 <td ><?=$fetch['date']?></td>
 </tr>
 <?php $i++;}}else{?>

@@ -384,17 +384,19 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
                                                     
 <th>Sl_No.</th>
-<!-- <th>Team</th> -->
+<th>Plan</th>
+<th>Percentage</th>
 <th>Bonus</th>
+<th>Status</th>
 <th>Date</th>
 </tr>
 </thead>
 <tbody>
 <?php
-$tname='imaksoft_commission_royality';
-$lim=100;
+$tname='imaksoft_commission_royality_roi';
+$lim=10;
 $tpage='commission-level-roi.php';
-$where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."' ORDER BY `id` DESC";
+ $where="WHERE `userid`='".getMember($conn,$_SESSION['mid'],'userid')."' ORDER BY `id` DESC";
 
 include('pagination.php');
 $num=numrows($result);
@@ -406,8 +408,17 @@ while($fetch=fetcharray($result))
 ?>
 <tr>
 <td ><?=$i?></td>
-<!-- <td ><?=$fetch['userid']?></td> -->
+<td ><div class="text" title="<?=$fetch['plan']?>"><?=$fetch['plan']?></div></td>
+<td ><?=$fetch['percentage']?></td>
 <td  class="text-success">$ <?=$fetch['bonus']?></td>
+<td ><?php if($fetch['status']=='R') {?> 
+<div class="text-danger"> UNPAID </div>
+
+<?php } else { ?>
+<div class="text-success"> PAID </div>
+<?php } ?>
+
+</td>
 <td ><?=$fetch['date']?></td>
 </tr>
 <?php $i++;}}else{?>

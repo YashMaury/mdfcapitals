@@ -1,0 +1,22 @@
+[04-Jan-2024 12:06:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getMember() in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 8
+[04-Jan-2024 12:06:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getMember() in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 8
+[05-Jan-2024 09:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getMember() in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 8
+[05-Jan-2024 14:48:10 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php(200): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67
+[05-Jan-2024 14:48:12 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php:67
+Stack trace:
+#0 /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php(200): getTeamInvestment(Object(mysqli), 'MDF2990454')
+#1 {main}
+  thrown in /home2/glintqnj/mdfcapitals.com/admin/inc/getTeamInvestment.php on line 67

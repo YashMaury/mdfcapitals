@@ -26,6 +26,8 @@ redirect('index.php');
 <link href="assets/switcher/css/switcher.css" rel="stylesheet" /><link rel="stylesheet" href="assets/switcher/demo.css" /><meta http-equiv="imagetoolbar" content="no" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link href="../assets/css/datatable.css" rel="stylesheet" />
+
 
 </head>
 <body class="main-body app sidebar-mini ltr light-theme open">

@@ -1049,7 +1049,13 @@ $left=2;
 <form class="form" action="transfer-process.php" autocomplete="off" method="post" enctype="multipart/form-data">
 <div class="col-md-8">
 <div class="form-group form-group-default">
-<input type="text" class="form-control" name="userid" placeholder="User ID" id="userid" value="" required onKeyUp="getUserIDcheck(this.value);" onBlur="getUserIDcheck(this.value);" />&nbsp;&nbsp;<span id="sponname" style="color:#FF0000;"></span>
+<input type="text" class="form-control" name="userid" placeholder="User ID" id="userid" value="" required />&nbsp;&nbsp;<span id="sponname" style="color:#FF0000;"></span>
+</div>
+</div>
+
+<div class="col-md-8">
+<div class="form-group form-group-default">
+<input type="text" class="form-control" name="username" placeholder="User Name" id="username" value="" disabled required />&nbsp;&nbsp;<span id="sponname" style="color:#FF0000;"></span>
 </div>
 </div>
 
@@ -1078,9 +1084,29 @@ $left=2;
 
 </div>
 
-                </div>
+</div>
 
-        </div>
+</div>
+
+
+<script>
+    $("#userid").change(function() {
+    //get the selected value
+    var selectedValue = this.value;
+
+    //make the ajax call
+    $.ajax({
+        url: 'getUserName.php?case=getUserName',
+        type: 'POST',
+        data: {userId : selectedValue},
+        success: function(response) {
+            $('#username').val(response);
+        }
+    });
+});
+</script>
+        
+        
 
         <!-- Bootstrap Core JavaScript -->
         <script src="assets/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

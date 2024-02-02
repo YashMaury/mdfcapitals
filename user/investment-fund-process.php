@@ -52,7 +52,8 @@ $bonus=$dailyper;
 $last=getLastROIAccount($conn,$userid);
 $account=($last+1);
 
-$sql6="INSERT INTO `imaksoft_member_roi` (`userid`,`account`,`amount`,`percentage`,`nodays`,`bonus`,`status`,`date`,`remarks`) VALUES('".$userid."','".$account."','".$package['investment']."','".$package['dailyper']."','".$package['nodays']."','0','R','".date('Y-m-d')."','')";
+$sql6="INSERT INTO `imaksoft_member_roi` (`userid`,`plan`,`account`,`amount`,`percentage`,`nodays`,`bonus`,`status`,`date`,`remarks`) 
+VALUES('".$userid."','".$package['plan']."','".$account."','".$package['investment']."','".$package['dailyper']."','".$package['nodays']."','0','R','".date('Y-m-d')."','')";
 $res6=query($conn,$sql6);
 
 $date=strtotime(date("Y-m-d"));

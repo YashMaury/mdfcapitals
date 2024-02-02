@@ -384,7 +384,10 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
                                                     
                                                     <th>Sl_No.</th>
+                                                    <th >Plan</th>
+                                                    <th >Account</th>
 <th >Bonus</th>
+<th >Status</th>
 <th > Date</th>
 </tr>
 </thead>
@@ -405,8 +408,18 @@ while($fetch=fetcharray($result))
 ?>
 <tr>
 <td ><?=$i?></td>
+<td ><?=$fetch['plan']?></td>
+<td ><?=$fetch['account']?></td>
 <td  class="text-success">$<?=$fetch['bonus']?></td>
-<td ><?=$fetch['date']?></td>
+<td ><?php if($fetch['status']=='R') {?> 
+<div class="text-danger"> UNPAID </div>
+
+<?php } else { ?>
+<div class="text-success"> PAID </div>
+<?php } ?>
+
+</td>
+<td ><?= date('d-m-Y H:i:s',strtotime($fetch['datetime']));?></td>
 </tr>
 <?php $i++;}}else{?>
 <tr><td colspan="5"  style="color:#FF0000;">No Record Found!</td></tr>

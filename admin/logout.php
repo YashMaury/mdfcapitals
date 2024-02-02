@@ -1,8 +1,6 @@
 <?php
 session_start();
-include('inc/function');
-unset($_SESSION['sid']);
+session_unset();
 session_destroy();
-
-redirect('index.php');
+header('Location:index.php');
 ?>

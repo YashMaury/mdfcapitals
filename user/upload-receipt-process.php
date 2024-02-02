@@ -26,7 +26,7 @@ if ($_SESSION['mid']) {
         $target_file = $path . $filename;
 
         if (move_uploaded_file($_FILES["receipt"]["tmp_name"], $target_file)) {
-            echo $sql = "INSERT INTO `imaksoft_investment_receipt` (`user_id`,`transaction_id`,`amount`,`receipt`,`transaction_date`,`status`,`created_at`) VALUES ('" . $userid . "','" . $transaction_id . "','" . $amount . "','" . $filename . "','" . $transaction_date . "',0,'" . $date . "')";
+            $sql = "INSERT INTO `imaksoft_investment_receipt` (`user_id`,`transaction_id`,`amount`,`receipt`,`transaction_date`,`status`,`created_at`) VALUES ('" . $userid . "','" . $transaction_id . "','" . $amount . "','" . $filename . "','" . $transaction_date . "',0,'" . $date . "')";
             $res = query($conn, $sql);
         } else {
             redirect('upload-receipt.php?e=2');

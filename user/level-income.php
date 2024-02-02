@@ -39,6 +39,14 @@ $left=2;
             opacity: 1 !important;
             box-shadow: none !important;
         }
+        
+        .text {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
     </style>
     
 
@@ -385,7 +393,11 @@ function __doPostBack(eventTarget, eventArgument) {
                                                     
 <th>Sl_No.</th>
 <th>From_ID</th>
+<th>Percentage(%)</th>
+<th>Level</th>
+<th>Total Amount</th>
 <th>Bonus</th>
+<th>Status</th>
 <th>Date</th>
 </tr>
 </thead>
@@ -406,8 +418,19 @@ while($fetch=fetcharray($result))
 ?>
 <tr>
 <td ><?=$i?></td>
-<td ><?=$fetch['fromid']?></td>
+<td ><div class="text" title="<?=$fetch['fromid']?>"><?=$fetch['fromid']?></div></td>
+<td ><?=$fetch['percentage']?></td>
+<td ><?=$fetch['level']?></td>
+<td ><?=$fetch['dailybonus']?></td>
 <td  class="text-success">$ <?=$fetch['bonus']?></td>
+<td ><?php if($fetch['status']=='R') {?> 
+<div class="text-danger"> UNPAID </div>
+
+<?php } else { ?>
+<div class="text-success"> PAID </div>
+<?php } ?>
+
+</td>
 <td ><?=$fetch['date']?></td>
 </tr>
 <?php $i++;}}else{?>

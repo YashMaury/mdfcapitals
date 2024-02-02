@@ -14,6 +14,7 @@ $left=411;
 
 <div class="main-content-body">
 <div class="row row-sm">
+<div class="table-responsive">
 <table class="table table-head-bg-primary mt-1">
 <thead>
 <tr align="center">

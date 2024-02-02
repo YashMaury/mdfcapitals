@@ -14,13 +14,15 @@ include('admin/inc/function.php');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="PHC World" />
     <!-- Fav Icon -->
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="assets/fav.jpeg" />
     <!-- Site Title  -->
     <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="login/css/vendor.bundle8bfc.css?ver=1420" />
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="login/css/style1.css" />
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
+    <script src="user/assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+
     <style>
         .user-ath {
             background: linear-gradient(135deg, #051b3300 0%, #00244a52 100%), url(images/bgimg.png) no-repeat 50% 50%, #eaf3fc;
@@ -91,7 +93,7 @@ include('admin/inc/function.php');
                         <div class="col-lg-6 col-md-8  text-center">
                             <div class="user-ath-logo">
                                 <a href="index.php">
-                                    <img src="cclogo.png" alt="icon" style="max-width: 220px;" />
+                                    <img src="assets/fav.jpeg" alt="icon" style="max-width: 120px;" />
                                 </a>
                             </div>
                             <?php if ($_REQUEST['msg'] == 4) { ?>
@@ -120,10 +122,15 @@ include('admin/inc/function.php');
                                 <h4>Register Your Account</h4>
 
                                 <div class="input-item">
-                                    <input type="text" class="input-bordered" placeholder="Sponsor Name" name="sponsor"
+                                    <input type="text" class="input-bordered" placeholder="Sponsor Id" name="sponsor"
                                         id="sponsor" required value="<?= $_REQUEST['spon'] ?>" />
                                 </div>
 
+                                <div class="input-item">
+                                    <input type="text" class="input-bordered" placeholder="Sponsor Name" name="s_name"
+                                        id="s_name" required disabled value="<?= $_REQUEST['name'] ?>" />
+                                </div>
+                                
                                 <div class="input-item">
                                     <input type="text" class="input-bordered" placeholder="Enter Name" name="name"
                                         id="name" required />
@@ -166,6 +173,24 @@ include('admin/inc/function.php');
     <script src="login/js/jquery.bundle.js?ver=101"></script>
     <script src="login/js/script.js?ver=101"></script>
     </div>
+    
+<script>
+    $("#sponsor").change(function() {
+    //get the selected value
+    var selectedValue = this.value;
+
+    //make the ajax call
+    $.ajax({
+        url: 'user/getUserName.php?case=getUserName',
+        type: 'POST',
+        data: {userId : selectedValue},
+        success: function(response) {
+            console.log(response);
+            $('#s_name').val(response);
+        }
+    });
+});
+</script>
 
 </body>
 

@@ -1,0 +1,14 @@
+DELETE FROM `imaksoft_commission_direct`;
+DELETE FROM `imaksoft_commission_level`;
+DELETE FROM `imaksoft_commission_level_roi`;
+
+DELETE FROM `imaksoft_commission_roi`;
+DELETE FROM `imaksoft_commission_royality`;
+DELETE FROM `imaksoft_commission_royality_business`;
+DELETE FROM `imaksoft_commission_direct`;
+DELETE FROM `imaksoft_commission_royality_roi`;
+DELETE FROM `imaksoft_commission_royality_roi_records`;
+update `imaksoft_member_roi` set roi_days=0;
+
+
+DELETE FROM `imaksoft_commission_reward_roi`;
